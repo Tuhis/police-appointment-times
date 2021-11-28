@@ -1,0 +1,6087 @@
+{
+    "5501": {
+        "id": "5501",
+        "crowdiness": "FULL",
+        "name": {
+            "fi": "Helsingin pääpoliisiasema, lupapalvelut",
+            "sv": "Helsingfors huvudpolisstation, tillståndstjänsten"
+        },
+        "address": {
+            "fi": "Pasilanraitio 11",
+            "sv": "Böletået 11"
+        },
+        "postalOffice": {
+            "fi": "Helsinki",
+            "sv": "Helsingfors"
+        },
+        "postalCode": "00241",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "00100",
+            "00120",
+            "00130",
+            "00140",
+            "00150",
+            "00160",
+            "00170",
+            "00180",
+            "00190",
+            "00200",
+            "00210",
+            "00220",
+            "00230",
+            "00240",
+            "00250",
+            "00260",
+            "00270",
+            "00280",
+            "00290",
+            "00300",
+            "00310",
+            "00320",
+            "00330",
+            "00340",
+            "00350",
+            "00360",
+            "00370",
+            "00380",
+            "00390",
+            "00400",
+            "00410",
+            "00420",
+            "00430",
+            "00440",
+            "00500",
+            "00510",
+            "00520",
+            "00530",
+            "00540",
+            "00550",
+            "00560",
+            "00570",
+            "00580",
+            "00590",
+            "00600",
+            "00610",
+            "00620",
+            "00630",
+            "00640",
+            "00650",
+            "00660",
+            "00670",
+            "00680",
+            "00690",
+            "00700",
+            "00710",
+            "00720",
+            "00730",
+            "00740",
+            "00750",
+            "00760",
+            "00770",
+            "00780",
+            "00790",
+            "00800",
+            "00810",
+            "00820",
+            "00830",
+            "00840",
+            "00850",
+            "00860",
+            "00870",
+            "00880",
+            "00890",
+            "00900",
+            "00910",
+            "00920",
+            "00930",
+            "00940",
+            "00950",
+            "00960",
+            "00970",
+            "00980",
+            "00990"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            60.202128,
+            24.925103
+        ]
+    },
+    "5531": {
+        "id": "5531",
+        "crowdiness": "FULL",
+        "name": {
+            "fi": "Espoon pääpoliisiasema",
+            "sv": "Esbo huvudpolisstation"
+        },
+        "address": {
+            "fi": "Nihtisillankuja 4 A 4",
+            "sv": "Knektbrogränden 4 A 4"
+        },
+        "postalOffice": {
+            "fi": "Espoo",
+            "sv": "Esbo"
+        },
+        "postalCode": "02631",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "02100",
+            "02110",
+            "02120",
+            "02130",
+            "02140",
+            "02150",
+            "02160",
+            "02170",
+            "02180",
+            "02200",
+            "02210",
+            "02230",
+            "02240",
+            "02250",
+            "02260",
+            "02270",
+            "02280",
+            "02290",
+            "02300",
+            "02320",
+            "02330",
+            "02340",
+            "02360",
+            "02380",
+            "02600",
+            "02610",
+            "02620",
+            "02630",
+            "02650",
+            "02660",
+            "02680",
+            "02700",
+            "02710",
+            "02720",
+            "02730",
+            "02740",
+            "02750",
+            "02760",
+            "02770",
+            "02780",
+            "02810",
+            "02820",
+            "02860",
+            "02920",
+            "02940",
+            "02970",
+            "02980"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            60.208312,
+            24.758699
+        ]
+    },
+    "5533": {
+        "id": "5533",
+        "crowdiness": "FULL",
+        "name": {
+            "fi": "Kirkkonummen poliisiasema",
+            "sv": "Kyrkslätts polisstation"
+        },
+        "address": {
+            "fi": "Asematie 7",
+            "sv": "Stationsvägen 7"
+        },
+        "postalOffice": {
+            "fi": "Kirkkonummi",
+            "sv": "Kyrkslätt"
+        },
+        "postalCode": "02401",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "02400",
+            "02410",
+            "02420",
+            "02430",
+            "02440",
+            "02450",
+            "02460",
+            "02470",
+            "02480",
+            "02490",
+            "02510",
+            "02520",
+            "02540",
+            "02550",
+            "02570",
+            "02580",
+            "02590",
+            "02880",
+            "10120",
+            "10140",
+            "10160",
+            "10210",
+            "10230",
+            "10250",
+            "10270"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            60.122334,
+            24.438787
+        ]
+    },
+    "5534": {
+        "id": "5534",
+        "crowdiness": "FULL",
+        "name": {
+            "fi": "Lohjan Poliisiasema",
+            "sv": "Lojo polisstation"
+        },
+        "address": {
+            "fi": "Postikatu 3B",
+            "sv": "Postgatan 3B"
+        },
+        "postalOffice": {
+            "fi": "Lohja",
+            "sv": "Lojo"
+        },
+        "postalCode": "08101",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "03810",
+            "03850",
+            "03870",
+            "08100",
+            "08150",
+            "08200",
+            "08350",
+            "08360",
+            "08450",
+            "08480",
+            "08500",
+            "08680",
+            "08700",
+            "08800",
+            "09120",
+            "09220",
+            "09430",
+            "09520",
+            "09630",
+            "09810",
+            "09930"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            60.249513,
+            24.060209
+        ]
+    },
+    "5535": {
+        "id": "5535",
+        "crowdiness": "HIGH",
+        "name": {
+            "fi": "Raaseporin poliisiasema",
+            "sv": "Raseborgs polisstation"
+        },
+        "address": {
+            "fi": "Ajurinpuisto 4",
+            "sv": "Formansallén 4"
+        },
+        "postalOffice": {
+            "fi": "Raasepori",
+            "sv": "Raseborg"
+        },
+        "postalCode": "10601",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "10300",
+            "10320",
+            "10330",
+            "10350",
+            "10360",
+            "10380",
+            "10410",
+            "10420",
+            "10440",
+            "10470",
+            "10480",
+            "10520",
+            "10570",
+            "10600",
+            "10620",
+            "10640",
+            "10650",
+            "10660",
+            "10680",
+            "10710",
+            "10820",
+            "10900",
+            "10940",
+            "10960"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            59.98116,
+            23.440425
+        ]
+    },
+    "5536": {
+        "id": "5536",
+        "crowdiness": "FULL",
+        "name": {
+            "fi": "Lohjan poliisiasema, Nummelan palvelupiste",
+            "sv": " Lojo polisstation, Nummela servicekontor"
+        },
+        "address": {
+            "fi": "Asemantie 30",
+            "sv": "Asemantie 30"
+        },
+        "postalOffice": {
+            "fi": "Nummela",
+            "sv": "Nummela"
+        },
+        "postalCode": "03601",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "03100",
+            "03150",
+            "03220",
+            "03250",
+            "03300",
+            "03320",
+            "03400",
+            "03430",
+            "03600",
+            "03620",
+            "03710",
+            "03790"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            60.327096,
+            24.308753
+        ]
+    },
+    "5561": {
+        "id": "5561",
+        "crowdiness": "FULL",
+        "name": {
+            "fi": "Vantaan pääpoliisiasema, lupapalvelut",
+            "sv": "Vanda huvudpolisstation, tillståndstjänsten"
+        },
+        "address": {
+            "fi": "Ratatie 11 C, 6 krs",
+            "sv": "Ratatie 11 C, 6 krs"
+        },
+        "postalOffice": {
+            "fi": "Vantaa",
+            "sv": "Vanda"
+        },
+        "postalCode": "01301",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "01200",
+            "01230",
+            "01260",
+            "01280",
+            "01300",
+            "01340",
+            "01350",
+            "01360",
+            "01370",
+            "01380",
+            "01390",
+            "01400",
+            "01420",
+            "01450",
+            "01480",
+            "01490",
+            "01510",
+            "01520",
+            "01530",
+            "01600",
+            "01610",
+            "01620",
+            "01630",
+            "01640",
+            "01650",
+            "01660",
+            "01670",
+            "01680",
+            "01690",
+            "01700",
+            "01710",
+            "01720",
+            "01730",
+            "01740",
+            "01750",
+            "01760",
+            "01770",
+            "01120",
+            "01150",
+            "01180",
+            "01190",
+            "04130",
+            "04150",
+            "04170",
+            "04240"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            60.292697,
+            25.043687
+        ]
+    },
+    "5562": {
+        "id": "5562",
+        "crowdiness": "FULL",
+        "name": {
+            "fi": "Hyvinkään poliisiasema, lupa-asiat",
+            "sv": "Hyvinge polisstation, tillståndsärenden"
+        },
+        "address": {
+            "fi": "Urakankatu 1",
+            "sv": "Urakankatu 1"
+        },
+        "postalOffice": {
+            "fi": "Hyvinkää",
+            "sv": "Hyvinge"
+        },
+        "postalCode": "05801",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "05440",
+            "05460",
+            "05470",
+            "05510",
+            "05620",
+            "05720",
+            "05800",
+            "05810",
+            "05820",
+            "05830",
+            "05840",
+            "05850",
+            "05860",
+            "05880",
+            "05900",
+            "05950"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            60.634648,
+            24.850645
+        ]
+    },
+    "5563": {
+        "id": "5563",
+        "crowdiness": "FULL",
+        "name": {
+            "fi": "Järvenpään poliisiasema, lupa-asiat",
+            "sv": "Träskända polisstation, tillståndsärenden"
+        },
+        "address": {
+            "fi": "Mannilantie 26 - 28",
+            "sv": "Mannilantie 26 - 28"
+        },
+        "postalOffice": {
+            "fi": "Järvenpää",
+            "sv": "Tränskända"
+        },
+        "postalCode": "04401",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "04300",
+            "04310",
+            "04320",
+            "04330",
+            "04340",
+            "04350",
+            "04360",
+            "04380",
+            "04390",
+            "04400",
+            "04410",
+            "04420",
+            "04430",
+            "04440",
+            "04460",
+            "04480",
+            "04500",
+            "05400",
+            "05430"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            60.470652,
+            25.091958
+        ]
+    },
+    "5564": {
+        "id": "5564",
+        "crowdiness": "FULL",
+        "name": {
+            "fi": "Loviisan poliisiasema, lupa-asiat",
+            "sv": "Lovisa polisstation, tillståndsärenden"
+        },
+        "address": {
+            "fi": "Mannerheiminkatu 12",
+            "sv": "Mannerheimingatan 12"
+        },
+        "postalOffice": {
+            "fi": "Loviisa",
+            "sv": "Lovisa"
+        },
+        "postalCode": "07901",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "07700",
+            "07720",
+            "07740",
+            "07750",
+            "07780",
+            "07800",
+            "07810",
+            "07820",
+            "07830",
+            "07840",
+            "07850",
+            "07870",
+            "07880",
+            "07890",
+            "07900",
+            "07910",
+            "07920",
+            "07930",
+            "07940",
+            "07945",
+            "07955",
+            "07960",
+            "07970",
+            "07980",
+            "07990",
+            "47350"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            60.458233,
+            26.228828
+        ]
+    },
+    "5565": {
+        "id": "5565",
+        "crowdiness": "HIGH",
+        "name": {
+            "fi": "Mäntsälä, poliisin lupapalvelupiste",
+            "sv": "Mäntsälä, polisens tillståndstjänsten"
+        },
+        "address": {
+            "fi": "Heikinkuja 4",
+            "sv": "Heikinkuja 4"
+        },
+        "postalOffice": {
+            "fi": "Mäntsälä",
+            "sv": "Mäntsälä"
+        },
+        "postalCode": "",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "04530",
+            "04600",
+            "04620",
+            "04630",
+            "04660",
+            "04680",
+            "04740",
+            "04770",
+            "04820",
+            "04840",
+            "04920",
+            "04940",
+            "07530",
+            "07550",
+            "07560",
+            "07565"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            60.637914,
+            25.320859
+        ]
+    },
+    "5566": {
+        "id": "5566",
+        "crowdiness": "FULL",
+        "name": {
+            "fi": "Nurmijärven poliisiasema, lupa-asiat",
+            "sv": "Nurmijärvi polisstation, tillståndsärenden"
+        },
+        "address": {
+            "fi": "Keskustie 2A",
+            "sv": "Keskustie 2A"
+        },
+        "postalOffice": {
+            "fi": "Nurmijärvi",
+            "sv": "Nurmijärvi"
+        },
+        "postalCode": "01901",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "01800",
+            "01810",
+            "01820",
+            "01830",
+            "01840",
+            "01860",
+            "01900",
+            "01940",
+            "04370",
+            "05100",
+            "05200",
+            "05250",
+            "05450"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            60.464052,
+            24.805884
+        ]
+    },
+    "5567": {
+        "id": "5567",
+        "crowdiness": "FULL",
+        "name": {
+            "fi": "Porvoon poliisiasema, lupa-asiat",
+            "sv": "Borgå polisstation, tillståndsärenden"
+        },
+        "address": {
+            "fi": "Tulliportinkatu 1",
+            "sv": "Tullportsgatan 1"
+        },
+        "postalOffice": {
+            "fi": "Porvoo",
+            "sv": "Borgå"
+        },
+        "postalCode": "06101",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "06100",
+            "06150",
+            "06200",
+            "06400",
+            "06450",
+            "06500",
+            "06530",
+            "06650",
+            "06750",
+            "06830",
+            "06850",
+            "06880",
+            "06950",
+            "07110",
+            "07130",
+            "07150",
+            "07170",
+            "07190",
+            "07220",
+            "07230",
+            "07280",
+            "07310",
+            "07320",
+            "07350",
+            "07360",
+            "07370",
+            "07390",
+            "07410",
+            "07450",
+            "07500",
+            "07510",
+            "07580",
+            "07590",
+            "07600",
+            "07680",
+            "07690"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            60.39571,
+            25.668826
+        ]
+    },
+    "5568": {
+        "id": "5568",
+        "crowdiness": "HIGH",
+        "name": {
+            "fi": "Keravan yhteispalvelupiste",
+            "sv": "Kervo samservicekontor"
+        },
+        "address": {
+            "fi": "Kultasepänkatu 7 (Sampolan palvelukeskus)",
+            "sv": "Kultasepänkatu 7 (Sampolan palvelukeskus)"
+        },
+        "postalOffice": {
+            "fi": "Kerava",
+            "sv": "Kervo"
+        },
+        "postalCode": "04201",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "04200",
+            "04220",
+            "04230",
+            "04250",
+            "04260"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            60.403786,
+            25.101399
+        ]
+    },
+    "5591": {
+        "id": "5591",
+        "crowdiness": "FULL",
+        "name": {
+            "fi": "Lahden pääpoliisiasema, lupapalvelut",
+            "sv": "Lahtis huvudpolisstation, tillståndstjänsten"
+        },
+        "address": {
+            "fi": "Esikuntakatu 4",
+            "sv": "Esikuntakatu 4"
+        },
+        "postalOffice": {
+            "fi": "Lahti",
+            "sv": "Lahtis"
+        },
+        "postalCode": "15101",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "15100",
+            "15110",
+            "15140",
+            "15150",
+            "15160",
+            "15170",
+            "15200",
+            "15210",
+            "15230",
+            "15240",
+            "15250",
+            "15300",
+            "15320",
+            "15340",
+            "15500",
+            "15520",
+            "15540",
+            "15610",
+            "15680",
+            "15700",
+            "15800",
+            "15810",
+            "15830",
+            "15840",
+            "15850",
+            "15900",
+            "15950",
+            "15270",
+            "15820",
+            "15860",
+            "15870",
+            "15880",
+            "15980",
+            "16500",
+            "16510",
+            "16630",
+            "16710",
+            "16730",
+            "16790",
+            "16800",
+            "17110",
+            "17120",
+            "16540",
+            "16600",
+            "16610",
+            "16670",
+            "15460",
+            "15550",
+            "15560",
+            "15580",
+            "16100",
+            "16160",
+            "17470",
+            "17500",
+            "17510",
+            "17530",
+            "17610",
+            "17630",
+            "17710",
+            "17740",
+            "16200",
+            "16230",
+            "16260",
+            "16270",
+            "16280",
+            "16300",
+            "16310",
+            "16320",
+            "16330",
+            "16350",
+            "16390",
+            "16450",
+            "47310",
+            "47400",
+            "47440",
+            "47450",
+            "47460",
+            "47490",
+            "47520",
+            "47540",
+            "47610"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            60.979281,
+            25.655136
+        ]
+    },
+    "5592": {
+        "id": "5592",
+        "crowdiness": "FULL",
+        "name": {
+            "fi": "Forssan poliisiasema, lupapalvelut",
+            "sv": "Forssa polisstation, tillståndstjänsten"
+        },
+        "address": {
+            "fi": "Murrontie 3",
+            "sv": "Murrontie 3"
+        },
+        "postalOffice": {
+            "fi": "Forssa",
+            "sv": "Forssa"
+        },
+        "postalCode": "",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "30100",
+            "30300",
+            "30420",
+            "31110",
+            "31130",
+            "31170",
+            "31250",
+            "31230",
+            "31300",
+            "31310",
+            "31340",
+            "31350",
+            "31370",
+            "31380",
+            "31600",
+            "31620",
+            "31630",
+            "31640",
+            "31650",
+            "31610",
+            "32100",
+            "32140"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            60.811316,
+            23.593869
+        ]
+    },
+    "5593": {
+        "id": "5593",
+        "crowdiness": "FULL",
+        "name": {
+            "fi": "Heinolan poliisiasema, lupapalvelut",
+            "sv": "Heinola polisstation, tillståndstjänsten"
+        },
+        "address": {
+            "fi": "Kaivokatu 15",
+            "sv": "Kaivokatu 15"
+        },
+        "postalOffice": {
+            "fi": "Heinola",
+            "sv": "Heinola"
+        },
+        "postalCode": "18101",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "18100",
+            "18120",
+            "18130",
+            "18150",
+            "18200",
+            "18300",
+            "18600",
+            "19110",
+            "19120",
+            "19160",
+            "19210",
+            "19230",
+            "19250",
+            "19260",
+            "19310",
+            "19370",
+            "19410",
+            "19420",
+            "19430",
+            "19470",
+            "19480",
+            "19510",
+            "19540",
+            "19600",
+            "19610",
+            "19620",
+            "19630",
+            "19700",
+            "19730",
+            "19740",
+            "19770",
+            "19320",
+            "17130",
+            "17150",
+            "17200",
+            "17220",
+            "17240",
+            "17320",
+            "17410",
+            "17430",
+            "17440",
+            "17450"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            61.205744,
+            26.037211
+        ]
+    },
+    "5594": {
+        "id": "5594",
+        "crowdiness": "FULL",
+        "name": {
+            "fi": "Hämeenlinnan poliisiasema, lupapalvelut",
+            "sv": "Tavastehus polisstation, tillståndstjänsten"
+        },
+        "address": {
+            "fi": "Hattelmalantie 2",
+            "sv": "Hattelmalantie 2"
+        },
+        "postalOffice": {
+            "fi": "Hämeenlinna",
+            "sv": "Tavastehus"
+        },
+        "postalCode": "13101",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "13100",
+            "13110",
+            "13130",
+            "13200",
+            "13210",
+            "13220",
+            "13250",
+            "13270",
+            "13300",
+            "13330",
+            "13430",
+            "13500",
+            "13530",
+            "13600",
+            "13700",
+            "13720",
+            "13800",
+            "13880",
+            "13900",
+            "14200",
+            "14240",
+            "14300",
+            "14330",
+            "14370",
+            "14430",
+            "14450",
+            "14500",
+            "14530",
+            "14610",
+            "14620",
+            "14680",
+            "14690",
+            "14700",
+            "14770",
+            "14810",
+            "14820",
+            "14840",
+            "14870",
+            "14930",
+            "14960",
+            "14980",
+            "16900",
+            "16960",
+            "16970",
+            "16980",
+            "12400",
+            "12450",
+            "12380",
+            "14140"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            60.989907,
+            24.439344
+        ]
+    },
+    "5596": {
+        "id": "5596",
+        "crowdiness": "FULL",
+        "name": {
+            "fi": "Riihimäen poliisiasema, lupapalvelut",
+            "sv": "Riihimäki polisstation, tillståndstjänsten"
+        },
+        "address": {
+            "fi": "Temppelikatu 8",
+            "sv": "Temppelikatu 8"
+        },
+        "postalOffice": {
+            "fi": "Riihimäki",
+            "sv": "Riihimäki"
+        },
+        "postalCode": "11101",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "11100",
+            "11120",
+            "11130",
+            "11310",
+            "11710",
+            "11910",
+            "12100",
+            "12130",
+            "12170",
+            "12210",
+            "12240",
+            "12310",
+            "12350",
+            "12520",
+            "12540",
+            "12600",
+            "12630",
+            "12640",
+            "12700",
+            "12750",
+            "12820",
+            "12920",
+            "12950"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            60.736658,
+            24.767818
+        ]
+    },
+    "5621": {
+        "id": "5621",
+        "crowdiness": "HIGH",
+        "name": {
+            "fi": "Kouvolan pääpoliisiasema",
+            "sv": "Kouvola huvudpolisstation"
+        },
+        "address": {
+            "fi": "Vuorikatu 1",
+            "sv": "Vuorikatu 1"
+        },
+        "postalOffice": {
+            "fi": "Kouvola",
+            "sv": "Kouvola"
+        },
+        "postalCode": "45101",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "45100",
+            "45120",
+            "45130",
+            "45150",
+            "45160",
+            "45200",
+            "45330",
+            "45360",
+            "45370",
+            "45410",
+            "45460",
+            "45610",
+            "45700",
+            "45720",
+            "45740",
+            "45750",
+            "45810",
+            "45910",
+            "45940",
+            "46110",
+            "46140",
+            "46230",
+            "46400",
+            "46430",
+            "46450",
+            "46710",
+            "46730",
+            "46750",
+            "46800",
+            "46810",
+            "46860",
+            "46900",
+            "46910",
+            "46950",
+            "46960",
+            "47110",
+            "47150",
+            "47200",
+            "47260",
+            "47650",
+            "47710",
+            "47760",
+            "47810",
+            "47830",
+            "47850",
+            "47900",
+            "47910"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            60.877843,
+            26.703408
+        ]
+    },
+    "5623": {
+        "id": "5623",
+        "crowdiness": "HIGH",
+        "name": {
+            "fi": "Imatran poliisiasema",
+            "sv": "Imatra polisstation"
+        },
+        "address": {
+            "fi": "Tainionkoskentie 70",
+            "sv": "Tainionkoskentie 70"
+        },
+        "postalOffice": {
+            "fi": "Imatra",
+            "sv": "Imatra"
+        },
+        "postalCode": "",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "55100",
+            "55120",
+            "55400",
+            "55420",
+            "55510",
+            "55610",
+            "55700",
+            "55800",
+            "55910",
+            "55800",
+            "56610",
+            "56640",
+            "56710",
+            "56730",
+            "56800",
+            "59100",
+            "59130",
+            "59210",
+            "59310",
+            "59320",
+            "59410",
+            "59510",
+            "59520",
+            "59530",
+            "59610",
+            "59710",
+            "59720",
+            "59730"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            61.191002,
+            28.776584
+        ]
+    },
+    "5624": {
+        "id": "5624",
+        "crowdiness": "FULL",
+        "name": {
+            "fi": "Kotkan poliisiasema",
+            "sv": "Kotka polisstation"
+        },
+        "address": {
+            "fi": "Ruukinkatu 12",
+            "sv": "Ruukinkatu 12"
+        },
+        "postalOffice": {
+            "fi": "Kotka",
+            "sv": "Kotka"
+        },
+        "postalCode": "48101",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "46930",
+            "48100",
+            "48130",
+            "48200",
+            "48210",
+            "48220",
+            "48230",
+            "48300",
+            "48310",
+            "48350",
+            "48400",
+            "48410",
+            "48600",
+            "48700",
+            "48710",
+            "48720",
+            "48750",
+            "48770",
+            "48800",
+            "48810",
+            "48900",
+            "48910",
+            "48930",
+            "49300",
+            "49340",
+            "49200",
+            "49210",
+            "49220",
+            "49240",
+            "49270",
+            "49290"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            60.468262,
+            26.951222
+        ]
+    },
+    "5625": {
+        "id": "5625",
+        "crowdiness": "FULL",
+        "name": {
+            "fi": "Lappeenrannan poliisiasema",
+            "sv": "Villmanstrands polisstation"
+        },
+        "address": {
+            "fi": "Villimiehenkatu 2 C",
+            "sv": "Villimiehenkatu 2 C"
+        },
+        "postalOffice": {
+            "fi": "Lappeenranta",
+            "sv": "Lappeenranta"
+        },
+        "postalCode": "",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "53900",
+            "53920",
+            "53950",
+            "54100",
+            "54110",
+            "54120",
+            "54190",
+            "54230",
+            "54250",
+            "54260",
+            "54270",
+            "54300",
+            "54310",
+            "54330",
+            "54390",
+            "54410",
+            "54430",
+            "54460",
+            "54710",
+            "54960",
+            "55300",
+            "55320",
+            "55330",
+            "53100",
+            "53830",
+            "54710",
+            "54820",
+            "54850",
+            "53300",
+            "53850",
+            "53950",
+            "54820",
+            "54850",
+            "54915",
+            "54920",
+            "54930",
+            "54940",
+            "54960",
+            "56350",
+            "53100",
+            "53130",
+            "53200",
+            "53300",
+            "53400",
+            "53500",
+            "53420",
+            "53550",
+            "53600",
+            "53650",
+            "53810",
+            "53830",
+            "53850",
+            "54720",
+            "54750",
+            "54770",
+            "54800",
+            "54950",
+            "54510",
+            "54530",
+            "54550",
+            "54580",
+            "54590",
+            "46530",
+            "46570",
+            "54500"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            61.057628,
+            28.191663
+        ]
+    },
+    "5651": {
+        "id": "5651",
+        "crowdiness": "FULL",
+        "name": {
+            "fi": "Turun pääpoliisiasema",
+            "sv": "Åbo huvudpolisstation"
+        },
+        "address": {
+            "fi": "Eerikinkatu 40-42",
+            "sv": "Eriksgatan 40-42"
+        },
+        "postalOffice": {
+            "fi": "Turku",
+            "sv": "Åbo"
+        },
+        "postalCode": "20101",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "20100",
+            "20200",
+            "20210",
+            "20240",
+            "20250",
+            "20300",
+            "20320",
+            "20360",
+            "20380",
+            "20400",
+            "20460",
+            "20500",
+            "20520",
+            "20540",
+            "20610",
+            "20700",
+            "20720",
+            "20730",
+            "20740",
+            "20750",
+            "20800",
+            "20810",
+            "20880",
+            "20900",
+            "20960",
+            "21310",
+            "21330",
+            "21340",
+            "21350",
+            "21360",
+            "21370",
+            "21380",
+            "21410",
+            "21420",
+            "21430",
+            "21450",
+            "21480",
+            "21490",
+            "21560",
+            "21800",
+            "21820",
+            "21840",
+            "21860",
+            "21870",
+            "21880",
+            "21890",
+            "21900",
+            "21930",
+            "23100",
+            "20660",
+            "20760",
+            "20780",
+            "21500",
+            "21510",
+            "21520",
+            "21530",
+            "21540",
+            "21555",
+            "21570",
+            "21590",
+            "21620",
+            "21100",
+            "21110",
+            "21120",
+            "21130",
+            "21140",
+            "21150",
+            "21160",
+            "21180",
+            "21195",
+            "21200",
+            "21210",
+            "21220",
+            "21230",
+            "21240",
+            "21250",
+            "21260",
+            "21270",
+            "21280",
+            "21290",
+            "23120",
+            "23140"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            60.445546,
+            22.251906
+        ]
+    },
+    "5653": {
+        "id": "5653",
+        "crowdiness": "FULL",
+        "name": {
+            "fi": "Huittisten poliisiasema",
+            "sv": "Vittis polisstation"
+        },
+        "address": {
+            "fi": "Virastokatu 3",
+            "sv": "Virastokatu 3"
+        },
+        "postalOffice": {
+            "fi": "Huittinen",
+            "sv": "Huittinen"
+        },
+        "postalCode": "",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "32610",
+            "32620",
+            "32700",
+            "32710",
+            "32760",
+            "32770"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            61.178124,
+            22.699582
+        ]
+    },
+    "5655": {
+        "id": "5655",
+        "crowdiness": "HIGH",
+        "name": {
+            "fi": "Kankaanpään poliisiasema",
+            "sv": "Kankaanpää polisstation"
+        },
+        "address": {
+            "fi": "Paasikivenkatu 13",
+            "sv": "Paasikivenkatu 13"
+        },
+        "postalOffice": {
+            "fi": "Kankaanpää",
+            "sv": "Kankaanpää"
+        },
+        "postalCode": "",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "38700",
+            "38710",
+            "38720",
+            "38740",
+            "38750",
+            "38760",
+            "38770",
+            "38800",
+            "38840",
+            "38860",
+            "38910",
+            "38920",
+            "38950",
+            "38970",
+            "39920",
+            "39930",
+            "39940",
+            "39960",
+            "39965",
+            "39980",
+            "39990"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            61.80547,
+            22.39887
+        ]
+    },
+    "5656": {
+        "id": "5656",
+        "crowdiness": "FULL",
+        "name": {
+            "fi": "Kemiönsaaren poliisiasema",
+            "sv": "Kimitoön polisstation"
+        },
+        "address": {
+            "fi": "Tuomarinkehä 8",
+            "sv": "Domarringen 8"
+        },
+        "postalOffice": {
+            "fi": "Kemiönsaari",
+            "sv": "Kimitoö"
+        },
+        "postalCode": "25701",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "25650",
+            "25700",
+            "25710",
+            "25730",
+            "25760",
+            "25810",
+            "25820",
+            "25830",
+            "25840",
+            "25860",
+            "25870",
+            "25900",
+            "25910",
+            "25930",
+            "25940",
+            "25950",
+            "25960"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            60.167507,
+            22.736571
+        ]
+    },
+    "5657": {
+        "id": "5657",
+        "crowdiness": "FULL",
+        "name": {
+            "fi": "Kokemäen poliisiasema",
+            "sv": "Kumo polisstation"
+        },
+        "address": {
+            "fi": "Tulkkilantie 8",
+            "sv": "Tulkkilantie 8"
+        },
+        "postalOffice": {
+            "fi": "Kokemäki",
+            "sv": "Kumo"
+        },
+        "postalCode": "32801",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "32800",
+            "32810",
+            "32830",
+            "32860",
+            "32910",
+            "32920"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            61.258916,
+            22.347779
+        ]
+    },
+    "5658": {
+        "id": "5658",
+        "crowdiness": "FULL",
+        "name": {
+            "fi": "Loimaan poliisiasema",
+            "sv": "Loimaa polisstation"
+        },
+        "address": {
+            "fi": "Vareliuksenkatu 2",
+            "sv": "Vareliuksenkatu 2"
+        },
+        "postalOffice": {
+            "fi": "Loimaa",
+            "sv": "Loimaa"
+        },
+        "postalCode": "32201",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "31960",
+            "31970",
+            "32200",
+            "32210",
+            "32250",
+            "32260",
+            "32270",
+            "32280",
+            "32300",
+            "32410",
+            "32430",
+            "32440",
+            "32450",
+            "32500",
+            "32520",
+            "32560"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            60.851151,
+            23.052256
+        ]
+    },
+    "5659": {
+        "id": "5659",
+        "crowdiness": "FULL",
+        "name": {
+            "fi": "Paraisten poliisiasema",
+            "sv": "Pargas polisstation"
+        },
+        "address": {
+            "fi": "Rantatie 30",
+            "sv": "Strandvägen 30"
+        },
+        "postalOffice": {
+            "fi": "Parainen",
+            "sv": "Pargas"
+        },
+        "postalCode": "21601",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "21600",
+            "21610",
+            "21630",
+            "21650",
+            "21660",
+            "21670",
+            "21680",
+            "21710",
+            "21720",
+            "21740",
+            "21750",
+            "21760",
+            "21770",
+            "23390"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            60.304696,
+            22.30128
+        ]
+    },
+    "5661": {
+        "id": "5661",
+        "crowdiness": "FULL",
+        "name": {
+            "fi": "Porin poliisiasema",
+            "sv": "Björneborgs polisstation"
+        },
+        "address": {
+            "fi": "Satakunnankatu 5",
+            "sv": "Satakunnankatu 5"
+        },
+        "postalOffice": {
+            "fi": "Pori",
+            "sv": "Björneborg"
+        },
+        "postalCode": "28101",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "28100",
+            "28120",
+            "28130",
+            "28190",
+            "28200",
+            "28220",
+            "28240",
+            "28260",
+            "28300",
+            "28330",
+            "28360",
+            "28370",
+            "28400",
+            "28430",
+            "28450",
+            "28500",
+            "28540",
+            "28560",
+            "28580",
+            "28600",
+            "28610",
+            "28660",
+            "28760",
+            "28800",
+            "28840",
+            "28880",
+            "28900",
+            "29100",
+            "29180",
+            "29200",
+            "29250",
+            "29270",
+            "29280",
+            "29310",
+            "29320",
+            "29340",
+            "29350",
+            "29570",
+            "29600",
+            "29630",
+            "29640",
+            "29680",
+            "29700",
+            "29720",
+            "29740",
+            "29750",
+            "29760",
+            "29790",
+            "29810",
+            "29830",
+            "29860",
+            "29880",
+            "29900",
+            "29940",
+            "38600",
+            "38650",
+            "38670",
+            "38680"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            61.481446,
+            21.783485
+        ]
+    },
+    "5663": {
+        "id": "5663",
+        "crowdiness": "FULL",
+        "name": {
+            "fi": "Rauman poliisiasema",
+            "sv": "Raumo polisstation"
+        },
+        "address": {
+            "fi": "Aittakarinkatu 21",
+            "sv": "Aittakarinkatu 21"
+        },
+        "postalOffice": {
+            "fi": "Rauma",
+            "sv": "Raumo"
+        },
+        "postalCode": "26101",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "26100",
+            "26200",
+            "26410",
+            "26510",
+            "26560",
+            "26660",
+            "26720",
+            "26740",
+            "26820",
+            "26840",
+            "26910",
+            "26930",
+            "26950",
+            "27100",
+            "27150",
+            "27160",
+            "27170",
+            "27220",
+            "27230",
+            "27250",
+            "27260",
+            "27310",
+            "27320",
+            "27340",
+            "27110",
+            "27130",
+            "27400",
+            "27420",
+            "27430",
+            "27450",
+            "27500",
+            "27510",
+            "27600",
+            "27640",
+            "27650",
+            "27670",
+            "27710",
+            "27730",
+            "27740",
+            "27750",
+            "27800",
+            "27820",
+            "27840",
+            "27860",
+            "27910",
+            "27920"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            61.126143,
+            21.491275
+        ]
+    },
+    "5664": {
+        "id": "5664",
+        "crowdiness": "HIGH",
+        "name": {
+            "fi": "Salon poliisiasema",
+            "sv": "Salo polisstation"
+        },
+        "address": {
+            "fi": "Kirkkokatu 1-3",
+            "sv": "Kirkkokatu 1-3"
+        },
+        "postalOffice": {
+            "fi": "Salo",
+            "sv": "Salo"
+        },
+        "postalCode": "24101",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "24100",
+            "24130",
+            "24240",
+            "24260",
+            "24280",
+            "24800",
+            "24910",
+            "25110",
+            "25130",
+            "25160",
+            "25170",
+            "25180",
+            "25190",
+            "25210",
+            "25230",
+            "25240",
+            "25250",
+            "25260",
+            "25320",
+            "25330",
+            "25340",
+            "25360",
+            "25370",
+            "25380",
+            "25390",
+            "25410",
+            "25420",
+            "25430",
+            "25460",
+            "25470",
+            "25500",
+            "25520",
+            "25540",
+            "25550",
+            "25560",
+            "25570",
+            "25610",
+            "25630",
+            "25640",
+            "25660",
+            "31400",
+            "31410",
+            "31450",
+            "31460",
+            "31470",
+            "31490",
+            "31500",
+            "31520",
+            "31530"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            60.384509,
+            23.134074
+        ]
+    },
+    "5665": {
+        "id": "5665",
+        "crowdiness": "HIGH",
+        "name": {
+            "fi": "Uudenkaupungin poliisiasema",
+            "sv": "Nystads polisstation"
+        },
+        "address": {
+            "fi": "Välskärintie 2 C",
+            "sv": "Välskärintie 2 C"
+        },
+        "postalOffice": {
+            "fi": "Uusikaupunki",
+            "sv": "Nystad"
+        },
+        "postalCode": "23501",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "23200",
+            "23210",
+            "23260",
+            "23310",
+            "23360",
+            "23450",
+            "23500",
+            "23600",
+            "23660",
+            "23800",
+            "23840",
+            "23880",
+            "23930",
+            "23950",
+            "23960"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            60.794254,
+            21.42643
+        ]
+    },
+    "5681": {
+        "id": "5681",
+        "crowdiness": "FULL",
+        "name": {
+            "fi": "Tampereen pääpoliisiasema, lupapalvelut",
+            "sv": "Tammerfors huvudpolisstation, tillståndstjänsten"
+        },
+        "address": {
+            "fi": "Hatanpään valtatie 16",
+            "sv": "Hatanpään valtatie 16"
+        },
+        "postalOffice": {
+            "fi": "Tampere",
+            "sv": "Tammerfors"
+        },
+        "postalCode": "33101",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "33430",
+            "33450",
+            "33470",
+            "33480",
+            "34110",
+            "34130",
+            "34140",
+            "34150",
+            "34180",
+            "34300",
+            "34320",
+            "34330",
+            "34510",
+            "34530",
+            "34550",
+            "39150",
+            "39160",
+            "39310",
+            "39340",
+            "39360",
+            "39380",
+            "34340",
+            "33100",
+            "33180",
+            "33200",
+            "33210",
+            "33230",
+            "33240",
+            "33250",
+            "33270",
+            "33300",
+            "33310",
+            "33330",
+            "33340",
+            "33400",
+            "33410",
+            "33420",
+            "33500",
+            "33520",
+            "33530",
+            "33540",
+            "33560",
+            "33580",
+            "33610",
+            "33680",
+            "33700",
+            "33710",
+            "33720",
+            "33730",
+            "33800",
+            "33820",
+            "33840",
+            "33850",
+            "33870",
+            "33900",
+            "33950",
+            "33960",
+            "33980",
+            "34240",
+            "34260",
+            "34270",
+            "33920",
+            "33880",
+            "37420",
+            "37470",
+            "37500",
+            "37530",
+            "37550",
+            "37560",
+            "37570",
+            "37800",
+            "37830",
+            "37900",
+            "37910",
+            "37960"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            61.49341,
+            23.770874
+        ]
+    },
+    "5682": {
+        "id": "5682",
+        "crowdiness": "FULL",
+        "name": {
+            "fi": "Ikaalisten poliisiasema",
+            "sv": "Ikalis polisstation"
+        },
+        "address": {
+            "fi": "Vanha Tampereentie 9",
+            "sv": "Vanha Tampereentie 9"
+        },
+        "postalOffice": {
+            "fi": "Ikaalinen",
+            "sv": "Ikalis"
+        },
+        "postalCode": "",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "39100",
+            "39110",
+            "39130",
+            "39195",
+            "39200",
+            "39230",
+            "39290",
+            "39410",
+            "39430",
+            "39450",
+            "39500",
+            "39530",
+            "39580",
+            "39590",
+            "39610",
+            "39620",
+            "39660",
+            "39700",
+            "39750",
+            "39770",
+            "39780",
+            "39810",
+            "39820",
+            "39880"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            61.770058,
+            23.065345
+        ]
+    },
+    "5684": {
+        "id": "5684",
+        "crowdiness": "FULL",
+        "name": {
+            "fi": "Jyväskylän poliisiasema, lupapalvelut",
+            "sv": "Jyväskylä polisstation, tillståndstjänsten"
+        },
+        "address": {
+            "fi": "Urhonkatu 2, 4. krs",
+            "sv": "Urhonkatu 2, 4. krs"
+        },
+        "postalOffice": {
+            "fi": "Jyväskylä",
+            "sv": "Jyväskylä"
+        },
+        "postalCode": "40101",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "40100",
+            "40200",
+            "40250",
+            "40270",
+            "40320",
+            "40340",
+            "40350",
+            "40400",
+            "40420",
+            "40500",
+            "40520",
+            "40530",
+            "40600",
+            "40620",
+            "40630",
+            "40640",
+            "40660",
+            "40700",
+            "40720",
+            "40740",
+            "40800",
+            "40820",
+            "40900",
+            "40930",
+            "40950",
+            "41120",
+            "41140",
+            "41160",
+            "41210",
+            "41410",
+            "41440",
+            "41450",
+            "41630",
+            "41660",
+            "41710",
+            "41820",
+            "41840",
+            "41860",
+            "41870",
+            "41880"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            62.243169,
+            25.754786
+        ]
+    },
+    "5685": {
+        "id": "5685",
+        "crowdiness": "HIGH",
+        "name": {
+            "fi": "Jämsän poliisiasema",
+            "sv": "Jämsä polisstation"
+        },
+        "address": {
+            "fi": "Keskuskatu 17",
+            "sv": "Keskuskatu 17"
+        },
+        "postalOffice": {
+            "fi": "Jämsä",
+            "sv": "Jämsä"
+        },
+        "postalCode": "",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "17780",
+            "17800",
+            "17840",
+            "17850",
+            "17870",
+            "17930",
+            "17950",
+            "17970",
+            "35600",
+            "35610",
+            "35630",
+            "42100",
+            "42140",
+            "42220",
+            "42300",
+            "42330",
+            "42440"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            61.865297,
+            25.195255
+        ]
+    },
+    "5686": {
+        "id": "5686",
+        "crowdiness": "FULL",
+        "name": {
+            "fi": "Kangasalan poliisiasema",
+            "sv": "Kangasala polisstation"
+        },
+        "address": {
+            "fi": "Urheilutie 6",
+            "sv": "Urheilutie 6"
+        },
+        "postalOffice": {
+            "fi": "Kangasala",
+            "sv": "Kangasala"
+        },
+        "postalCode": "36201",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "36100",
+            "36110",
+            "36120",
+            "36200",
+            "36220",
+            "36240",
+            "36270",
+            "36280",
+            "36340",
+            "36420",
+            "36430",
+            "36450",
+            "36520",
+            "36570",
+            "36600",
+            "36810",
+            "36840",
+            "36880",
+            "31140",
+            "31160",
+            "31700",
+            "31720",
+            "31730",
+            "31750",
+            "31760",
+            "31810",
+            "31830",
+            "31850",
+            "31860"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            61.463994,
+            24.074693
+        ]
+    },
+    "5687": {
+        "id": "5687",
+        "crowdiness": "FULL",
+        "name": {
+            "fi": "Keuruun poliisiasema",
+            "sv": "Keuru polisstation"
+        },
+        "address": {
+            "fi": "Multiantie 7",
+            "sv": "Multiantie 7"
+        },
+        "postalOffice": {
+            "fi": "Keuruu",
+            "sv": "Keuruu"
+        },
+        "postalCode": "42701",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "41900",
+            "41920",
+            "41925",
+            "41930",
+            "41940",
+            "41980",
+            "41970",
+            "42520",
+            "42560",
+            "42600",
+            "42660",
+            "42700",
+            "42720",
+            "42800",
+            "42820",
+            "42910",
+            "42930"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            62.26293,
+            24.70778
+        ]
+    },
+    "5689": {
+        "id": "5689",
+        "crowdiness": "FULL",
+        "name": {
+            "fi": "Mänttä-Vilppulan poliisiasema",
+            "sv": "Mänttä-Vilppula polisstation"
+        },
+        "address": {
+            "fi": "Miinapellonkatu 2",
+            "sv": "Miinapellonkatu 2"
+        },
+        "postalOffice": {
+            "fi": "Mänttä-Vilppula",
+            "sv": "Mänttä-Vilppula"
+        },
+        "postalCode": "35801",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "35700",
+            "35740",
+            "35800",
+            "35820",
+            "35990",
+            "42830",
+            "42840"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            62.033203,
+            24.622765
+        ]
+    },
+    "5692": {
+        "id": "5692",
+        "crowdiness": "HIGH",
+        "name": {
+            "fi": "Oriveden poliisiasema",
+            "sv": "Orivesi polisstation"
+        },
+        "address": {
+            "fi": "Keskustie 26",
+            "sv": "Keskustie 26"
+        },
+        "postalOffice": {
+            "fi": "Orivesi",
+            "sv": "Orivesi"
+        },
+        "postalCode": "35301",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "34410",
+            "34450",
+            "34600",
+            "34640",
+            "35100",
+            "35220",
+            "35240",
+            "35260",
+            "35270",
+            "35300",
+            "35320",
+            "35400",
+            "35420",
+            "35480",
+            "35500",
+            "35520",
+            "35530",
+            "35540",
+            "35550",
+            "35750",
+            "34420",
+            "34430"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            61.675887,
+            24.357398
+        ]
+    },
+    "5693": {
+        "id": "5693",
+        "crowdiness": "FULL",
+        "name": {
+            "fi": "Saarijärven poliisiasema",
+            "sv": "Saarijärvi polisstation"
+        },
+        "address": {
+            "fi": "Virastotie 4",
+            "sv": "Virastotie 4"
+        },
+        "postalOffice": {
+            "fi": "Saarijärvi",
+            "sv": "Saarijärvi"
+        },
+        "postalCode": "43101",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "41260",
+            "41270",
+            "43100",
+            "43130",
+            "43170",
+            "43220",
+            "43240",
+            "43250",
+            "43270",
+            "43420",
+            "43430",
+            "43440",
+            "43480",
+            "43700",
+            "43720"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            62.703423,
+            25.257525
+        ]
+    },
+    "5694": {
+        "id": "5694",
+        "crowdiness": "FULL",
+        "name": {
+            "fi": "Sastamalan poliisiasema",
+            "sv": "Sastamala polisstation"
+        },
+        "address": {
+            "fi": "Puistokatu 11",
+            "sv": "Puistokatu 11"
+        },
+        "postalOffice": {
+            "fi": "Sastamala",
+            "sv": "Sastamala"
+        },
+        "postalCode": "",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "32730",
+            "32740",
+            "38100",
+            "38120",
+            "38130",
+            "38140",
+            "38200",
+            "38210",
+            "38220",
+            "38250",
+            "38270",
+            "38280",
+            "38300",
+            "38360",
+            "38370",
+            "38420",
+            "38460",
+            "38470",
+            "38490",
+            "38510",
+            "31900",
+            "31930",
+            "31950",
+            "31970"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            61.339921,
+            22.911108
+        ]
+    },
+    "5695": {
+        "id": "5695",
+        "crowdiness": "FULL",
+        "name": {
+            "fi": "Valkeakosken poliisiasema, asiakaspalvelu",
+            "sv": "Valkeakoski polisstation, kundservice"
+        },
+        "address": {
+            "fi": "Apiankatu 5",
+            "sv": "Apiankatu 5"
+        },
+        "postalOffice": {
+            "fi": "Valkeakoski",
+            "sv": "Valkeakoski"
+        },
+        "postalCode": "",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "36640",
+            "36660",
+            "36720",
+            "36760",
+            "36910",
+            "36930",
+            "37600",
+            "37630",
+            "37700",
+            "37720",
+            "37740",
+            "37770",
+            "37850",
+            "37860"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            61.264477,
+            24.03446
+        ]
+    },
+    "5696": {
+        "id": "5696",
+        "crowdiness": "FULL",
+        "name": {
+            "fi": "Viitasaaren poliisiasema",
+            "sv": "Viitasaari polisstation"
+        },
+        "address": {
+            "fi": "Rantatie 10",
+            "sv": "Rantatie 10"
+        },
+        "postalOffice": {
+            "fi": "Viitasaari",
+            "sv": "Viitasaari"
+        },
+        "postalCode": "44501",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "72350",
+            "72930",
+            "72310",
+            "72630",
+            "72840",
+            "72930",
+            "72950",
+            "72980",
+            "72930",
+            "72950",
+            "72300",
+            "72310",
+            "72330",
+            "72350",
+            "72360",
+            "72380",
+            "43300",
+            "43340",
+            "43390",
+            "43800",
+            "43840",
+            "44480",
+            "44500",
+            "44530",
+            "44580",
+            "44590",
+            "44610",
+            "44630",
+            "44640",
+            "44670",
+            "44680",
+            "44730",
+            "44740",
+            "44760",
+            "44770",
+            "44790"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            63.07574,
+            25.85628
+        ]
+    },
+    "5697": {
+        "id": "5697",
+        "crowdiness": "FULL",
+        "name": {
+            "fi": "Virtain poliisiasema",
+            "sv": "Virdois polisstation"
+        },
+        "address": {
+            "fi": "Pääskyntie 6",
+            "sv": "Pääskyntie 6"
+        },
+        "postalOffice": {
+            "fi": "Virrat",
+            "sv": "Virdois"
+        },
+        "postalCode": "34801",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "34710",
+            "34730",
+            "34740",
+            "34770",
+            "34800",
+            "34870",
+            "34910",
+            "34930",
+            "34950",
+            "34970",
+            "34980",
+            "42850",
+            "42870"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            62.239112,
+            23.775809
+        ]
+    },
+    "5699": {
+        "id": "5699",
+        "crowdiness": "FULL",
+        "name": {
+            "fi": "Äänekosken poliisiasema, lupapalvelut",
+            "sv": "Äänekoski polisstation, tillståndstjänsten"
+        },
+        "address": {
+            "fi": "Akselinkatu 6",
+            "sv": "Akselinkatu 6"
+        },
+        "postalOffice": {
+            "fi": "Äänekoski",
+            "sv": "Äänekoski"
+        },
+        "postalCode": "44101",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "44100",
+            "44120",
+            "44150",
+            "44160",
+            "44170",
+            "44190",
+            "44200",
+            "44220",
+            "44250",
+            "44260",
+            "44280",
+            "44400",
+            "44420",
+            "44440",
+            "44460"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            62.60289,
+            25.73864
+        ]
+    },
+    "5711": {
+        "id": "5711",
+        "crowdiness": "MEDIUM",
+        "name": {
+            "fi": "Vaasan pääpoliisiasema, asiakaspalvelu",
+            "sv": "Vasa huvudpolisstation, kundservice"
+        },
+        "address": {
+            "fi": "Korsholmanpuistikko 45",
+            "sv": "Korsholmsesplanaden 45"
+        },
+        "postalOffice": {
+            "fi": "Vaasa",
+            "sv": "Vasa"
+        },
+        "postalCode": "65100",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "65100",
+            "65130",
+            "65170",
+            "65200",
+            "65230",
+            "65280",
+            "65300",
+            "65320",
+            "65350",
+            "65370",
+            "65380",
+            "65410",
+            "65610",
+            "66500",
+            "66510",
+            "66999",
+            "66200",
+            "66210",
+            "66230",
+            "66280",
+            "66290",
+            "65280",
+            "65450",
+            "65460",
+            "65470",
+            "65480",
+            "65520",
+            "65610",
+            "65630",
+            "65650",
+            "65710",
+            "65730",
+            "65760",
+            "65800",
+            "65870",
+            "65920",
+            "65930",
+            "65970",
+            "66200",
+            "66520",
+            "66530",
+            "66540",
+            "66550",
+            "66560",
+            "66580",
+            "66590",
+            "66999",
+            "66400",
+            "66420",
+            "66430",
+            "66450",
+            "66460",
+            "66470",
+            "61500",
+            "61520",
+            "61550",
+            "61560",
+            "66440",
+            "66100",
+            "66140",
+            "66160",
+            "66220",
+            "66240",
+            "66260",
+            "62395",
+            "66600",
+            "66640",
+            "66660",
+            "66680",
+            "66710",
+            "66730",
+            "66800",
+            "66810",
+            "66820",
+            "66830"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            63.093147,
+            21.632123
+        ]
+    },
+    "5712": {
+        "id": "5712",
+        "crowdiness": "FULL",
+        "name": {
+            "fi": "Alajärven poliisiasema",
+            "sv": "Alajärvi polisstation"
+        },
+        "address": {
+            "fi": "Järvikatu 1",
+            "sv": "Järvikatu 1"
+        },
+        "postalOffice": {
+            "fi": "Alajärvi",
+            "sv": "Alajärvi"
+        },
+        "postalCode": "62901",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "62710",
+            "62720",
+            "62730",
+            "62740",
+            "62750",
+            "62760",
+            "62830",
+            "62900",
+            "62920",
+            "62940",
+            "62950",
+            "62990",
+            "63500",
+            "62510",
+            "63530",
+            "63540",
+            "69510",
+            "69550",
+            "69570",
+            "62600",
+            "62610",
+            "62620",
+            "62640",
+            "62660",
+            "62860",
+            "69920",
+            "69950",
+            "69970",
+            "69980",
+            "63500",
+            "63800",
+            "63830",
+            "63880",
+            "63890",
+            "62660",
+            "62800",
+            "62810",
+            "62840",
+            "62860",
+            "62870",
+            "62880",
+            "63510"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            63.001725,
+            23.815441
+        ]
+    },
+    "5713": {
+        "id": "5713",
+        "crowdiness": "FULL",
+        "name": {
+            "fi": "Alavuden poliisiasema",
+            "sv": "Alavo polisstation"
+        },
+        "address": {
+            "fi": "Torikatu 1",
+            "sv": "Torikatu 1"
+        },
+        "postalOffice": {
+            "fi": "Alavus",
+            "sv": "Alavo"
+        },
+        "postalCode": "63301",
+        "commissionStyle": "BOTH",
+        "nearestPostalCodes": [
+            "61150",
+            "61170",
+            "63210",
+            "63300",
+            "63320",
+            "63330",
+            "63340",
+            "63350",
+            "63355",
+            "63360",
+            "63370",
+            "63400",
+            "63410",
+            "63430",
+            "63600",
+            "63610",
+            "63640",
+            "63680",
+            "63660",
+            "63700",
+            "63770",
+            "63780",
+            "63900",
+            "63910",
+            "63950",
+            "63920"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            62.586663,
+            23.614426
+        ]
+    },
+    "5715": {
+        "id": "5715",
+        "crowdiness": "FULL",
+        "name": {
+            "fi": "Kaustisen poliisiasema",
+            "sv": "Kaustby polisstation"
+        },
+        "address": {
+            "fi": "Pajalantie 1",
+            "sv": "Pajalantie 1"
+        },
+        "postalOffice": {
+            "fi": "Kaustinen",
+            "sv": "Kaustby"
+        },
+        "postalCode": "",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "68410",
+            "69600",
+            "69660",
+            "69730",
+            "69600",
+            "69700",
+            "69730",
+            "69750",
+            "69820",
+            "69830",
+            "69850",
+            "69910"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            63.547616,
+            23.696566
+        ]
+    },
+    "5716": {
+        "id": "5716",
+        "crowdiness": "FULL",
+        "name": {
+            "fi": "Kauhajoen poliisiasema",
+            "sv": "Kauhajoki polisstation"
+        },
+        "address": {
+            "fi": "Hakasivuntie 1",
+            "sv": "Hakasivuntie 1"
+        },
+        "postalOffice": {
+            "fi": "Kauhajoki",
+            "sv": "Kauhajoki"
+        },
+        "postalCode": "61801",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "61800",
+            "61810",
+            "61820",
+            "61850",
+            "61860",
+            "61880",
+            "61910",
+            "61920",
+            "61940",
+            "61950",
+            "61960",
+            "61980",
+            "64770",
+            "61820",
+            "61840",
+            "64700",
+            "62770",
+            "64760"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            62.414922,
+            22.171354
+        ]
+    },
+    "5717": {
+        "id": "5717",
+        "crowdiness": "HIGH",
+        "name": {
+            "fi": "Kokkolan poliisiasema, asiakaspalvelu",
+            "sv": "Karleby polisstation, kundservice"
+        },
+        "address": {
+            "fi": "Kaarlelankatu 74",
+            "sv": "Karlebygatan 74"
+        },
+        "postalOffice": {
+            "fi": "Kokkola",
+            "sv": "Karleby"
+        },
+        "postalCode": "67101",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "67100",
+            "67200",
+            "67300",
+            "67400",
+            "67410",
+            "67500",
+            "67600",
+            "67700",
+            "67800",
+            "67900",
+            "68210",
+            "68220",
+            "68230",
+            "68240",
+            "68300",
+            "68320",
+            "68370",
+            "68380",
+            "68390",
+            "68550",
+            "68999",
+            "69140",
+            "68500",
+            "68700",
+            "68750",
+            "68999",
+            "69100",
+            "69150",
+            "69170",
+            "69300",
+            "69310",
+            "69330",
+            "69340"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            63.847082,
+            23.132701
+        ]
+    },
+    "5718": {
+        "id": "5718",
+        "crowdiness": "HIGH",
+        "name": {
+            "fi": "Kristiinankaupungin poliisiasema",
+            "sv": "Kristinestad polisstation"
+        },
+        "address": {
+            "fi": "Parmaninkatu 11 B",
+            "sv": "Parmansgatan 11 B"
+        },
+        "postalOffice": {
+            "fi": "Kristiinankaupunki",
+            "sv": "Kristinestad"
+        },
+        "postalCode": "64101",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "64100",
+            "64140",
+            "64300",
+            "64320",
+            "64350",
+            "64370",
+            "64440",
+            "64450",
+            "64460",
+            "64480",
+            "64490",
+            "64900",
+            "64810",
+            "64820",
+            "64830",
+            "64840",
+            "64850",
+            "64900",
+            "64930",
+            "64320",
+            "64350",
+            "64370",
+            "64810",
+            "64200",
+            "64210",
+            "64220",
+            "64230",
+            "64240",
+            "64250",
+            "64260",
+            "64510",
+            "64530",
+            "64550",
+            "64610",
+            "64720",
+            "66270",
+            "66295",
+            "64260",
+            "64740"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            62.273035,
+            21.375489
+        ]
+    },
+    "5721": {
+        "id": "5721",
+        "crowdiness": "HIGH",
+        "name": {
+            "fi": "Lapuan poliisiasema",
+            "sv": "Lappo polisstation"
+        },
+        "address": {
+            "fi": "Poutuntie 17",
+            "sv": "Poutuntie 17"
+        },
+        "postalOffice": {
+            "fi": "Lapua",
+            "sv": "Lappo"
+        },
+        "postalCode": "",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "62130",
+            "62160",
+            "62165",
+            "62170",
+            "62175",
+            "62185",
+            "62190",
+            "62280",
+            "62290",
+            "62295",
+            "62630",
+            "62130",
+            "62150",
+            "62200",
+            "62220",
+            "62230",
+            "62240",
+            "62260",
+            "62300",
+            "62310",
+            "62340",
+            "62350",
+            "62370",
+            "62375",
+            "62380",
+            "62410",
+            "62420",
+            "62430",
+            "62435",
+            "62440",
+            "62470",
+            "62100"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            62.972428,
+            23.002238
+        ]
+    },
+    "5722": {
+        "id": "5722",
+        "crowdiness": "FULL",
+        "name": {
+            "fi": "Pietarsaaren poliisiasema, asiakaspalvelu",
+            "sv": "Jakobstads polisstation, kundservice"
+        },
+        "address": {
+            "fi": "Kanavapuistikko 1",
+            "sv": "Kanalesplanaden 1"
+        },
+        "postalOffice": {
+            "fi": "Pietarsaari",
+            "sv": "Jakobstad"
+        },
+        "postalCode": "68601",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "68555",
+            "68600",
+            "68620",
+            "68630",
+            "68660",
+            "62500",
+            "62510",
+            "62520",
+            "62540",
+            "62570",
+            "68840",
+            "68530",
+            "68600",
+            "68620",
+            "68690",
+            "68800",
+            "68810",
+            "68820",
+            "68830",
+            "68840",
+            "68870",
+            "68910",
+            "68920",
+            "68930",
+            "68940",
+            "68970",
+            "66840",
+            "66850",
+            "66900",
+            "66910",
+            "66930",
+            "66950",
+            "66970",
+            "66980"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            63.675887,
+            22.710843
+        ]
+    },
+    "5723": {
+        "id": "5723",
+        "crowdiness": "HIGH",
+        "name": {
+            "fi": "Seinäjoen poliisiasema",
+            "sv": "Seinäjoki polisstation"
+        },
+        "address": {
+            "fi": "Juhonkatu 4",
+            "sv": "Juhonkatu 4"
+        },
+        "postalOffice": {
+            "fi": "Seinäjoki",
+            "sv": "Seinäjoki"
+        },
+        "postalCode": "60321",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "60100",
+            "60110",
+            "60120",
+            "60150",
+            "60200",
+            "60220",
+            "60280",
+            "60320",
+            "60420",
+            "60450",
+            "60510",
+            "60550",
+            "60560",
+            "60640",
+            "60760",
+            "61100",
+            "61110",
+            "61120",
+            "61140",
+            "61160",
+            "61180",
+            "61400",
+            "61440",
+            "61450",
+            "61460",
+            "61470",
+            "61650",
+            "61680",
+            "60320",
+            "60450",
+            "60720",
+            "60760",
+            "60800",
+            "61310",
+            "61330",
+            "61340",
+            "61350",
+            "61250",
+            "61270",
+            "61280",
+            "61290",
+            "61600",
+            "61630",
+            "61640",
+            "61680",
+            "61710",
+            "61720",
+            "61730",
+            "61760",
+            "63100",
+            "63120",
+            "63130",
+            "63150",
+            "63160",
+            "63230",
+            "63250",
+            "63450",
+            "61220",
+            "61230",
+            "61300",
+            "61310",
+            "61330",
+            "61360",
+            "61370",
+            "61380",
+            "66300",
+            "66320",
+            "66330",
+            "66340",
+            "66350",
+            "66360",
+            "66370",
+            "68560",
+            "68570",
+            "68580",
+            "61410",
+            "61430"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            62.791874,
+            22.821007
+        ]
+    },
+    "5741": {
+        "id": "5741",
+        "crowdiness": "FULL",
+        "name": {
+            "fi": "Kuopion pääpoliisiasema, lupapalvelut",
+            "sv": "Kuopio huvudpolisstation, tillståndstjänsten"
+        },
+        "address": {
+            "fi": "Suokatu 44",
+            "sv": "Suokatu 44"
+        },
+        "postalOffice": {
+            "fi": "Kuopio",
+            "sv": "Kuopio"
+        },
+        "postalCode": "70101",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "70100",
+            "70110",
+            "70150",
+            "70200",
+            "70210",
+            "70240",
+            "70260",
+            "70280",
+            "70300",
+            "70340",
+            "70400",
+            "70420",
+            "70600",
+            "70620",
+            "70800",
+            "70820",
+            "70840",
+            "70870",
+            "71130",
+            "71150",
+            "71160",
+            "71210",
+            "71260",
+            "71310",
+            "71330",
+            "71360",
+            "71380",
+            "71480",
+            "71490",
+            "71520",
+            "71570",
+            "71610",
+            "71640",
+            "71650",
+            "72100",
+            "72140",
+            "71950",
+            "71640",
+            "72100",
+            "72210",
+            "72220",
+            "71510",
+            "71530",
+            "71160",
+            "71170",
+            "71200",
+            "71210",
+            "71240",
+            "71260",
+            "71280",
+            "71360",
+            "71380",
+            "70800",
+            "70820",
+            "71640",
+            "72100",
+            "71490",
+            "70460",
+            "70500",
+            "70700",
+            "70780",
+            "71800",
+            "71820",
+            "73860",
+            "70900",
+            "70910",
+            "70940",
+            "71840",
+            "71850",
+            "71870",
+            "71890",
+            "71910",
+            "71960",
+            "71660",
+            "71670",
+            "71680",
+            "71690",
+            "71720",
+            "71730",
+            "71740",
+            "71745",
+            "71750",
+            "71760",
+            "71775",
+            "72400",
+            "72490",
+            "72600"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            62.894171,
+            27.665784
+        ]
+    },
+    "5742": {
+        "id": "5742",
+        "crowdiness": "LOW",
+        "name": {
+            "fi": "Iisalmen poliisiasema, lupapalvelut",
+            "sv": "Idensalmi polisstation, tillståndstjänsten"
+        },
+        "address": {
+            "fi": "Virrankatu 2",
+            "sv": "Virrankatu 2"
+        },
+        "postalOffice": {
+            "fi": "Iisalmi",
+            "sv": "Idensalmi"
+        },
+        "postalCode": "74101",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "72740",
+            "73100",
+            "73120",
+            "74100",
+            "74120",
+            "74130",
+            "74140",
+            "74150",
+            "74160",
+            "74170",
+            "74270",
+            "74300",
+            "74420",
+            "74510",
+            "74520",
+            "74540",
+            "74550",
+            "74590",
+            "74595",
+            "74640",
+            "72710",
+            "72740",
+            "74590",
+            "74595",
+            "74610",
+            "74630",
+            "74640",
+            "74670",
+            "74680",
+            "74700",
+            "74720",
+            "74740",
+            "74770",
+            "74840",
+            "74940",
+            "74980",
+            "86980",
+            "71920",
+            "73100",
+            "73110",
+            "73120",
+            "73200",
+            "73230",
+            "73250",
+            "74140",
+            "74150",
+            "74420",
+            "74470",
+            "74540",
+            "74550",
+            "72430",
+            "72510",
+            "72530",
+            "72550",
+            "72570",
+            "72710",
+            "72740",
+            "72810",
+            "74150",
+            "74550",
+            "74640",
+            "73200",
+            "74140",
+            "74270",
+            "74300",
+            "74340",
+            "74345",
+            "74360",
+            "74380",
+            "74420",
+            "74470",
+            "74490",
+            "74100",
+            "74160",
+            "74170",
+            "74200",
+            "74230",
+            "74240",
+            "74250",
+            "74270",
+            "74590",
+            "74595"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            63.553923,
+            27.199638
+        ]
+    },
+    "5743": {
+        "id": "5743",
+        "crowdiness": "HIGH",
+        "name": {
+            "fi": "Ilomantsin poliisiasema, lupapalvelut",
+            "sv": "Ilomants polisstation, tillståndstjänsten"
+        },
+        "address": {
+            "fi": "Vepsänmäentie 4",
+            "sv": "Vepsänmäentie 4"
+        },
+        "postalOffice": {
+            "fi": "Ilomantsi",
+            "sv": "Ilomantsi"
+        },
+        "postalCode": "",
+        "commissionStyle": "BOTH",
+        "nearestPostalCodes": [
+            "81350",
+            "81420",
+            "81430",
+            "81450",
+            "81460",
+            "81470",
+            "82815",
+            "82820",
+            "82830",
+            "82880",
+            "82900",
+            "82915",
+            "82960",
+            "82967",
+            "82980"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            62.671888,
+            30.926878
+        ]
+    },
+    "5744": {
+        "id": "5744",
+        "crowdiness": "MEDIUM",
+        "name": {
+            "fi": "Joensuun poliisiasema, lupapalvelut",
+            "sv": "Joensuu polisstation, tillståndstjänsten"
+        },
+        "address": {
+            "fi": "Pykäläkuja 1",
+            "sv": "Pykäläkuja 1"
+        },
+        "postalOffice": {
+            "fi": "Joensuu",
+            "sv": "Joensuu"
+        },
+        "postalCode": "80101",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "80100",
+            "80110",
+            "80130",
+            "80140",
+            "80160",
+            "80170",
+            "80200",
+            "80210",
+            "80220",
+            "80230",
+            "80260",
+            "80330",
+            "80510",
+            "80710",
+            "80190",
+            "81200",
+            "81210",
+            "81260",
+            "81270",
+            "81280",
+            "81281",
+            "81290",
+            "81295",
+            "81320",
+            "81330",
+            "81360",
+            "81390",
+            "82110",
+            "82120",
+            "82140",
+            "82160",
+            "82170",
+            "82180",
+            "82200",
+            "82210",
+            "82230",
+            "82730",
+            "82310",
+            "82335",
+            "82710",
+            "82750",
+            "82760",
+            "82850",
+            "82840",
+            "82850",
+            "82865",
+            "82870",
+            "82880",
+            "80100",
+            "80130",
+            "80170",
+            "80260",
+            "80510",
+            "80710",
+            "80770",
+            "80780",
+            "80790",
+            "80850",
+            "80910",
+            "81100",
+            "81120",
+            "81160",
+            "81200",
+            "81220",
+            "81230",
+            "81235",
+            "81260",
+            "82110",
+            "83400",
+            "83460",
+            "83950",
+            "82290",
+            "82300",
+            "82310",
+            "82335",
+            "80400",
+            "82220",
+            "83100",
+            "83130",
+            "83140",
+            "83150",
+            "83160",
+            "83320",
+            "83340",
+            "83430",
+            "83450",
+            "83460",
+            "83480",
+            "83700",
+            "83720",
+            "83750",
+            "83760",
+            "83825",
+            "83830",
+            "83835",
+            "83840",
+            "83855",
+            "83870",
+            "83880",
+            "83900",
+            "83910",
+            "83915",
+            "83940",
+            "83985"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            62.597005,
+            29.759517
+        ]
+    },
+    "5745": {
+        "id": "5745",
+        "crowdiness": "HIGH",
+        "name": {
+            "fi": "Juankosken poliisiasema, lupapalvelut",
+            "sv": "Juankoski polisstation, tillståndstjänsten"
+        },
+        "address": {
+            "fi": "Juankoskentie 13",
+            "sv": "Juankoskentie 13"
+        },
+        "postalOffice": {
+            "fi": "Juankoski",
+            "sv": "Juankoski"
+        },
+        "postalCode": "",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "73460",
+            "73470",
+            "73500",
+            "73600",
+            "73710",
+            "73730",
+            "73770",
+            "73500",
+            "73600",
+            "73620",
+            "73640",
+            "73645",
+            "73670"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            63.067402,
+            28.333354
+        ]
+    },
+    "5747": {
+        "id": "5747",
+        "crowdiness": "LOW",
+        "name": {
+            "fi": "Kiteen poliisiasema, lupapalvelut",
+            "sv": "Kides polisstation, tillståndstjänsten"
+        },
+        "address": {
+            "fi": "Hovintie 3",
+            "sv": "Hovintie 3"
+        },
+        "postalOffice": {
+            "fi": "Kitee",
+            "sv": "Kide"
+        },
+        "postalCode": "",
+        "commissionStyle": "BOTH",
+        "nearestPostalCodes": [
+            "58350",
+            "59800",
+            "59810",
+            "59820",
+            "82360",
+            "82380",
+            "82395",
+            "82430",
+            "82460",
+            "82490",
+            "82500",
+            "82510",
+            "82580",
+            "82590",
+            "82685",
+            "82350",
+            "82360",
+            "82600",
+            "82655",
+            "82660",
+            "82670",
+            "82675",
+            "82685"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            62.100027,
+            30.134082
+        ]
+    },
+    "5748": {
+        "id": "5748",
+        "crowdiness": "MEDIUM",
+        "name": {
+            "fi": "Lieksan poliisiasema, lupapalvelut",
+            "sv": "Lieksa polisstation, tillståndstjänsten"
+        },
+        "address": {
+            "fi": "Urheilukatu 3 A",
+            "sv": "Urheilukatu 3 A"
+        },
+        "postalOffice": {
+            "fi": "Lieksa",
+            "sv": "Lieksa"
+        },
+        "postalCode": "",
+        "commissionStyle": "BOTH",
+        "nearestPostalCodes": [
+            "81560",
+            "81570",
+            "81590",
+            "81650",
+            "81660",
+            "81700",
+            "81720",
+            "81750",
+            "81810",
+            "81820",
+            "81850",
+            "81860",
+            "81950",
+            "81970",
+            "83960"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            63.321268,
+            30.024025
+        ]
+    },
+    "5749": {
+        "id": "5749",
+        "crowdiness": "FULL",
+        "name": {
+            "fi": "Mikkelin poliisiasema, lupapalvelut",
+            "sv": "S:t Michels polisstation, tillståndstjänsten"
+        },
+        "address": {
+            "fi": "Hallituskatu 4",
+            "sv": "Hallituskatu 4"
+        },
+        "postalOffice": {
+            "fi": "Mikkeli",
+            "sv": "S:t Michels"
+        },
+        "postalCode": "",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "77380",
+            "50670",
+            "50770",
+            "51130",
+            "52150",
+            "50100",
+            "50120",
+            "50130",
+            "50150",
+            "50160",
+            "50170",
+            "50180",
+            "50190",
+            "50200",
+            "50300",
+            "50350",
+            "50500",
+            "50520",
+            "50600",
+            "50670",
+            "50700",
+            "50770",
+            "50800",
+            "50970",
+            "51130",
+            "51420",
+            "51450",
+            "51520",
+            "51540",
+            "51600",
+            "51620",
+            "51670",
+            "51720",
+            "51740",
+            "51760",
+            "51780",
+            "51810",
+            "51820",
+            "51850",
+            "51860",
+            "51880",
+            "51890",
+            "51900",
+            "51930",
+            "51940",
+            "51980",
+            "52100",
+            "52110",
+            "52150",
+            "52300",
+            "52320",
+            "52330",
+            "52340",
+            "52360",
+            "52420",
+            "52510",
+            "52520",
+            "52550",
+            "52610",
+            "52620",
+            "52780",
+            "52830",
+            "52700",
+            "52720",
+            "52730",
+            "52740",
+            "52760",
+            "52850",
+            "52890",
+            "52920",
+            "52960",
+            "52970",
+            "52980",
+            "52200",
+            "52230",
+            "52270",
+            "19460"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            61.688631,
+            27.270942
+        ]
+    },
+    "5752": {
+        "id": "5752",
+        "crowdiness": "MEDIUM",
+        "name": {
+            "fi": "Nurmeksen poliisiasema, lupapalvelut",
+            "sv": "Nurmes polisstation, tillståndstjänsten"
+        },
+        "address": {
+            "fi": "Nurmeksenkatu 25",
+            "sv": "Nurmeksenkatu 25"
+        },
+        "postalOffice": {
+            "fi": "Nurmes",
+            "sv": "Nurmes"
+        },
+        "postalCode": "75501",
+        "commissionStyle": "NO_RESERVATION",
+        "nearestPostalCodes": [
+            "75500",
+            "75530",
+            "75650",
+            "75680",
+            "75700",
+            "75740",
+            "75710",
+            "75890",
+            "75930",
+            "75940",
+            "75970",
+            "75990",
+            "73850",
+            "73860",
+            "73900",
+            "73970",
+            "73990",
+            "75680",
+            "75500",
+            "75700",
+            "75710",
+            "75740",
+            "75770",
+            "75790",
+            "75840"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            63.542989,
+            29.142952
+        ]
+    },
+    "5753": {
+        "id": "5753",
+        "crowdiness": "FULL",
+        "name": {
+            "fi": "Outokummun poliisiasema, lupapalvelut",
+            "sv": "Outokumpu polisstation, tillståndstjänsten"
+        },
+        "address": {
+            "fi": "Sänkinotkonkatu 4-6",
+            "sv": "Sänkinotkonkatu 4-6"
+        },
+        "postalOffice": {
+            "fi": "Outokumpu",
+            "sv": "Outokumpu"
+        },
+        "postalCode": "83501",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "83330",
+            "83500",
+            "83550",
+            "83630",
+            "83660",
+            "83780"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            62.727139,
+            29.011395
+        ]
+    },
+    "5754": {
+        "id": "5754",
+        "crowdiness": "FULL",
+        "name": {
+            "fi": "Pieksämäen poliisiasema, lupapalvelut",
+            "sv": "Pieksämäki polisstation, tillståndstjänsten"
+        },
+        "address": {
+            "fi": "Savontie 20",
+            "sv": "Savontie 20"
+        },
+        "postalOffice": {
+            "fi": "Pieksämäki",
+            "sv": "Pieksämäki"
+        },
+        "postalCode": "76101",
+        "commissionStyle": "BOTH",
+        "nearestPostalCodes": [
+            "76100",
+            "76120",
+            "76130",
+            "76150",
+            "76280",
+            "76620",
+            "76780",
+            "76850",
+            "76940",
+            "77110",
+            "77120",
+            "77140",
+            "77220",
+            "77240",
+            "77320",
+            "77330",
+            "77350",
+            "77430",
+            "77520",
+            "77570",
+            "77580",
+            "77140",
+            "77770",
+            "77910",
+            "77930",
+            "77960",
+            "51200",
+            "51260",
+            "51270",
+            "51310",
+            "51335",
+            "51340",
+            "51360",
+            "51380",
+            "51430",
+            "51440",
+            "51460"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            62.300416,
+            27.151551
+        ]
+    },
+    "5755": {
+        "id": "5755",
+        "crowdiness": "MEDIUM",
+        "name": {
+            "fi": "Savonlinnan poliisiasema, lupapalvelut",
+            "sv": "Nyslotts polisstation, tillståndstjänsten"
+        },
+        "address": {
+            "fi": "Tottinkatu 9",
+            "sv": "Tottinkatu 9"
+        },
+        "postalOffice": {
+            "fi": "Savonlinna",
+            "sv": "Nyslott"
+        },
+        "postalCode": "",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "57100",
+            "57120",
+            "57130",
+            "57170",
+            "57200",
+            "57210",
+            "57220",
+            "57230",
+            "57310",
+            "57510",
+            "57600",
+            "57710",
+            "57810",
+            "58130",
+            "58140",
+            "58150",
+            "58160",
+            "58170",
+            "58180",
+            "58200",
+            "58220",
+            "58260",
+            "58300",
+            "58320",
+            "58360",
+            "58390",
+            "58410",
+            "58420",
+            "58430",
+            "58450",
+            "58500",
+            "58520",
+            "58550",
+            "58570",
+            "58580",
+            "58610",
+            "58620",
+            "58650",
+            "58680",
+            "58690",
+            "58770",
+            "58810",
+            "58130",
+            "58150",
+            "58160",
+            "58170",
+            "58175",
+            "58180",
+            "58200",
+            "58300",
+            "58770",
+            "58810",
+            "58830",
+            "58850",
+            "58900",
+            "58910",
+            "58920",
+            "58940",
+            "58610",
+            "58620",
+            "58650",
+            "58690",
+            "58700",
+            "58720",
+            "58770",
+            "79350",
+            "79700",
+            "79810",
+            "79820",
+            "79830",
+            "79850",
+            "79860",
+            "79885",
+            "79895",
+            "79910",
+            "79940"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            61.866349,
+            28.893013
+        ]
+    },
+    "5758": {
+        "id": "5758",
+        "crowdiness": "MEDIUM",
+        "name": {
+            "fi": "Varkauden poliisiasema, lupapalvelut",
+            "sv": "Varkaus polisstation, tillståndstjänsten"
+        },
+        "address": {
+            "fi": "Pirnankatu 2",
+            "sv": "Pirnankatu 2"
+        },
+        "postalOffice": {
+            "fi": "Varkaus",
+            "sv": "Varkaus"
+        },
+        "postalCode": "",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "71460",
+            "71470",
+            "78480",
+            "79100",
+            "79130",
+            "79140",
+            "79150",
+            "79160",
+            "79180",
+            "79190",
+            "79230",
+            "79255",
+            "79265",
+            "79330",
+            "79250",
+            "79410",
+            "78200",
+            "78210",
+            "78250",
+            "78300",
+            "78310",
+            "78400",
+            "78500",
+            "78610",
+            "78710",
+            "78850",
+            "78870",
+            "78880",
+            "78900",
+            "79480",
+            "79520",
+            "77460",
+            "77480",
+            "78200",
+            "78710",
+            "78850",
+            "78880",
+            "78900",
+            "79600",
+            "79620",
+            "79630",
+            "79660",
+            "79680",
+            "79690"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            62.316132,
+            27.868688
+        ]
+    },
+    "5771": {
+        "id": "5771",
+        "crowdiness": "FULL",
+        "name": {
+            "fi": "Oulun keskustan poliisiasema",
+            "sv": "Uleåborgs huvudpolisstation"
+        },
+        "address": {
+            "fi": "Kirkkokatu 13",
+            "sv": "Kirkkokatu 13"
+        },
+        "postalOffice": {
+            "fi": "Oulu",
+            "sv": "Uleåborg"
+        },
+        "postalCode": "90101",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "90100",
+            "90110",
+            "90120",
+            "90130",
+            "90140",
+            "90150",
+            "90220",
+            "90230",
+            "90240",
+            "90250",
+            "90310",
+            "90400",
+            "90410",
+            "90420",
+            "90460",
+            "90470",
+            "90500",
+            "90510",
+            "90520",
+            "90530",
+            "90540",
+            "90550",
+            "90560",
+            "90570",
+            "90580",
+            "90590",
+            "90600",
+            "90620",
+            "90630",
+            "90650",
+            "90660",
+            "90670",
+            "90800",
+            "90810",
+            "90820",
+            "90850",
+            "90860",
+            "91200",
+            "91210",
+            "91240",
+            "91260",
+            "91300",
+            "91310",
+            "90480",
+            "90310",
+            "90440",
+            "90450",
+            "90460",
+            "90470",
+            "90900",
+            "90910",
+            "90940",
+            "91900",
+            "91910",
+            "91930",
+            "91950",
+            "91980",
+            "91800",
+            "91100",
+            "91110",
+            "91140",
+            "91150",
+            "95100",
+            "95110",
+            "95130",
+            "95160",
+            "90830",
+            "90840"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            65.010542,
+            25.485191
+        ]
+    },
+    "5772": {
+        "id": "5772",
+        "crowdiness": "MEDIUM",
+        "name": {
+            "fi": "Haapajärven poliisiasema, lupapalvelut",
+            "sv": "Haapajärvi polisstation, tillståndstjänsten"
+        },
+        "address": {
+            "fi": "Kustaa Vaasankatu 2",
+            "sv": "Kustaa Vaasankatu 2"
+        },
+        "postalOffice": {
+            "fi": "Haapajärvi",
+            "sv": "Haapajärvi"
+        },
+        "postalCode": "",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "85580",
+            "85660",
+            "85710",
+            "85730",
+            "85800",
+            "85820",
+            "85840",
+            "86790",
+            "86800",
+            "86850",
+            "86870",
+            "69410",
+            "69420",
+            "69440",
+            "69450",
+            "85800",
+            "85900",
+            "85930",
+            "85940",
+            "85980",
+            "85560",
+            "86810",
+            "86900"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            63.748757,
+            25.321598
+        ]
+    },
+    "5773": {
+        "id": "5773",
+        "crowdiness": "FULL",
+        "name": {
+            "fi": "Haapaveden poliisiasema",
+            "sv": "Haapavesi polisstation"
+        },
+        "address": {
+            "fi": "Rynnäkkötie 1",
+            "sv": "Rynnäkkötie 1"
+        },
+        "postalOffice": {
+            "fi": "Haapavesi",
+            "sv": "Haapavesi"
+        },
+        "postalCode": "",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "85640",
+            "86480",
+            "86530",
+            "86550",
+            "86600",
+            "86650",
+            "86680",
+            "86690",
+            "86710",
+            "92500",
+            "92640",
+            "92910",
+            "92920",
+            "92930",
+            "85620",
+            "86510",
+            "92520",
+            "92530",
+            "92600",
+            "92610",
+            "92620",
+            "92650",
+            "92700"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            64.138433,
+            25.365157
+        ]
+    },
+    "5775": {
+        "id": "5775",
+        "crowdiness": "MEDIUM",
+        "name": {
+            "fi": "Kajaanin poliisiasema, lupapalvelut",
+            "sv": "Kajana polisstation, tillståndstjänsten"
+        },
+        "address": {
+            "fi": "Lönnrotinkatu 2 A",
+            "sv": "Lönnrotinkatu 2 A"
+        },
+        "postalOffice": {
+            "fi": "Kajaani",
+            "sv": "Kajana"
+        },
+        "postalCode": "87101",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "74390",
+            "87070",
+            "87100",
+            "87150",
+            "87200",
+            "87250",
+            "87300",
+            "87400",
+            "87500",
+            "87700",
+            "87800",
+            "87900",
+            "87830",
+            "87850",
+            "87910",
+            "87930",
+            "87950",
+            "87970",
+            "88200",
+            "88270",
+            "88300",
+            "88490",
+            "88620",
+            "89400",
+            "89430",
+            "89540",
+            "89560",
+            "87970",
+            "88300",
+            "88310",
+            "88350",
+            "88380",
+            "88400",
+            "88470",
+            "88400",
+            "88440",
+            "88460",
+            "88470",
+            "89400",
+            "88120",
+            "88530",
+            "88610",
+            "88640",
+            "88670",
+            "88690"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            64.22107,
+            27.725244
+        ]
+    },
+    "5776": {
+        "id": "5776",
+        "crowdiness": "FULL",
+        "name": {
+            "fi": "Kalajoen poliisiasema",
+            "sv": "Kalajoki polisstation"
+        },
+        "address": {
+            "fi": "Kalajoentie 5",
+            "sv": "Kalajoentie 5"
+        },
+        "postalOffice": {
+            "fi": "Kalajoki",
+            "sv": "Kalajoki"
+        },
+        "postalCode": "",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "68100",
+            "68150",
+            "85100",
+            "85120",
+            "85140",
+            "85150",
+            "85160",
+            "85180",
+            "86220",
+            "86230",
+            "86240"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            64.257347,
+            23.947964
+        ]
+    },
+    "5777": {
+        "id": "5777",
+        "crowdiness": "LOW",
+        "name": {
+            "fi": "Kuhmon poliisiasema, lupapalvelut",
+            "sv": "Kuhmo polisstation, tillståndstjänsten"
+        },
+        "address": {
+            "fi": "Koulukatu 6",
+            "sv": "Koulukatu 6"
+        },
+        "postalOffice": {
+            "fi": "Kuhmo",
+            "sv": "Kuhmo"
+        },
+        "postalCode": "",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "88600",
+            "88730",
+            "88740",
+            "88760",
+            "88820",
+            "88900",
+            "88930",
+            "88940"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            64.127855,
+            29.522238
+        ]
+    },
+    "5778": {
+        "id": "5778",
+        "crowdiness": "LOW",
+        "name": {
+            "fi": "Kuusamon poliisiasema",
+            "sv": "Kuusamo polisstation"
+        },
+        "address": {
+            "fi": "Kitkantie 28",
+            "sv": "Kitkantie 28"
+        },
+        "postalOffice": {
+            "fi": "Kuusamo",
+            "sv": "Kuusamo"
+        },
+        "postalCode": "93601",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "93540",
+            "93600",
+            "93630",
+            "93680",
+            "93730",
+            "93760",
+            "93780",
+            "93820",
+            "93825",
+            "93830",
+            "93840",
+            "93850",
+            "93920",
+            "93940",
+            "93990",
+            "93999",
+            "93700",
+            "93800",
+            "93900"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            65.96824,
+            29.182606
+        ]
+    },
+    "5782": {
+        "id": "5782",
+        "crowdiness": "MEDIUM",
+        "name": {
+            "fi": "Pudasjärven poliisiasema",
+            "sv": "Pudasjärvi polisstation"
+        },
+        "address": {
+            "fi": "Jukolantie 1 ja 2",
+            "sv": "Jukolantie 1 ja 2"
+        },
+        "postalOffice": {
+            "fi": "Pudasjärvi",
+            "sv": "Pudasjärvi"
+        },
+        "postalCode": "93101",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "93100",
+            "93140",
+            "93160",
+            "93170",
+            "93180",
+            "93187",
+            "93190",
+            "93195",
+            "93220",
+            "93225",
+            "93240",
+            "93250",
+            "93270",
+            "93277",
+            "93280",
+            "93290",
+            "93350",
+            "93390"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            65.359395,
+            26.992121
+        ]
+    },
+    "5784": {
+        "id": "5784",
+        "crowdiness": "LOW",
+        "name": {
+            "fi": "Suomussalmen poliisiasema, lupapalvelut",
+            "sv": "Suomussalmi polisstation, tillståndstjänsten"
+        },
+        "address": {
+            "fi": "Keskuskatu 18",
+            "sv": "Keskuskatu 18"
+        },
+        "postalOffice": {
+            "fi": "Suomussalmi",
+            "sv": "Suomussalmi"
+        },
+        "postalCode": "89601",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "89440",
+            "89600",
+            "89610",
+            "89640",
+            "89660",
+            "89670",
+            "89680",
+            "89730",
+            "89740",
+            "89760",
+            "89770",
+            "89780",
+            "89800",
+            "89830",
+            "89840",
+            "89920",
+            "93540"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            64.883879,
+            28.912196
+        ]
+    },
+    "5785": {
+        "id": "5785",
+        "crowdiness": "FULL",
+        "name": {
+            "fi": "Taivalkosken poliisiasema",
+            "sv": "Taivalkoski polisstation"
+        },
+        "address": {
+            "fi": "Kauppatie 23",
+            "sv": "Kauppatie 23"
+        },
+        "postalOffice": {
+            "fi": "Taivalkoski",
+            "sv": "Taivalkoski"
+        },
+        "postalCode": "93401",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "93400",
+            "93420",
+            "93440",
+            "93470",
+            "93540",
+            "93590"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            65.578854,
+            28.240743
+        ]
+    },
+    "5786": {
+        "id": "5786",
+        "crowdiness": "HIGH",
+        "name": {
+            "fi": "Ylivieskan poliisiasema, asiakaspalvelu",
+            "sv": "Ylivieska polisstation, kundservice"
+        },
+        "address": {
+            "fi": "Katajaojankatu 4",
+            "sv": "Katajaojankatu 4"
+        },
+        "postalOffice": {
+            "fi": "Ylivieska",
+            "sv": "Ylivieska"
+        },
+        "postalCode": "84101",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "84100",
+            "84460",
+            "84540",
+            "84650",
+            "84770",
+            "84880",
+            "85340",
+            "84100",
+            "85200",
+            "85210",
+            "85230",
+            "85310",
+            "85320",
+            "85340",
+            "85410",
+            "85430",
+            "85450",
+            "85470",
+            "85540",
+            "85500",
+            "86210",
+            "86300"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            64.073213,
+            24.52436
+        ]
+    },
+    "5787": {
+        "id": "5787",
+        "crowdiness": "FULL",
+        "name": {
+            "fi": "Raahen poliisiasema, asiakaspalvelu",
+            "sv": "Brahestads polisstation, kundservice"
+        },
+        "address": {
+            "fi": "Kummatinkatu 6",
+            "sv": "Kummatinkatu 6"
+        },
+        "postalOffice": {
+            "fi": "Raahe",
+            "sv": "Brahestad"
+        },
+        "postalCode": "92101",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "86350",
+            "86360",
+            "86400",
+            "86440",
+            "86460",
+            "86470",
+            "92100",
+            "92120",
+            "92130",
+            "92140",
+            "92150",
+            "92160",
+            "92180",
+            "92210",
+            "92220",
+            "92230",
+            "92240",
+            "92260",
+            "86100",
+            "86110",
+            "86160",
+            "86170",
+            "86400",
+            "86400",
+            "92140",
+            "92260",
+            "92320",
+            "92330",
+            "92350",
+            "92400",
+            "92430",
+            "92440",
+            "92450",
+            "92470"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            64.673563,
+            24.482131
+        ]
+    },
+    "5791": {
+        "id": "5791",
+        "crowdiness": "HIGH",
+        "name": {
+            "fi": "Puolangan palvelupiste",
+            "sv": "Puolanka servicekontor"
+        },
+        "address": {
+            "fi": "Virastokatu 8 B",
+            "sv": "Virastokatu 8 B"
+        },
+        "postalOffice": {
+            "fi": "Puolanka",
+            "sv": "Puolanka"
+        },
+        "postalCode": "",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "89110",
+            "89140",
+            "89200",
+            "89210",
+            "89320",
+            "89330",
+            "93350"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            64.86861,
+            27.67602
+        ]
+    },
+    "5794": {
+        "id": "5794",
+        "crowdiness": "HIGH",
+        "name": {
+            "fi": "Vaalan yhteispalvelupiste",
+            "sv": "Vaala samservicekontor"
+        },
+        "address": {
+            "fi": "Vaalantie 14",
+            "sv": "Vaalantie 14"
+        },
+        "postalOffice": {
+            "fi": "Vaala",
+            "sv": "Vaala"
+        },
+        "postalCode": "",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "88340",
+            "91700",
+            "91710",
+            "91720",
+            "91730",
+            "91740",
+            "91750",
+            "91760",
+            "91780",
+            "91790",
+            "92810",
+            "92830"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            64.558692,
+            26.837926
+        ]
+    },
+    "5801": {
+        "id": "5801",
+        "crowdiness": "LOW",
+        "name": {
+            "fi": "Rovaniemen pääpoliisiasema, lupapalvelut",
+            "sv": "Rovaniemi huvudpolisstation, tillståndstjänsten"
+        },
+        "address": {
+            "fi": "Hallituskatu 3 A",
+            "sv": "Hallituskatu 3 A"
+        },
+        "postalOffice": {
+            "fi": "Rovaniemi",
+            "sv": "Rovaniemi"
+        },
+        "postalCode": "",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "96100",
+            "96190",
+            "96200",
+            "96400",
+            "96440",
+            "96460",
+            "96500",
+            "96600",
+            "96700",
+            "96800",
+            "96900",
+            "96910",
+            "96930",
+            "96960",
+            "97110",
+            "97130",
+            "97140",
+            "97145",
+            "97160",
+            "97170",
+            "97220",
+            "97240",
+            "97280",
+            "97290",
+            "97310",
+            "97320",
+            "97340",
+            "97510",
+            "97520",
+            "97530",
+            "97540",
+            "97580",
+            "97610",
+            "97615",
+            "97620",
+            "97625",
+            "97630",
+            "97635",
+            "97650",
+            "97655",
+            "97670",
+            "97675",
+            "97680",
+            "97685",
+            "97690",
+            "99999",
+            "96300",
+            "96320"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            66.496887,
+            25.729508
+        ]
+    },
+    "5802": {
+        "id": "5802",
+        "crowdiness": "LOW",
+        "name": {
+            "fi": "Enontekiön poliisiasema",
+            "sv": "Enontekis polisstation"
+        },
+        "address": {
+            "fi": "Ounastie 228",
+            "sv": "Ounastie 228"
+        },
+        "postalOffice": {
+            "fi": "Enontekiö",
+            "sv": "Enontekiö"
+        },
+        "postalCode": "",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "99340",
+            "99400",
+            "99410",
+            "99420",
+            "99430",
+            "99440",
+            "99450",
+            "99460",
+            "99470",
+            "99490"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            68.388829,
+            23.654552
+        ]
+    },
+    "5803": {
+        "id": "5803",
+        "crowdiness": "LOW",
+        "name": {
+            "fi": "Inarin poliisiasema",
+            "sv": "Enare polisstation"
+        },
+        "address": {
+            "fi": "Ivalontie 10",
+            "sv": "Ivalontie 10"
+        },
+        "postalOffice": {
+            "fi": "Ivalo",
+            "sv": "Enare"
+        },
+        "postalCode": "99801",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "99800",
+            "99830",
+            "99860",
+            "99870",
+            "99885",
+            "99910",
+            "99930",
+            "99940"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            68.656961,
+            27.539678
+        ]
+    },
+    "5804": {
+        "id": "5804",
+        "crowdiness": "LOW",
+        "name": {
+            "fi": "Kemin poliisiasema, lupapalvelut",
+            "sv": "Kemi polisstation, tillståndstjänsten"
+        },
+        "address": {
+            "fi": "Valtakatu 28",
+            "sv": "Valtakatu 28"
+        },
+        "postalOffice": {
+            "fi": "Kemi",
+            "sv": "Kemi"
+        },
+        "postalCode": "",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "94100",
+            "94200",
+            "94300",
+            "94450",
+            "94500",
+            "94600",
+            "94700",
+            "94720",
+            "94800",
+            "94830",
+            "94900",
+            "94400",
+            "94450",
+            "94500",
+            "94600",
+            "95310",
+            "95315",
+            "95325",
+            "95365",
+            "95370",
+            "95590",
+            "94830",
+            "95200",
+            "95210",
+            "95220",
+            "95225",
+            "95230",
+            "95255",
+            "95260",
+            "95270",
+            "94500",
+            "95300",
+            "95325",
+            "95330",
+            "95340",
+            "95350",
+            "95355",
+            "95375"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            65.734948,
+            24.570966
+        ]
+    },
+    "5805": {
+        "id": "5805",
+        "crowdiness": "LOW",
+        "name": {
+            "fi": "Kemijärven poliisiasema",
+            "sv": "Kemijärvi polisstation"
+        },
+        "address": {
+            "fi": "Vapaudenkatu 11",
+            "sv": "Vapaudenkatu 11"
+        },
+        "postalOffice": {
+            "fi": "Kemijärvi",
+            "sv": "Kemijärvi"
+        },
+        "postalCode": "98101",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "97590",
+            "97545",
+            "98100",
+            "98120",
+            "98230",
+            "98310",
+            "98350",
+            "98360",
+            "98400",
+            "98420",
+            "98440",
+            "98450",
+            "98710",
+            "98720",
+            "97645"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            66.714841,
+            27.436037
+        ]
+    },
+    "5806": {
+        "id": "5806",
+        "crowdiness": "LOW",
+        "name": {
+            "fi": "Kittilän poliisiasema",
+            "sv": "Kittilä polisstation"
+        },
+        "address": {
+            "fi": "Valtatie 60",
+            "sv": "Valtatie 60"
+        },
+        "postalOffice": {
+            "fi": "Kittilä",
+            "sv": "Kittilä"
+        },
+        "postalCode": "",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "97420",
+            "97470",
+            "97999",
+            "99100",
+            "99110",
+            "99120",
+            "99130",
+            "99135",
+            "99140",
+            "99150",
+            "99160",
+            "99170",
+            "99180",
+            "99190",
+            "99195",
+            "99230",
+            "99240",
+            "99250",
+            "99270",
+            "99280",
+            "99290",
+            "99340"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            67.659598,
+            24.905233
+        ]
+    },
+    "5807": {
+        "id": "5807",
+        "crowdiness": "LOW",
+        "name": {
+            "fi": "Kolarin poliisiasema",
+            "sv": "Kolari polisstation"
+        },
+        "address": {
+            "fi": "Jokijalantie 20 B",
+            "sv": "Jokijalantie 20"
+        },
+        "postalOffice": {
+            "fi": "Kolari",
+            "sv": "Kolari"
+        },
+        "postalCode": "",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "95800",
+            "95830",
+            "95840",
+            "95850",
+            "95860",
+            "95900",
+            "95920",
+            "95930",
+            "95970",
+            "95980",
+            "95990",
+            "97430"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            67.33232,
+            23.79158
+        ]
+    },
+    "5808": {
+        "id": "5808",
+        "crowdiness": "LOW",
+        "name": {
+            "fi": "Muonion poliisiasema",
+            "sv": "Muonio polisstation"
+        },
+        "address": {
+            "fi": "Yrjö Kokon tie 4",
+            "sv": "Yrjö Kokon tie 4"
+        },
+        "postalOffice": {
+            "fi": "Muonio",
+            "sv": "Muonio"
+        },
+        "postalCode": "",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "95940",
+            "95950",
+            "99300",
+            "99310",
+            "99320",
+            "99330",
+            "99360"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            67.958083,
+            23.681545
+        ]
+    },
+    "5809": {
+        "id": "5809",
+        "crowdiness": "LOW",
+        "name": {
+            "fi": "Pellon poliisiasema",
+            "sv": "Pello polisstation"
+        },
+        "address": {
+            "fi": "Tullitie 1",
+            "sv": "Tullitie 1"
+        },
+        "postalOffice": {
+            "fi": "Pello",
+            "sv": "Pello"
+        },
+        "postalCode": "",
+        "commissionStyle": "BOTH",
+        "nearestPostalCodes": [
+            "95640",
+            "95645",
+            "95700",
+            "95710",
+            "95720",
+            "95750",
+            "95760",
+            "95770",
+            "95780",
+            "95790",
+            "97250",
+            "97330",
+            "97335"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            66.771891,
+            23.963048
+        ]
+    },
+    "5811": {
+        "id": "5811",
+        "crowdiness": "LOW",
+        "name": {
+            "fi": "Posion poliisiasema",
+            "sv": "Posio polisstation"
+        },
+        "address": {
+            "fi": "Suopolku 1",
+            "sv": "Suopolku 1"
+        },
+        "postalOffice": {
+            "fi": "Posio",
+            "sv": "Posio"
+        },
+        "postalCode": "",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "97810",
+            "97815",
+            "97820",
+            "97840",
+            "97850",
+            "97870",
+            "97880",
+            "97890",
+            "97895",
+            "97900",
+            "97920",
+            "97925",
+            "97940",
+            "97950",
+            "97960",
+            "97965",
+            "97970",
+            "97980",
+            "98780"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            66.111741,
+            28.165426
+        ]
+    },
+    "5812": {
+        "id": "5812",
+        "crowdiness": "LOW",
+        "name": {
+            "fi": "Ranuan poliisiasema",
+            "sv": "Ranua polisstation"
+        },
+        "address": {
+            "fi": "Virastotie 1",
+            "sv": "Virastotie 1"
+        },
+        "postalOffice": {
+            "fi": "Ranua",
+            "sv": "Ranua"
+        },
+        "postalCode": "",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "97665",
+            "97700",
+            "97715",
+            "97720",
+            "97760",
+            "97765",
+            "97770",
+            "97780",
+            "97785"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            65.927276,
+            26.51885
+        ]
+    },
+    "5813": {
+        "id": "5813",
+        "crowdiness": "LOW",
+        "name": {
+            "fi": "Sallan poliisiasema",
+            "sv": "Salla polisstation"
+        },
+        "address": {
+            "fi": "Myllytie 3",
+            "sv": "Myllytie 3"
+        },
+        "postalOffice": {
+            "fi": "Salla",
+            "sv": "Salla"
+        },
+        "postalCode": "",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "98600",
+            "98620",
+            "98630",
+            "98660",
+            "98670",
+            "98770",
+            "98790",
+            "98900",
+            "98920",
+            "98930",
+            "98950",
+            "98960",
+            "98970",
+            "98980",
+            "98955",
+            "98999",
+            "98760",
+            "98995"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            66.832971,
+            28.671913
+        ]
+    },
+    "5814": {
+        "id": "5814",
+        "crowdiness": "LOW",
+        "name": {
+            "fi": "Sodankylän poliisiasema",
+            "sv": "Sodankylä polisstation"
+        },
+        "address": {
+            "fi": "Toivonniementie 1",
+            "sv": "Toivonniementie 1"
+        },
+        "postalOffice": {
+            "fi": "Sodankylä",
+            "sv": "Sodankylä"
+        },
+        "postalCode": "",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "98500",
+            "98510",
+            "98530",
+            "98550",
+            "98560",
+            "98570",
+            "98580",
+            "97370",
+            "97380",
+            "97390",
+            "99510",
+            "99520",
+            "99530",
+            "99540",
+            "99550",
+            "99555",
+            "99560",
+            "99600",
+            "99610",
+            "99620",
+            "99645",
+            "99650",
+            "99655",
+            "99660",
+            "99665",
+            "99670",
+            "99690",
+            "99695",
+            "99710",
+            "99720",
+            "99740",
+            "99750",
+            "99760",
+            "99770"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            67.413175,
+            26.590476
+        ]
+    },
+    "5815": {
+        "id": "5815",
+        "crowdiness": "LOW",
+        "name": {
+            "fi": "Tornion poliisiasema, lupapalvelut",
+            "sv": "Torneå polisstation, tillståndstjänsten"
+        },
+        "address": {
+            "fi": "Pitkäkatu 1",
+            "sv": "Pitkäkatu 1"
+        },
+        "postalOffice": {
+            "fi": "Tornio",
+            "sv": "Torneå"
+        },
+        "postalCode": "",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "94430",
+            "94460",
+            "95400",
+            "95410",
+            "95420",
+            "95430",
+            "95440",
+            "95450",
+            "95460",
+            "95470",
+            "95490",
+            "95500",
+            "95520",
+            "95530",
+            "95540",
+            "95560",
+            "95590"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            65.848172,
+            24.149795
+        ]
+    },
+    "5816": {
+        "id": "5816",
+        "crowdiness": "LOW",
+        "name": {
+            "fi": "Utsjoen poliisiasema",
+            "sv": "Utsjoki polisstation"
+        },
+        "address": {
+            "fi": "Seitatie 2",
+            "sv": "Seitatie 2"
+        },
+        "postalOffice": {
+            "fi": "Utsjoki",
+            "sv": "Utsjoki"
+        },
+        "postalCode": "99981",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "98870",
+            "99950",
+            "99970",
+            "99980",
+            "99990"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            69.908287,
+            27.025466
+        ]
+    },
+    "5817": {
+        "id": "5817",
+        "crowdiness": "LOW",
+        "name": {
+            "fi": "Ylitornion poliisiasema",
+            "sv": "Ylitornio polisstation"
+        },
+        "address": {
+            "fi": "Alkkulanraitti 22",
+            "sv": "Alkkulanraitti 22"
+        },
+        "postalOffice": {
+            "fi": "Ylitornio",
+            "sv": "Ylitornio"
+        },
+        "postalCode": "",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "95600",
+            "95610",
+            "95615",
+            "95620",
+            "95630",
+            "95635",
+            "95655",
+            "95660",
+            "95670",
+            "95675",
+            "95680",
+            "95690"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            66.318276,
+            23.670816
+        ]
+    },
+    "5818": {
+        "id": "5818",
+        "crowdiness": "LOW",
+        "name": {
+            "fi": "Savukosken yhteispalvelupiste",
+            "sv": "Savukoski samservicekontor"
+        },
+        "address": {
+            "fi": "Kauppakuja 2 A 2",
+            "sv": "Kauppakuja 2 A 2"
+        },
+        "postalOffice": {
+            "fi": "Savukoski",
+            "sv": "Savukoski"
+        },
+        "postalCode": "",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "98800",
+            "98810",
+            "98820",
+            "98830",
+            "98840",
+            "98850",
+            "99640"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            67.292229,
+            28.160706
+        ]
+    },
+    "5684L1": {
+        "id": "5684L1",
+        "crowdiness": "FULL",
+        "name": {
+            "fi": "Pihtipudas, lupapalveluauto",
+            "sv": "Pihtipudas, tillståndsbil"
+        },
+        "address": {
+            "fi": "Keskustie 9",
+            "sv": "Keskustie 9"
+        },
+        "postalOffice": {
+            "fi": "Pihtipudas",
+            "sv": "Pihtipudas"
+        },
+        "postalCode": "",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "44800",
+            "44860",
+            "44880",
+            "44910",
+            "44920",
+            "44950",
+            "44970"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            63.369668,
+            25.57512
+        ]
+    },
+    "5684L3": {
+        "id": "5684L3",
+        "crowdiness": "FULL",
+        "name": {
+            "fi": "Joutsan poliisiasema",
+            "sv": "Joutsa polisstation"
+        },
+        "address": {
+            "fi": "Länsitie 5",
+            "sv": "Länsitie 5"
+        },
+        "postalOffice": {
+            "fi": "Joutsa",
+            "sv": "Joutsa"
+        },
+        "postalCode": "",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "19650",
+            "19850",
+            "19910",
+            "19920",
+            "19950",
+            "41730",
+            "41750",
+            "41770",
+            "19670"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            61.741564,
+            26.111412
+        ]
+    },
+    "5684L4": {
+        "id": "5684L4",
+        "crowdiness": "FULL",
+        "name": {
+            "fi": "Hankasalmi, lupapalveluauto",
+            "sv": "Hankasalmi, tillståndsbil"
+        },
+        "address": {
+            "fi": "Keskustie 41",
+            "sv": "Keskustie 41"
+        },
+        "postalOffice": {
+            "fi": "Hankasalmi",
+            "sv": "Hankasalmi"
+        },
+        "postalCode": "",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "41490",
+            "41500",
+            "41520",
+            "41530",
+            "41540",
+            "41550",
+            "41560",
+            "41580"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            62.39028,
+            26.436281
+        ]
+    },
+    "5684L6": {
+        "id": "5684L6",
+        "crowdiness": "FULL",
+        "name": {
+            "fi": "Kinnula, lupapalveluauto",
+            "sv": "Kinnula, tillståndsbil"
+        },
+        "address": {
+            "fi": "Keskustie 45",
+            "sv": "Keskustie 45"
+        },
+        "postalOffice": {
+            "fi": "Kinnula",
+            "sv": "Kinnula"
+        },
+        "postalCode": "",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "43900",
+            "43940",
+            "43960"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            63.367514,
+            24.966066
+        ]
+    },
+    "5684L7": {
+        "id": "5684L7",
+        "crowdiness": "FULL",
+        "name": {
+            "fi": "Karstula, lupapalveluauto",
+            "sv": "Karstula, tillståndsbil"
+        },
+        "address": {
+            "fi": "Virastotie 3",
+            "sv": "Virastotie 3"
+        },
+        "postalOffice": {
+            "fi": "Karstula",
+            "sv": "Karstula"
+        },
+        "postalCode": "",
+        "commissionStyle": "RESERVATION",
+        "nearestPostalCodes": [
+            "43500",
+            "43520",
+            "43540",
+            "43560",
+            "43610",
+            "43640",
+            "43660",
+            "43490"
+        ],
+        "latLng": {
+            "lat": 0,
+            "lng": 0
+        },
+        "coordinates": [
+            62.87916,
+            24.802923
+        ]
+    }
+}
