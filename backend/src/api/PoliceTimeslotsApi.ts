@@ -97,7 +97,6 @@ class PoliceTimeslotsApi {
     }
 
     public getId(): string {
-        console.log(this.id);
         return this.id;
     }
 
@@ -106,8 +105,6 @@ class PoliceTimeslotsApi {
     }
 
     public getFreeSlotsPerDay() {
-        console.log(this.id);
-
         return this.freeSlotsPerDayResponse;
     }
 

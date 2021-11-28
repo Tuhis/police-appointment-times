@@ -1,5 +1,6 @@
 import * as Hapi from "@hapi/hapi";
 import { Api } from "./api.js";
+import process from "process";
 
 const server = new Hapi.Server({
     host: "0.0.0.0",
@@ -29,6 +30,16 @@ async function start() {
 
     console.log("Server running at:", server.info.uri);
 }
+
+process.on('SIGINT', function onSigint() {
+    // server.stop();
+    process.exit(0);
+});
+
+process.on('SIGTERM', function onSigterm() {
+    // server.stop();
+    process.exit(0);
+});
 
 console.log(process.env.USE_DEVELOPMENT_DATA);
 
