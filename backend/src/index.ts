@@ -4,7 +4,10 @@ import process from "process";
 
 const server = new Hapi.Server({
     host: "0.0.0.0",
-    port: 3000
+    port: 3000,
+    routes: {
+        cors: true
+    }
 });
 
 async function start() {
