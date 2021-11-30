@@ -10,5 +10,6 @@
   flex-direction: column;
   flex: 1 1 auto;
   min-width: 375px;
-  background-color: #15353E;
+  /* background-color: #15353E; */
+  background-color: white;
 }

@@ -4,7 +4,8 @@
     sans-serif;
     display: block;
     font-size: 12pt;
-    background-color: #32798f;
+    /* background-color: #32798f; */
+    background-color: rgb(19, 84, 168);
     padding-left: 7px;
     padding-right: 7px;
     padding-top: 3px;

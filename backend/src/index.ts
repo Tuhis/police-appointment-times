@@ -4,7 +4,7 @@ import process from "process";
 
 const server = new Hapi.Server({
     host: "0.0.0.0",
-    port: 3000,
+    port: 3001,
     routes: {
         cors: true
     }
@@ -13,7 +13,11 @@ const server = new Hapi.Server({
 async function start() {
     await server.register([{
         plugin: Api
-    }]);
+    }], {
+        routes: {
+            prefix: "/api"
+        }
+    });
 
     server.route({
         method: '*',

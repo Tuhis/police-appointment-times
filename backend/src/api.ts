@@ -20,7 +20,19 @@ const plugin: Hapi.Plugin<any> = {
             method: "GET",
             path:"/ready",
             handler: (request, h) => {
-                return PoliceTimeslotsApi.getInstance().isReady();
+                const ready = PoliceTimeslotsApi.getInstance().isReady();
+
+                if (ready) return h.response({ready}).code(200);
+
+                return h.response({ready}).code(503);
+            }
+        });
+
+        server.route({
+            method: "GET",
+            path:"/healthz",
+            handler: (request, h) => {
+                return h.response({status: "ok"}).code(200);
             }
         });
 

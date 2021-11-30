@@ -28,5 +28,5 @@ COPY --from=builder --chown=node:node /home/node/app/node_modules/ ./node_module
 COPY --from=builder --chown=node:node /home/node/app/package.json ./
 RUN ls
 
-EXPOSE 3000
+EXPOSE 3001
 CMD [ "node", "index.js" ]

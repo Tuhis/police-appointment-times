@@ -3,10 +3,11 @@ import _ from "lodash";
 import { createRequire } from "module";
 import { SECONDS_BETWEEN_DATA_UPDATES, USE_DEVELOPMENT_DATA } from "../config.js";
 import { hrtime } from "process";
+import { DateTime } from "luxon";
 
 const require = createRequire(import.meta.url);
 
-const DAYS_TO_FETCH = 30;
+const DAYS_TO_FETCH = 42; // 6 weeks
 
 interface ICookieAndCSRF {
     cookie: string;
@@ -58,8 +59,8 @@ class PoliceTimeslotsApi {
     private static instance: PoliceTimeslotsApi;
     private id: string;
     private dataTimestamp: bigint = hrtime.bigint();
-    private dataStartDate = "2021-11-28T22:00:00.000Z";
-    private dataEndDate = "2022-01-02T21:59:59.999Z";
+    private dataStartDate: DateTime;
+    private dataEndDate: DateTime;
     private stations: IStationMap = {};
     private stationsSlotData: {[id: string]: IStationTimeslots} = {};
     private clientId = 'C' + (1000000000 * Math.random() & 100000).toString(); // As Poliisi defines it. Not really needed.
@@ -74,6 +75,7 @@ class PoliceTimeslotsApi {
 
     private constructor() {
         this.id = (Math.random() + 1).toString(36).substring(7);
+        this.updateQueryTime();
     }
 
     public static getInstance(): PoliceTimeslotsApi {
@@ -124,6 +126,8 @@ class PoliceTimeslotsApi {
     private async updateData(): Promise<void> {// Parse csrf stuff
         console.log("PoliceTimeslotsApi: Updating data");
 
+        this.updateQueryTime();
+
         if (USE_DEVELOPMENT_DATA) {
             this.freeSlotsPerDayResponse = _.map(require("./development.json"), elem => ({
                 date: new Date(elem.date),
@@ -136,13 +140,24 @@ class PoliceTimeslotsApi {
             this.stations = require("./development-stations.json");
 
         } else {
-            const cookieAndCSRF = await this.getCookieAndCSRF();
+            try {
+                const cookieAndCSRF = await this.getCookieAndCSRF();
 
-            // Update list of stations
-            await this.updateStations(cookieAndCSRF.cookie);
+                // Update list of stations
+                await this.updateStations(cookieAndCSRF.cookie);
 
-            // Update timeslots data
-            await this.updateTimeslotsData(cookieAndCSRF);
+                // Update timeslots data
+                await this.updateTimeslotsData(cookieAndCSRF);
+
+            } catch (err) {
+                console.log(err);
+                console.log("Scheduling retry after half the update interval");
+
+
+                setTimeout(this.updateData.bind(this), SECONDS_BETWEEN_DATA_UPDATES * (1000 / 2));
+
+                return;
+            }
 
             // Update the actual responses
             this.updateFreeSlotsPerDayResponse();
@@ -152,6 +167,11 @@ class PoliceTimeslotsApi {
 
         // Schedule next data update
         setTimeout(this.updateData.bind(this), SECONDS_BETWEEN_DATA_UPDATES * 1000);
+    }
+
+    private updateQueryTime(): void {
+        this.dataStartDate = DateTime.now();
+        this.dataEndDate = this.dataStartDate.plus({days: DAYS_TO_FETCH}).minus({milliseconds: 1});
     }
 
     private async getCookieAndCSRF(): Promise<ICookieAndCSRF> {
@@ -196,7 +216,7 @@ class PoliceTimeslotsApi {
 
     private async updateTimeslotsData(cookieAndCSRF: ICookieAndCSRF): Promise<void> {
         const resArr = await Promise.all(_.map(this.stations, async station => ({
-            data: await fetch(`https://asiointi.poliisi.fi/ajanvaraus-fe/api/timereservation/${this.clientId}_${station.id.toString}_${this.dataStartDate.substr(0, 10)}`, {
+            data: await fetch(`https://asiointi.poliisi.fi/ajanvaraus-fe/api/timereservation/${this.clientId}_${station.id.toString}_${this.dataStartDate.toUTC().toISO().substr(0, 10)}`, {
                 headers: {
                     "Cookie": cookieAndCSRF.cookie,
                     [cookieAndCSRF.csrfHeaderName]: cookieAndCSRF.csrfToken,
@@ -206,8 +226,8 @@ class PoliceTimeslotsApi {
                 body: JSON.stringify({
                     "participantMultiplier": 1,
                     "siteId": station.id,
-                    "startDate": this.dataStartDate,
-                    "endDate": this.dataEndDate,
+                    "startDate": this.dataStartDate.toUTC().toISO(),
+                    "endDate": this.dataEndDate.toUTC().toISO(),
                     "ajanvarausServiceType": {
                         "typeSystemCode": "AV0499",
                         "caseType": "PASSI"

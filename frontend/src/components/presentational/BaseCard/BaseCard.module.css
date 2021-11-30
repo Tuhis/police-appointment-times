@@ -1,7 +1,8 @@
 .basecard {
     display: block;
     box-sizing: border-box;
-    background-color: #215463;
+    /* background-color: #215463; */
+    background-color: rgb(6, 55, 123);
     padding: 12px;
 
     color: white;
