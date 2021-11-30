@@ -1,0 +1,25 @@
+.key-value-list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: white;
+    font-size: 16pt;
+    line-height: 20pt;
+    font-weight: 400;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.key {
+    flex: 1 0 50%;
+}
+
+.value {
+    flex: 1 0 50%;
+    font-family: Consolas, monaco, monospace;
+    font-size: 12pt;
+}

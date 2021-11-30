@@ -1,0 +1,16 @@
+.row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+}
+
+.row > div:first-child {
+    flex: 1 0;
+    margin: 0;
+}
+
+.row > div {
+    flex: 0 0;
+    margin-left: 20px;
+}

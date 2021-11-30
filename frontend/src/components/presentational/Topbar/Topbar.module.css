@@ -1,0 +1,19 @@
+.topbar {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #2a6b7e;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 470px) {
+    .topbar {
+        border-right: 12px solid #15353E;
+        border-left: 12px solid #15353E;
+    }
+}

@@ -10,12 +10,9 @@ export function PoliceDataLoader() {
   useEffect(() => {
       dispatch(updateStationsAsync());
       dispatch(updateFreeSlotsAsync());
-  });
+  }, [dispatch]);
 
   return (
-    <div>
-      <div>MOI</div>
-      <div>{ freeSlots }</div>
-    </div>
+      <React.Fragment />
   );
 }

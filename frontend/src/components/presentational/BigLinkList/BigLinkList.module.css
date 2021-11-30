@@ -1,0 +1,27 @@
+.big-link-list {
+    color: white;
+    font-size: 24pt;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    width: calc(100% - 45px);
+}
+
+.link-text {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-left: 4px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 655px) {
+    .rotate {
+        margin-left: -16px;
+        writing-mode: vertical-lr;
+        text-orientation: mixed;
+    }
+}
+
+.link-text:hover {
+    color: black;
+    font-weight: 400;
+}

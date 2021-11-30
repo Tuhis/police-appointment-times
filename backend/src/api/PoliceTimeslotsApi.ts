@@ -67,7 +67,8 @@ class PoliceTimeslotsApi {
         date: Date;
         dateString: string;
         freeSlots: number;
-        stations: string[]
+        stations: string[];
+        slotsPerStation: {[id: string]: number};
     }[] = [];
     private ready: boolean = false;
 
@@ -128,7 +129,8 @@ class PoliceTimeslotsApi {
                 date: new Date(elem.date),
                 dateString: elem.dateString,
                 freeSlots: elem.freeSlots,
-                stations: elem.stations
+                stations: elem.stations,
+                slotsPerStation: {}
             }));
 
             this.stations = require("./development-stations.json");
@@ -222,7 +224,8 @@ class PoliceTimeslotsApi {
         const dates: {
             [date: string]: {
                 freeSlots: number,
-                stations: string[]
+                stations: string[],
+                slotsPerStation: {[id: string]: number}
             }
         } = {};
 
@@ -230,11 +233,12 @@ class PoliceTimeslotsApi {
             _.forEach(data.slots, (value, date) => {
                 const freeSlots = value.timeSlots.length;
 
-                if (_.isUndefined(dates[date])) dates[date] = { freeSlots: 0, stations: []};
+                if (_.isUndefined(dates[date])) dates[date] = { freeSlots: 0, stations: [], slotsPerStation: {}};
 
                 if (freeSlots !== 0) {
                     dates[date].freeSlots = dates[date].freeSlots + freeSlots;
                     dates[date].stations.push(stationId);
+                    dates[date].slotsPerStation[stationId] = freeSlots;
                 }
             });
         });

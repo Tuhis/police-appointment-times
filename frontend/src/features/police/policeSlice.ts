@@ -1,4 +1,5 @@
 import { createAsyncThunk, createSlice, PayloadAction } from '@reduxjs/toolkit';
+import _ from 'lodash';
 import { RootState, AppThunk } from '../../app/store';
 import { FreeSlotsResponse } from './interfaces/IFreeSlotsResponse';
 import IStation from './interfaces/IStation';
@@ -8,12 +9,14 @@ export interface CounterState {
   status: 'idle' | 'loading' | 'failed';
   stations: {[id: string]: IStation};
   freeSlots: FreeSlotsResponse;
+  freeSlotsStatus: 'idle' | 'loading' | 'failed';
 }
 
 const initialState: CounterState = {
   status: 'idle',
   stations: {},
-  freeSlots: []
+  freeSlots: [],
+  freeSlotsStatus: 'idle'
 };
 
 export const updateStationsAsync = createAsyncThunk(
@@ -53,10 +56,11 @@ export const policeSlice = createSlice({
         state.stations = action.payload;
       })
       .addCase(updateFreeSlotsAsync.pending, (state) => {
-        state.status = 'loading';
+        state.freeSlotsStatus = 'loading';
       })
       .addCase(updateFreeSlotsAsync.fulfilled, (state, action) => {
-        state.status = 'idle';
+        state.freeSlotsStatus = 'idle';
+        if (_.isEmpty(action.payload)) state.freeSlotsStatus = 'failed';
         state.freeSlots = action.payload;
       });
   },
@@ -65,6 +69,7 @@ export const policeSlice = createSlice({
 export const selectCount = (state: RootState) => state.counter.value;
 export const selectStations = (state: RootState) => state.police.stations;
 export const selectFreeSlots = (state: RootState) => state.police.freeSlots;
+export const selectFreeSlotsStatus = (state: RootState) => state.police.freeSlotsStatus;
 
 // TODO Add action for updating data if old
 

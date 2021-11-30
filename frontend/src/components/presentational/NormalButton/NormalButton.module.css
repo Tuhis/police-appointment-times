@@ -1,0 +1,17 @@
+.normal-button {
+    display: block;
+    background-color: #009de0;
+    padding: 4px 4px;
+    border-width: 0;
+    font-size: 16pt;
+    font-family: agency-fb, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    width: 100px;
+    cursor: pointer;
+}
+
+.cancel-button {
+    background-color: #8B3C54;
+}

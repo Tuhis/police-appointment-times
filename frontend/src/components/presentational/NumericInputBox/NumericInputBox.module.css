@@ -1,0 +1,22 @@
+.input-box-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.input-box-container input {
+    width: 42px;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #009de0;
+    border: 1px solid white;
+    color: white;
+    font-family: Consolas, monaco, monospace;
+    font-size: 12pt;
+    padding: 1px 5px;
+}
+
+.input-box-container input:focus {
+    outline: none;
+    border: 1px solid white;
+}

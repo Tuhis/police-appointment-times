@@ -1,0 +1,24 @@
+.centerizer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.horizontal {
+    flex-direction: row;
+    max-width: none;
+    min-width: auto;
+    width: 100%;
+}
+
+.vertical {
+    flex-direction: column;
+    height: 100%;
+}
+
+.content {
+    display: block;
+    width: inherit;
+    min-width: inherit;
+    max-width: inherit;
+}
