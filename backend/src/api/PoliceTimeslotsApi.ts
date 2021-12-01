@@ -115,6 +115,12 @@ class PoliceTimeslotsApi {
         return ((process.hrtime.bigint() - this.dataTimestamp)/BigInt(1e9)).toString();
     }
 
+    public getFreeSlots(stationId: string, dateString: string): string[] {
+        const timeSlots = _.get(this.stationsSlotData, [stationId, "slots", dateString, "timeSlots"], []);
+
+        return timeSlots;
+    }
+
     public getStations(): IStationMap {
         return this.stations;
     }

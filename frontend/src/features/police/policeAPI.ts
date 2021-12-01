@@ -21,3 +21,9 @@ export function fetchFreeSlots(): Promise<FreeSlotsResponse> {
         .then(res => res.json())
         .catch(err => console.error(err));
 }
+
+export function fetchFreeSlotsForStation(stationId: string, dateString: string): Promise<string[]> {
+    return fetch(`${BASE_PATH}/${stationId}/${dateString}/freeslots`)
+        .then(res => res.json())
+        .catch(err => console.error(err));
+}

@@ -1,3 +1,5 @@
+@import '../../../vars.css';
+
 .container {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -5,13 +7,22 @@
     display: block;
     font-size: 12pt;
     /* background-color: #32798f; */
-    background-color: rgb(19, 84, 168);
+    background-color: var(--color-highlight-1);
     padding-left: 7px;
     padding-right: 7px;
     padding-top: 3px;
     padding-bottom: 3px;
     border-radius: 8px;
     margin: 4px 2px;
+    color: white;
+}
+
+.button:hover {
+    background-color: var(--color-highlight-1-hover);
+}
+
+.button {
+    cursor: pointer;
 }
 
 .label {

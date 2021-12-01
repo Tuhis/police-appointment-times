@@ -46,6 +46,14 @@ const plugin: Hapi.Plugin<any> = {
 
         server.route({
             method: "GET",
+            path:"/{stationId}/{dateString}/freeslots",
+            handler: (request, h) => {
+                return PoliceTimeslotsApi.getInstance().getFreeSlots(request.params.stationId, request.params.dateString);
+            }
+        });
+
+        server.route({
+            method: "GET",
             path:"/freetimesage",
             handler: (request, h) => {
                 return PoliceTimeslotsApi.getInstance().getFreeSlotsPerDayAge();

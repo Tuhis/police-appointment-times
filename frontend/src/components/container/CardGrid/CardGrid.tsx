@@ -1,7 +1,7 @@
 import _ from "lodash";
 import React from "react";
-import { useAppSelector } from "../../../app/hooks";
-import { selectFreeSlots, selectFreeSlotsStatus, selectStations } from "../../../features/police/policeSlice";
+import { useAppDispatch, useAppSelector } from "../../../app/hooks";
+import { chooseDate, chooseStation, selectFreeSlots, selectFreeSlotsStatus, selectStations, updateChosenStationFreeSlotsAsync } from "../../../features/police/policeSlice";
 import BaseCard from "../../presentational/BaseCard/BaseCard";
 import ButtonWithData from "../../presentational/ButtonWithData/ButtonWithData";
 import KeyValueList from "../../presentational/KeyValueList/KeyValueList";
@@ -11,6 +11,7 @@ export function CardGrid() {
     const freeSlots = _.filter(useAppSelector(selectFreeSlots), date => date.freeSlots !== 0);
     const stations = useAppSelector(selectStations);
     const freeSlotsStatus = useAppSelector(selectFreeSlotsStatus);
+    const dispatch = useAppDispatch();
 
     return (
         <React.Fragment>
@@ -31,9 +32,14 @@ export function CardGrid() {
                                 {_.map(_.orderBy(date.stations, station => stations[station].name.fi), station => {
                                     return (
                                         <ButtonWithData
+                                            isButton
                                             key={station}
                                             label={stations[station].name.fi}
-                                            data={date.slotsPerStation[station].toString()} />
+                                            data={date.slotsPerStation[station].toString()}
+                                            onClick={() => {
+                                                dispatch(chooseStation(station));
+                                                dispatch(chooseDate(date.dateString));
+                                            }} />
                                     );
                                 })}
                             </BaseCard>

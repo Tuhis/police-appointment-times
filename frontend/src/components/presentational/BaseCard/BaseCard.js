@@ -24,7 +24,7 @@ const BaseCard = props => {
                             value={props.title}
                             onChange={(e) => props.onTitleChange(e.target.value)} />
                         :
-                        <h2>{props.title}</h2>
+                        <h2 className={styles["h2-title"]}>{props.title}</h2>
                     }
                     <Divider className={styles.divider} />
                 </React.Fragment>
