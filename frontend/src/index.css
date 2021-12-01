@@ -1,8 +1,10 @@
+@import "./vars.css";
+
 body {
   margin: 0;
   padding: 0;
 
-  background-color: #15353E;
+  background-color: var(--color-background);
 
   font-family: agency-fb, sans-serif;
   font-weight: 300;

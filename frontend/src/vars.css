@@ -1,4 +1,5 @@
 :root {
+    --color-background: white;
     --color-hover: white;
     --color-highlight-1: rgb(19, 84, 168);
     --color-highlight-1-hover: rgb(9, 93, 202);
