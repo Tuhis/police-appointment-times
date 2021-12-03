@@ -1,5 +1,6 @@
 import * as Hapi from "@hapi/hapi";
 import PoliceTimeslotsApi from "./api/PoliceTimeslotsApi.js";
+import PostcodeApi from "./api/PostcodeApi.js";
 
 const plugin: Hapi.Plugin<any> = {
     name: "api",
@@ -7,6 +8,7 @@ const plugin: Hapi.Plugin<any> = {
 
     register: async (server: Hapi.Server, options): Promise<void> => {
         PoliceTimeslotsApi.getInstance().init(); // not waiting to for return on purpose
+        await PostcodeApi.getInstance().init();
 
         server.route({
             method: "GET",
@@ -73,6 +75,22 @@ const plugin: Hapi.Plugin<any> = {
             path:"/stationsage",
             handler: (request, h) => {
                 return PoliceTimeslotsApi.getInstance().getStationsAge();
+            }
+        });
+
+        server.route({
+            method: "GET",
+            path: "/postcodes/{postcode}",
+            handler: (request, h) => {
+                return PostcodeApi.getInstance().getRegionForPostcode(request.params.postcode);
+            }
+        });
+
+        server.route({
+            method: "GET",
+            path: "/postcodes",
+            handler: (request, h) => {
+                return PostcodeApi.getInstance().getPostcodeRegionMap();
             }
         });
 
