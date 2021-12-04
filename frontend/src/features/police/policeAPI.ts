@@ -1,7 +1,8 @@
+import { POLICE_API_BASE_URL } from "../../util/config";
 import { FreeSlotsResponse } from "./interfaces/IFreeSlotsResponse";
-import IStation from "./interfaces/IStation";
+import { EnrichedStation } from "./interfaces/IStation";
 
-const BASE_PATH = "https://poliisi.ioio.fi/api";
+const BASE_PATH = POLICE_API_BASE_URL;
 
 // A mock function to mimic making an async request for data
 export function fetchCount(amount = 1) {
@@ -10,7 +11,7 @@ export function fetchCount(amount = 1) {
     );
 }
 
-export function fetchStations(): Promise<{[id: string]: IStation}> {
+export function fetchStations(): Promise<{[id: string]: EnrichedStation}> {
     return fetch(`${BASE_PATH}/stations`)
         .then(res => res.json())
         .catch(err => console.error(err));

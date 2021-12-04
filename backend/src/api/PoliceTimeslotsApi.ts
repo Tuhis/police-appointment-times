@@ -4,6 +4,7 @@ import { createRequire } from "module";
 import { SECONDS_BETWEEN_DATA_UPDATES, USE_DEVELOPMENT_DATA } from "../config.js";
 import { hrtime } from "process";
 import { DateTime } from "luxon";
+import PostcodeApi from "./PostcodeApi.js";
 
 const require = createRequire(import.meta.url);
 
@@ -15,7 +16,7 @@ interface ICookieAndCSRF {
     csrfHeaderName: string;
 }
 
-interface IStation {
+type IStation = {
     id: string;
     crowdiness: string;
     name: {
@@ -40,8 +41,12 @@ interface IStation {
     coordinates: number[];
 }
 
+type EnrichedStation = {
+    region: string
+} & IStation
+
 interface IStationMap {
-    [id: string]: IStation;
+    [id: string]: EnrichedStation;
 }
 
 interface IStationTimeslots {
@@ -216,7 +221,22 @@ class PoliceTimeslotsApi {
         const stations = await res.json() as IStation[]; // TODO: Check the result with e.g. Joi
 
         stations.forEach(station => {
-            this.stations[station.id] = station;
+            // const postalCode = _.isEmpty(station.postalCode) ? _.get(station.nearestPostalCodes, 0, "") : station.postalCode;
+            // const stationRegion = PostcodeApi.getInstance().getRegionForPostcode(postalCode).region;
+
+            let postalCode = _.isEmpty(station.postalCode) ? _.get(station.nearestPostalCodes, 0, "") : station.postalCode;
+            let stationRegion = PostcodeApi.getInstance().getRegionForPostcode(postalCode).region;
+            let i = 0;
+
+            while (stationRegion === "Tuntematon maakunta" && i < station.nearestPostalCodes.length) {
+                stationRegion = PostcodeApi.getInstance().getRegionForPostcode(station.nearestPostalCodes[i]).region;
+                i += 1;
+            }
+
+            this.stations[station.id] = {
+                ...station,
+                region: stationRegion
+            };
         });
     }
 

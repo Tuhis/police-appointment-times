@@ -1,7 +1,8 @@
 import _ from "lodash";
 import React from "react";
 import { useAppDispatch, useAppSelector } from "../../../app/hooks";
-import { chooseDate, chooseStation, selectFreeSlots, selectFreeSlotsStatus, selectStations, updateChosenStationFreeSlotsAsync } from "../../../features/police/policeSlice";
+import { selectGroupByRegions } from "../../../features/filters/filtersSlice";
+import { chooseDate, chooseRegion, chooseStation, selectFreeSlots, selectFreeSlotsStatus, selectStations, updateChosenStationFreeSlotsAsync } from "../../../features/police/policeSlice";
 import BaseCard from "../../presentational/BaseCard/BaseCard";
 import ButtonWithData from "../../presentational/ButtonWithData/ButtonWithData";
 import KeyValueList from "../../presentational/KeyValueList/KeyValueList";
@@ -11,6 +12,7 @@ export function CardGrid() {
     const freeSlots = _.filter(useAppSelector(selectFreeSlots), date => date.freeSlots !== 0);
     const stations = useAppSelector(selectStations);
     const freeSlotsStatus = useAppSelector(selectFreeSlotsStatus);
+    const groupByRegions = useAppSelector(selectGroupByRegions);
     const dispatch = useAppDispatch();
 
     return (
@@ -29,19 +31,37 @@ export function CardGrid() {
                                 editableTitle={false}
                                 onTitleChange={_.noop} >
 
-                                {_.map(_.orderBy(date.stations, station => stations[station].name.fi), station => {
+                                {!groupByRegions && _.map(_.orderBy(date.stations, station => stations[station].name.fi), station => {
                                     return (
                                         <ButtonWithData
                                             isButton
                                             key={station}
                                             label={stations[station].name.fi}
-                                            data={date.slotsPerStation[station].toString()}
+                                            data={_.get(date.slotsPerStation, station, 0).toString()}
                                             onClick={() => {
                                                 dispatch(chooseStation(station));
                                                 dispatch(chooseDate(date.dateString));
                                             }} />
                                     );
                                 })}
+                                {groupByRegions &&
+                                    _.chain(date.stations)
+                                    .groupBy(station => stations[station].region)
+                                    .map((stations, region) => {
+                                        return (
+                                            <ButtonWithData
+                                                isButton
+                                                key={region}
+                                                label={region}
+                                                data={_.chain(stations).map(stationId => _.get(date.slotsPerStation, stationId, 0)).sum().value().toString()}
+                                                onClick={() => {
+                                                    dispatch(chooseRegion(region));
+                                                    dispatch(chooseDate(date.dateString));
+                                                }} />
+                                        );
+                                    })
+                                    .value()
+                                }
                             </BaseCard>
                         )
                     }).reverse()}

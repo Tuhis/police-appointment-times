@@ -7,8 +7,8 @@ const plugin: Hapi.Plugin<any> = {
     version: "1.0.0",
 
     register: async (server: Hapi.Server, options): Promise<void> => {
-        PoliceTimeslotsApi.getInstance().init(); // not waiting to for return on purpose
         await PostcodeApi.getInstance().init();
+        PoliceTimeslotsApi.getInstance().init(); // not waiting to for return on purpose
 
         server.route({
             method: "GET",

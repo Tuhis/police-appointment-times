@@ -1,4 +1,4 @@
-export default interface IStation {
+export type EnrichedStation = {
     id: string;
     crowdiness: string;
     name: {
@@ -21,4 +21,5 @@ export default interface IStation {
         lng: number;
     };
     coordinates: number[];
-}
+    region: string;
+};

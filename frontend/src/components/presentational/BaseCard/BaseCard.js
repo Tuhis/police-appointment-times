@@ -5,15 +5,16 @@ import styles from "./BaseCard.module.css";
 import Divider from "../Divider/Divider";
 
 import "./BaseCardOverride.css";
+import BaseBox from "../BaseBox/BaseBox";
+import { minWidth } from "@mui/material/node_modules/@mui/system";
 
 const BaseCard = props => {
     return (
-        <div className={
-            styles.basecard +
-            " base-card " +
-            (props.autoHeight ? styles["auto-height"] : styles["fixed-height"]) + " " +
-            (props.autoWidth ? styles["auto-width"] : styles["fixed-width"])}
-            style={{minHeight: props.minHeight}} >
+        <BaseBox
+            autoHeight={props.autoHeight}
+            autoWidth={props.autoWidth}
+            minHeight={minWidth}
+            padSidesOnWidescreen={props.padSidesOnWidescreen} >
 
             {props.showTitle &&
                 <React.Fragment>
@@ -31,7 +32,7 @@ const BaseCard = props => {
             }
 
             {props.children}
-        </div>
+        </BaseBox>
     );
 };
 
@@ -42,7 +43,8 @@ BaseCard.propTypes = {
     minHeight: PropTypes.number.isRequired,
     showTitle: PropTypes.bool.isRequired,
     editableTitle: PropTypes.bool.isRequired,
-    onTitleChange: PropTypes.func.isRequired
+    padSidesOnWidescreen: PropTypes.bool.isRequired,
+    onTitleChange: PropTypes.func
 };
 
 BaseCard.defaultProps = {
@@ -52,6 +54,7 @@ BaseCard.defaultProps = {
     minHeight: 0,
     showTitle: true,
     editableTitle: false,
+    padSidesOnWidescreen: false,
     onTitleChange: _.noop
 };
 

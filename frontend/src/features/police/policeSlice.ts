@@ -2,18 +2,19 @@ import { createAsyncThunk, createSlice, PayloadAction } from '@reduxjs/toolkit';
 import _ from 'lodash';
 import { RootState, AppThunk } from '../../app/store';
 import { FreeSlotsResponse } from './interfaces/IFreeSlotsResponse';
-import IStation from './interfaces/IStation';
+import { EnrichedStation } from './interfaces/IStation';
 import { fetchFreeSlots, fetchFreeSlotsForStation, fetchStations } from './policeAPI';
 
 export interface PoliceState {
   status: 'idle' | 'loading' | 'failed';
-  stations: {[id: string]: IStation};
+  stations: {[id: string]: EnrichedStation};
   freeSlots: FreeSlotsResponse;
   freeSlotsStatus: 'idle' | 'loading' | 'failed';
   chosenStationFreeSlots: string[];
   chosenStationFreeSlotsStatus: 'idle' | 'loading' | 'failed';
   chosenStationId: string | null;
   chosenDate: string
+  chosenRegion: string | null;
 }
 
 const initialState: PoliceState = {
@@ -25,6 +26,7 @@ const initialState: PoliceState = {
   chosenStationFreeSlotsStatus: 'idle',
   chosenStationId: null,
   chosenDate: "",
+  chosenRegion: null
 };
 
 export const updateStationsAsync = createAsyncThunk(
@@ -67,6 +69,12 @@ export const policeSlice = createSlice({
     },
     chooseDate: (state, action: PayloadAction<string>) => {
       state.chosenDate = action.payload;
+    },
+    chooseRegion: (state, action: PayloadAction<string>) => {
+      state.chosenRegion = action.payload;
+    },
+    closeRegion: (state) => {
+      state.chosenRegion = null;
     }
   },
   // The `extraReducers` field lets the slice handle actions defined elsewhere,
@@ -98,7 +106,7 @@ export const policeSlice = createSlice({
   },
 });
 
-export const { chooseStation, closeStation, chooseDate } = policeSlice.actions;
+export const { chooseStation, closeStation, chooseDate, chooseRegion, closeRegion } = policeSlice.actions;
 
 export const selectCount = (state: RootState) => state.counter.value;
 export const selectStations = (state: RootState) => state.police.stations;
@@ -108,6 +116,26 @@ export const selectChosenStationId = (state: RootState) => state.police.chosenSt
 export const selectChosenStationFreeSlots = (state: RootState) => state.police.chosenStationFreeSlots;
 export const selectChosenDate = (state: RootState) => state.police.chosenDate;
 export const selectChosenStation = (state: RootState) => _.get(state.police.stations, _.isNull(state.police.chosenStationId) ? "" : state.police.chosenStationId);
+export const selectChosenRegion = (state: RootState) => state.police.chosenRegion;
+export const selectChosenRegionStations = (state: RootState): EnrichedStation[] => {
+  const date = _.find(state.police.freeSlots, date => date.dateString === state.police.chosenDate);
+
+  if (_.isUndefined(date)) return [];
+
+  const stationIds = date.stations;
+
+  return _.chain(state.police.stations)
+    .filter((station) => _.includes(stationIds, station.id))
+    .filter(station => station.region === state.police.chosenRegion)
+    .value();
+};
+export const selectFreeTimeslotsOnChosenDayPerStation = (state: RootState): {[id: string]: number} => {
+  const date = _.find(state.police.freeSlots, date => date.dateString === state.police.chosenDate);
+
+  if (_.isUndefined(date)) return {};
+
+  return date.slotsPerStation
+}
 
 // TODO Add action for updating data if old
 

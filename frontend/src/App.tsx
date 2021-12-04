@@ -11,6 +11,8 @@ import { useAppSelector } from './app/hooks';
 import { selectChosenStationId } from './features/police/policeSlice';
 import { Sidebar } from './components/presentational/Sidebar/Sidebar';
 import { ChosenStationFreeSlots } from './components/container/ChosenStationFreeSlots/ChosenStationFreeSlots';
+import { Filters } from './components/container/Filters/Filters';
+import { ChosenRegionStations } from './components/container/ChosenRegionStations/ChosenRegionStations';
 
 function App() {
     const chosenStation = useAppSelector(selectChosenStationId);
@@ -20,11 +22,13 @@ function App() {
         <div className="App">
             <PoliceDataLoader />
             <ChosenStationFreeSlots />
+            <ChosenRegionStations />
 
             <div className={"content"}>
                 <Topbar>
                     <Breadcrumbs path={["Vapaat ajat passihakemuksen tekoon"]} />
                 </Topbar>
+                <Filters />
                 <CardGrid />
             </div>
         </div>
