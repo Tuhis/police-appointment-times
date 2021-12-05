@@ -109,7 +109,8 @@
         "coordinates": [
             60.202128,
             24.925103
-        ]
+        ],
+        "region": "Helsinki-Uusimaa"
     },
     "5531": {
         "id": "5531",
@@ -184,7 +185,8 @@
         "coordinates": [
             60.208312,
             24.758699
-        ]
+        ],
+        "region": "Helsinki-Uusimaa"
     },
     "5533": {
         "id": "5533",
@@ -237,7 +239,8 @@
         "coordinates": [
             60.122334,
             24.438787
-        ]
+        ],
+        "region": "Helsinki-Uusimaa"
     },
     "5534": {
         "id": "5534",
@@ -286,7 +289,8 @@
         "coordinates": [
             60.249513,
             24.060209
-        ]
+        ],
+        "region": "Helsinki-Uusimaa"
     },
     "5535": {
         "id": "5535",
@@ -338,11 +342,12 @@
         "coordinates": [
             59.98116,
             23.440425
-        ]
+        ],
+        "region": "Helsinki-Uusimaa"
     },
     "5536": {
         "id": "5536",
-        "crowdiness": "FULL",
+        "crowdiness": "MEDIUM",
         "name": {
             "fi": "Lohjan poliisiasema, Nummelan palvelupiste",
             "sv": " Lojo polisstation, Nummela servicekontor"
@@ -378,7 +383,8 @@
         "coordinates": [
             60.327096,
             24.308753
-        ]
+        ],
+        "region": "Helsinki-Uusimaa"
     },
     "5561": {
         "id": "5561",
@@ -451,7 +457,8 @@
         "coordinates": [
             60.292697,
             25.043687
-        ]
+        ],
+        "region": "Helsinki-Uusimaa"
     },
     "5562": {
         "id": "5562",
@@ -495,7 +502,8 @@
         "coordinates": [
             60.634648,
             24.850645
-        ]
+        ],
+        "region": "Helsinki-Uusimaa"
     },
     "5563": {
         "id": "5563",
@@ -542,7 +550,8 @@
         "coordinates": [
             60.470652,
             25.091958
-        ]
+        ],
+        "region": "Helsinki-Uusimaa"
     },
     "5564": {
         "id": "5564",
@@ -596,11 +605,12 @@
         "coordinates": [
             60.458233,
             26.228828
-        ]
+        ],
+        "region": "Helsinki-Uusimaa"
     },
     "5565": {
         "id": "5565",
-        "crowdiness": "HIGH",
+        "crowdiness": "FULL",
         "name": {
             "fi": "Mäntsälä, poliisin lupapalvelupiste",
             "sv": "Mäntsälä, polisens tillståndstjänsten"
@@ -640,7 +650,8 @@
         "coordinates": [
             60.637914,
             25.320859
-        ]
+        ],
+        "region": "Helsinki-Uusimaa"
     },
     "5566": {
         "id": "5566",
@@ -681,7 +692,8 @@
         "coordinates": [
             60.464052,
             24.805884
-        ]
+        ],
+        "region": "Helsinki-Uusimaa"
     },
     "5567": {
         "id": "5567",
@@ -745,11 +757,12 @@
         "coordinates": [
             60.39571,
             25.668826
-        ]
+        ],
+        "region": "Helsinki-Uusimaa"
     },
     "5568": {
         "id": "5568",
-        "crowdiness": "HIGH",
+        "crowdiness": "FULL",
         "name": {
             "fi": "Keravan yhteispalvelupiste",
             "sv": "Kervo samservicekontor"
@@ -778,7 +791,8 @@
         "coordinates": [
             60.403786,
             25.101399
-        ]
+        ],
+        "region": "Helsinki-Uusimaa"
     },
     "5591": {
         "id": "5591",
@@ -887,7 +901,8 @@
         "coordinates": [
             60.979281,
             25.655136
-        ]
+        ],
+        "region": "Päijät-Häme"
     },
     "5592": {
         "id": "5592",
@@ -937,7 +952,8 @@
         "coordinates": [
             60.811316,
             23.593869
-        ]
+        ],
+        "region": "Kanta-Häme"
     },
     "5593": {
         "id": "5593",
@@ -1007,7 +1023,8 @@
         "coordinates": [
             61.205744,
             26.037211
-        ]
+        ],
+        "region": "Päijät-Häme"
     },
     "5594": {
         "id": "5594",
@@ -1084,7 +1101,8 @@
         "coordinates": [
             60.989907,
             24.439344
-        ]
+        ],
+        "region": "Kanta-Häme"
     },
     "5596": {
         "id": "5596",
@@ -1135,11 +1153,12 @@
         "coordinates": [
             60.736658,
             24.767818
-        ]
+        ],
+        "region": "Kanta-Häme"
     },
     "5621": {
         "id": "5621",
-        "crowdiness": "HIGH",
+        "crowdiness": "MEDIUM",
         "name": {
             "fi": "Kouvolan pääpoliisiasema",
             "sv": "Kouvola huvudpolisstation"
@@ -1210,11 +1229,12 @@
         "coordinates": [
             60.877843,
             26.703408
-        ]
+        ],
+        "region": "Kymenlaakso"
     },
     "5623": {
         "id": "5623",
-        "crowdiness": "HIGH",
+        "crowdiness": "FULL",
         "name": {
             "fi": "Imatran poliisiasema",
             "sv": "Imatra polisstation"
@@ -1266,7 +1286,8 @@
         "coordinates": [
             61.191002,
             28.776584
-        ]
+        ],
+        "region": "Etelä-Karjala"
     },
     "5624": {
         "id": "5624",
@@ -1325,7 +1346,8 @@
         "coordinates": [
             60.468262,
             26.951222
-        ]
+        ],
+        "region": "Kymenlaakso"
     },
     "5625": {
         "id": "5625",
@@ -1418,7 +1440,8 @@
         "coordinates": [
             61.057628,
             28.191663
-        ]
+        ],
+        "region": "Etelä-Karjala"
     },
     "5651": {
         "id": "5651",
@@ -1528,7 +1551,8 @@
         "coordinates": [
             60.445546,
             22.251906
-        ]
+        ],
+        "region": "Varsinais-Suomi"
     },
     "5653": {
         "id": "5653",
@@ -1562,7 +1586,8 @@
         "coordinates": [
             61.178124,
             22.699582
-        ]
+        ],
+        "region": "Satakunta"
     },
     "5655": {
         "id": "5655",
@@ -1611,7 +1636,8 @@
         "coordinates": [
             61.80547,
             22.39887
-        ]
+        ],
+        "region": "Satakunta"
     },
     "5656": {
         "id": "5656",
@@ -1656,7 +1682,8 @@
         "coordinates": [
             60.167507,
             22.736571
-        ]
+        ],
+        "region": "Varsinais-Suomi"
     },
     "5657": {
         "id": "5657",
@@ -1690,7 +1717,8 @@
         "coordinates": [
             61.258916,
             22.347779
-        ]
+        ],
+        "region": "Satakunta"
     },
     "5658": {
         "id": "5658",
@@ -1734,7 +1762,8 @@
         "coordinates": [
             60.851151,
             23.052256
-        ]
+        ],
+        "region": "Varsinais-Suomi"
     },
     "5659": {
         "id": "5659",
@@ -1776,7 +1805,8 @@
         "coordinates": [
             60.304696,
             22.30128
-        ]
+        ],
+        "region": "Varsinais-Suomi"
     },
     "5661": {
         "id": "5661",
@@ -1862,7 +1892,8 @@
         "coordinates": [
             61.481446,
             21.783485
-        ]
+        ],
+        "region": "Satakunta"
     },
     "5663": {
         "id": "5663",
@@ -1936,11 +1967,12 @@
         "coordinates": [
             61.126143,
             21.491275
-        ]
+        ],
+        "region": "Satakunta"
     },
     "5664": {
         "id": "5664",
-        "crowdiness": "HIGH",
+        "crowdiness": "FULL",
         "name": {
             "fi": "Salon poliisiasema",
             "sv": "Salo polisstation"
@@ -2013,7 +2045,8 @@
         "coordinates": [
             60.384509,
             23.134074
-        ]
+        ],
+        "region": "Varsinais-Suomi"
     },
     "5665": {
         "id": "5665",
@@ -2056,7 +2089,8 @@
         "coordinates": [
             60.794254,
             21.42643
-        ]
+        ],
+        "region": "Varsinais-Suomi"
     },
     "5681": {
         "id": "5681",
@@ -2159,7 +2193,8 @@
         "coordinates": [
             61.49341,
             23.770874
-        ]
+        ],
+        "region": "Pirkanmaa"
     },
     "5682": {
         "id": "5682",
@@ -2211,7 +2246,8 @@
         "coordinates": [
             61.770058,
             23.065345
-        ]
+        ],
+        "region": "Pirkanmaa"
     },
     "5684": {
         "id": "5684",
@@ -2279,11 +2315,12 @@
         "coordinates": [
             62.243169,
             25.754786
-        ]
+        ],
+        "region": "Keski-Suomi"
     },
     "5685": {
         "id": "5685",
-        "crowdiness": "HIGH",
+        "crowdiness": "FULL",
         "name": {
             "fi": "Jämsän poliisiasema",
             "sv": "Jämsä polisstation"
@@ -2324,7 +2361,8 @@
         "coordinates": [
             61.865297,
             25.195255
-        ]
+        ],
+        "region": "Pirkanmaa"
     },
     "5686": {
         "id": "5686",
@@ -2381,7 +2419,8 @@
         "coordinates": [
             61.463994,
             24.074693
-        ]
+        ],
+        "region": "Pirkanmaa"
     },
     "5687": {
         "id": "5687",
@@ -2426,7 +2465,8 @@
         "coordinates": [
             62.26293,
             24.70778
-        ]
+        ],
+        "region": "Keski-Suomi"
     },
     "5689": {
         "id": "5689",
@@ -2461,11 +2501,12 @@
         "coordinates": [
             62.033203,
             24.622765
-        ]
+        ],
+        "region": "Pirkanmaa"
     },
     "5692": {
         "id": "5692",
-        "crowdiness": "HIGH",
+        "crowdiness": "FULL",
         "name": {
             "fi": "Oriveden poliisiasema",
             "sv": "Orivesi polisstation"
@@ -2511,7 +2552,8 @@
         "coordinates": [
             61.675887,
             24.357398
-        ]
+        ],
+        "region": "Pirkanmaa"
     },
     "5693": {
         "id": "5693",
@@ -2554,7 +2596,8 @@
         "coordinates": [
             62.703423,
             25.257525
-        ]
+        ],
+        "region": "Keski-Suomi"
     },
     "5694": {
         "id": "5694",
@@ -2606,7 +2649,8 @@
         "coordinates": [
             61.339921,
             22.911108
-        ]
+        ],
+        "region": "Pirkanmaa"
     },
     "5695": {
         "id": "5695",
@@ -2648,7 +2692,8 @@
         "coordinates": [
             61.264477,
             24.03446
-        ]
+        ],
+        "region": "Pirkanmaa"
     },
     "5696": {
         "id": "5696",
@@ -2712,7 +2757,8 @@
         "coordinates": [
             63.07574,
             25.85628
-        ]
+        ],
+        "region": "Keski-Suomi"
     },
     "5697": {
         "id": "5697",
@@ -2753,7 +2799,8 @@
         "coordinates": [
             62.239112,
             23.775809
-        ]
+        ],
+        "region": "Pirkanmaa"
     },
     "5699": {
         "id": "5699",
@@ -2796,11 +2843,12 @@
         "coordinates": [
             62.60289,
             25.73864
-        ]
+        ],
+        "region": "Keski-Suomi"
     },
     "5711": {
         "id": "5711",
-        "crowdiness": "MEDIUM",
+        "crowdiness": "HIGH",
         "name": {
             "fi": "Vaasan pääpoliisiasema, asiakaspalvelu",
             "sv": "Vasa huvudpolisstation, kundservice"
@@ -2899,7 +2947,8 @@
         "coordinates": [
             63.093147,
             21.632123
-        ]
+        ],
+        "region": "Pohjanmaa"
     },
     "5712": {
         "id": "5712",
@@ -2969,7 +3018,8 @@
         "coordinates": [
             63.001725,
             23.815441
-        ]
+        ],
+        "region": "Etelä-Pohjanmaa"
     },
     "5713": {
         "id": "5713",
@@ -3023,7 +3073,8 @@
         "coordinates": [
             62.586663,
             23.614426
-        ]
+        ],
+        "region": "Etelä-Pohjanmaa"
     },
     "5715": {
         "id": "5715",
@@ -3063,7 +3114,8 @@
         "coordinates": [
             63.547616,
             23.696566
-        ]
+        ],
+        "region": "Pohjanmaa"
     },
     "5716": {
         "id": "5716",
@@ -3109,7 +3161,8 @@
         "coordinates": [
             62.414922,
             22.171354
-        ]
+        ],
+        "region": "Etelä-Pohjanmaa"
     },
     "5717": {
         "id": "5717",
@@ -3170,7 +3223,8 @@
         "coordinates": [
             63.847082,
             23.132701
-        ]
+        ],
+        "region": "Keski-Pohjanmaa"
     },
     "5718": {
         "id": "5718",
@@ -3237,11 +3291,12 @@
         "coordinates": [
             62.273035,
             21.375489
-        ]
+        ],
+        "region": "Pohjanmaa"
     },
     "5721": {
         "id": "5721",
-        "crowdiness": "HIGH",
+        "crowdiness": "FULL",
         "name": {
             "fi": "Lapuan poliisiasema",
             "sv": "Lappo polisstation"
@@ -3297,7 +3352,8 @@
         "coordinates": [
             62.972428,
             23.002238
-        ]
+        ],
+        "region": "Etelä-Pohjanmaa"
     },
     "5722": {
         "id": "5722",
@@ -3359,7 +3415,8 @@
         "coordinates": [
             63.675887,
             22.710843
-        ]
+        ],
+        "region": "Pohjanmaa"
     },
     "5723": {
         "id": "5723",
@@ -3464,7 +3521,8 @@
         "coordinates": [
             62.791874,
             22.821007
-        ]
+        ],
+        "region": "Etelä-Pohjanmaa"
     },
     "5741": {
         "id": "5741",
@@ -3579,7 +3637,8 @@
         "coordinates": [
             62.894171,
             27.665784
-        ]
+        ],
+        "region": "Pohjois-Savo"
     },
     "5742": {
         "id": "5742",
@@ -3689,7 +3748,8 @@
         "coordinates": [
             63.553923,
             27.199638
-        ]
+        ],
+        "region": "Pohjois-Savo"
     },
     "5743": {
         "id": "5743",
@@ -3732,7 +3792,8 @@
         "coordinates": [
             62.671888,
             30.926878
-        ]
+        ],
+        "region": "Pohjois-Karjala"
     },
     "5744": {
         "id": "5744",
@@ -3864,11 +3925,12 @@
         "coordinates": [
             62.597005,
             29.759517
-        ]
+        ],
+        "region": "Pohjois-Karjala"
     },
     "5745": {
         "id": "5745",
-        "crowdiness": "HIGH",
+        "crowdiness": "FULL",
         "name": {
             "fi": "Juankosken poliisiasema, lupapalvelut",
             "sv": "Juankoski polisstation, tillståndstjänsten"
@@ -3905,11 +3967,12 @@
         "coordinates": [
             63.067402,
             28.333354
-        ]
+        ],
+        "region": "Pohjois-Savo"
     },
     "5747": {
         "id": "5747",
-        "crowdiness": "LOW",
+        "crowdiness": "MEDIUM",
         "name": {
             "fi": "Kiteen poliisiasema, lupapalvelut",
             "sv": "Kides polisstation, tillståndstjänsten"
@@ -3956,7 +4019,8 @@
         "coordinates": [
             62.100027,
             30.134082
-        ]
+        ],
+        "region": "Pohjois-Karjala"
     },
     "5748": {
         "id": "5748",
@@ -3999,7 +4063,8 @@
         "coordinates": [
             63.321268,
             30.024025
-        ]
+        ],
+        "region": "Pohjois-Karjala"
     },
     "5749": {
         "id": "5749",
@@ -4104,7 +4169,8 @@
         "coordinates": [
             61.688631,
             27.270942
-        ]
+        ],
+        "region": "Etelä-Savo"
     },
     "5752": {
         "id": "5752",
@@ -4157,11 +4223,12 @@
         "coordinates": [
             63.542989,
             29.142952
-        ]
+        ],
+        "region": "Pohjois-Karjala"
     },
     "5753": {
         "id": "5753",
-        "crowdiness": "FULL",
+        "crowdiness": "MEDIUM",
         "name": {
             "fi": "Outokummun poliisiasema, lupapalvelut",
             "sv": "Outokumpu polisstation, tillståndstjänsten"
@@ -4191,7 +4258,8 @@
         "coordinates": [
             62.727139,
             29.011395
-        ]
+        ],
+        "region": "Pohjois-Karjala"
     },
     "5754": {
         "id": "5754",
@@ -4256,7 +4324,8 @@
         "coordinates": [
             62.300416,
             27.151551
-        ]
+        ],
+        "region": "Etelä-Savo"
     },
     "5755": {
         "id": "5755",
@@ -4360,7 +4429,8 @@
         "coordinates": [
             61.866349,
             28.893013
-        ]
+        ],
+        "region": "Etelä-Savo"
     },
     "5758": {
         "id": "5758",
@@ -4432,7 +4502,8 @@
         "coordinates": [
             62.316132,
             27.868688
-        ]
+        ],
+        "region": "Pohjois-Savo"
     },
     "5771": {
         "id": "5771",
@@ -4528,7 +4599,8 @@
         "coordinates": [
             65.010542,
             25.485191
-        ]
+        ],
+        "region": "Pohjois-Pohjanmaa"
     },
     "5772": {
         "id": "5772",
@@ -4579,7 +4651,8 @@
         "coordinates": [
             63.748757,
             25.321598
-        ]
+        ],
+        "region": "Pohjois-Pohjanmaa"
     },
     "5773": {
         "id": "5773",
@@ -4630,7 +4703,8 @@
         "coordinates": [
             64.138433,
             25.365157
-        ]
+        ],
+        "region": "Pohjois-Pohjanmaa"
     },
     "5775": {
         "id": "5775",
@@ -4703,7 +4777,8 @@
         "coordinates": [
             64.22107,
             27.725244
-        ]
+        ],
+        "region": "Kainuu"
     },
     "5776": {
         "id": "5776",
@@ -4742,7 +4817,8 @@
         "coordinates": [
             64.257347,
             23.947964
-        ]
+        ],
+        "region": "Pohjois-Pohjanmaa"
     },
     "5777": {
         "id": "5777",
@@ -4778,7 +4854,8 @@
         "coordinates": [
             64.127855,
             29.522238
-        ]
+        ],
+        "region": "Kainuu"
     },
     "5778": {
         "id": "5778",
@@ -4825,11 +4902,12 @@
         "coordinates": [
             65.96824,
             29.182606
-        ]
+        ],
+        "region": "Pohjois-Pohjanmaa"
     },
     "5782": {
         "id": "5782",
-        "crowdiness": "MEDIUM",
+        "crowdiness": "HIGH",
         "name": {
             "fi": "Pudasjärven poliisiasema",
             "sv": "Pudasjärvi polisstation"
@@ -4871,7 +4949,8 @@
         "coordinates": [
             65.359395,
             26.992121
-        ]
+        ],
+        "region": "Pohjois-Pohjanmaa"
     },
     "5784": {
         "id": "5784",
@@ -4916,7 +4995,8 @@
         "coordinates": [
             64.883879,
             28.912196
-        ]
+        ],
+        "region": "Kainuu"
     },
     "5785": {
         "id": "5785",
@@ -4950,11 +5030,12 @@
         "coordinates": [
             65.578854,
             28.240743
-        ]
+        ],
+        "region": "Pohjois-Pohjanmaa"
     },
     "5786": {
         "id": "5786",
-        "crowdiness": "HIGH",
+        "crowdiness": "FULL",
         "name": {
             "fi": "Ylivieskan poliisiasema, asiakaspalvelu",
             "sv": "Ylivieska polisstation, kundservice"
@@ -5000,7 +5081,8 @@
         "coordinates": [
             64.073213,
             24.52436
-        ]
+        ],
+        "region": "Pohjois-Pohjanmaa"
     },
     "5787": {
         "id": "5787",
@@ -5062,7 +5144,8 @@
         "coordinates": [
             64.673563,
             24.482131
-        ]
+        ],
+        "region": "Pohjois-Pohjanmaa"
     },
     "5791": {
         "id": "5791",
@@ -5097,11 +5180,12 @@
         "coordinates": [
             64.86861,
             27.67602
-        ]
+        ],
+        "region": "Kainuu"
     },
     "5794": {
         "id": "5794",
-        "crowdiness": "HIGH",
+        "crowdiness": "FULL",
         "name": {
             "fi": "Vaalan yhteispalvelupiste",
             "sv": "Vaala samservicekontor"
@@ -5137,7 +5221,8 @@
         "coordinates": [
             64.558692,
             26.837926
-        ]
+        ],
+        "region": "Pohjois-Pohjanmaa"
     },
     "5801": {
         "id": "5801",
@@ -5213,7 +5298,8 @@
         "coordinates": [
             66.496887,
             25.729508
-        ]
+        ],
+        "region": "Lappi"
     },
     "5802": {
         "id": "5802",
@@ -5251,7 +5337,8 @@
         "coordinates": [
             68.388829,
             23.654552
-        ]
+        ],
+        "region": "Lappi"
     },
     "5803": {
         "id": "5803",
@@ -5287,7 +5374,8 @@
         "coordinates": [
             68.656961,
             27.539678
-        ]
+        ],
+        "region": "Lappi"
     },
     "5804": {
         "id": "5804",
@@ -5353,7 +5441,8 @@
         "coordinates": [
             65.734948,
             24.570966
-        ]
+        ],
+        "region": "Lappi"
     },
     "5805": {
         "id": "5805",
@@ -5396,7 +5485,8 @@
         "coordinates": [
             66.714841,
             27.436037
-        ]
+        ],
+        "region": "Lappi"
     },
     "5806": {
         "id": "5806",
@@ -5446,7 +5536,8 @@
         "coordinates": [
             67.659598,
             24.905233
-        ]
+        ],
+        "region": "Lappi"
     },
     "5807": {
         "id": "5807",
@@ -5486,7 +5577,8 @@
         "coordinates": [
             67.33232,
             23.79158
-        ]
+        ],
+        "region": "Lappi"
     },
     "5808": {
         "id": "5808",
@@ -5521,7 +5613,8 @@
         "coordinates": [
             67.958083,
             23.681545
-        ]
+        ],
+        "region": "Lappi"
     },
     "5809": {
         "id": "5809",
@@ -5562,7 +5655,8 @@
         "coordinates": [
             66.771891,
             23.963048
-        ]
+        ],
+        "region": "Lappi"
     },
     "5811": {
         "id": "5811",
@@ -5609,7 +5703,8 @@
         "coordinates": [
             66.111741,
             28.165426
-        ]
+        ],
+        "region": "Lappi"
     },
     "5812": {
         "id": "5812",
@@ -5646,11 +5741,12 @@
         "coordinates": [
             65.927276,
             26.51885
-        ]
+        ],
+        "region": "Lappi"
     },
     "5813": {
         "id": "5813",
-        "crowdiness": "LOW",
+        "crowdiness": "MEDIUM",
         "name": {
             "fi": "Sallan poliisiasema",
             "sv": "Salla polisstation"
@@ -5692,7 +5788,8 @@
         "coordinates": [
             66.832971,
             28.671913
-        ]
+        ],
+        "region": "Lappi"
     },
     "5814": {
         "id": "5814",
@@ -5754,7 +5851,8 @@
         "coordinates": [
             67.413175,
             26.590476
-        ]
+        ],
+        "region": "Lappi"
     },
     "5815": {
         "id": "5815",
@@ -5799,11 +5897,12 @@
         "coordinates": [
             65.848172,
             24.149795
-        ]
+        ],
+        "region": "Lappi"
     },
     "5816": {
         "id": "5816",
-        "crowdiness": "LOW",
+        "crowdiness": "MEDIUM",
         "name": {
             "fi": "Utsjoen poliisiasema",
             "sv": "Utsjoki polisstation"
@@ -5832,7 +5931,8 @@
         "coordinates": [
             69.908287,
             27.025466
-        ]
+        ],
+        "region": "Lappi"
     },
     "5817": {
         "id": "5817",
@@ -5872,11 +5972,12 @@
         "coordinates": [
             66.318276,
             23.670816
-        ]
+        ],
+        "region": "Lappi"
     },
     "5818": {
         "id": "5818",
-        "crowdiness": "LOW",
+        "crowdiness": "MEDIUM",
         "name": {
             "fi": "Savukosken yhteispalvelupiste",
             "sv": "Savukoski samservicekontor"
@@ -5907,7 +6008,8 @@
         "coordinates": [
             67.292229,
             28.160706
-        ]
+        ],
+        "region": "Lappi"
     },
     "5684L1": {
         "id": "5684L1",
@@ -5942,7 +6044,8 @@
         "coordinates": [
             63.369668,
             25.57512
-        ]
+        ],
+        "region": "Keski-Suomi"
     },
     "5684L3": {
         "id": "5684L3",
@@ -5979,7 +6082,8 @@
         "coordinates": [
             61.741564,
             26.111412
-        ]
+        ],
+        "region": "Keski-Suomi"
     },
     "5684L4": {
         "id": "5684L4",
@@ -6015,11 +6119,12 @@
         "coordinates": [
             62.39028,
             26.436281
-        ]
+        ],
+        "region": "Keski-Suomi"
     },
     "5684L6": {
         "id": "5684L6",
-        "crowdiness": "FULL",
+        "crowdiness": "HIGH",
         "name": {
             "fi": "Kinnula, lupapalveluauto",
             "sv": "Kinnula, tillståndsbil"
@@ -6046,7 +6151,8 @@
         "coordinates": [
             63.367514,
             24.966066
-        ]
+        ],
+        "region": "Keski-Suomi"
     },
     "5684L7": {
         "id": "5684L7",
@@ -6082,6 +6188,7 @@
         "coordinates": [
             62.87916,
             24.802923
-        ]
+        ],
+        "region": "Keski-Suomi"
     }
 }

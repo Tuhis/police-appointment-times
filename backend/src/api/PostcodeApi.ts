@@ -13,6 +13,10 @@ type PostcodeRegionMap = {
     [id: string]: string;
 }
 
+type PostcodenameRegionMap = {
+    [name: string]: string;
+}
+
 type IRegion = {
     region: string
 }
@@ -27,6 +31,7 @@ class PostcodeApi {
     private sourceDataURL: string = "";
     private sourceData: string;
     private postcodes: PostcodeRegionMap = {};
+    private postcodeNames: PostcodenameRegionMap = {};
 
     private constructor() {
     }
@@ -49,8 +54,18 @@ class PostcodeApi {
         };
     }
 
+    public getRegionForPostcodeName(postcodeName: string): IRegion {
+        return {
+            region: _.get(this.postcodeNames, postcodeName.toLowerCase(), "Tuntematon maakunta")
+        };
+    }
+
     public getPostcodeRegionMap(): PostcodeRegionMap {
         return this.postcodes;
+    }
+
+    public getPostcodeNamesRegionMap(): PostcodenameRegionMap {
+        return this.postcodeNames;
     }
 
     private async updateData(): Promise<void> {
@@ -101,11 +116,15 @@ class PostcodeApi {
                         const postcodeLength = 5;
                         const regionIndex = 117 - 1;
                         const regionLength = 30;
+                        const postcodeNameIndex = 19 -1;
+                        const postcodeNameLength = 30;
 
                         const postcode = text.substr(i + postcodeIndex, postcodeLength);
                         const region = text.substr(i + regionIndex, regionLength);
+                        const postcodeName = text.substr(i + postcodeNameIndex, postcodeNameLength);
 
                         this.postcodes[postcode] = region.trim();
+                        this.postcodeNames[postcodeName.toLowerCase().trim()] = region.trim();
                     }
                 });
         } else if (this.dataSource === DataSource.File) {

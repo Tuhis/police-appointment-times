@@ -134,21 +134,20 @@ class PoliceTimeslotsApi {
         return this.getFreeSlotsPerDayAge();
     }
 
+    public getStationsSlotData(): {[id: string]: IStationTimeslots} {
+        return this.stationsSlotData;
+    }
+
     private async updateData(): Promise<void> {// Parse csrf stuff
         console.log("PoliceTimeslotsApi: Updating data");
 
         this.updateQueryTime();
 
         if (USE_DEVELOPMENT_DATA) {
-            this.freeSlotsPerDayResponse = _.map(require("./development.json"), elem => ({
-                date: new Date(elem.date),
-                dateString: elem.dateString,
-                freeSlots: elem.freeSlots,
-                stations: elem.stations,
-                slotsPerStation: {}
-            }));
-
+            this.stationsSlotData = require("./development.json");
             this.stations = require("./development-stations.json");
+
+            this.updateFreeSlotsPerDayResponse();
 
         } else {
             try {
@@ -224,14 +223,17 @@ class PoliceTimeslotsApi {
             // const postalCode = _.isEmpty(station.postalCode) ? _.get(station.nearestPostalCodes, 0, "") : station.postalCode;
             // const stationRegion = PostcodeApi.getInstance().getRegionForPostcode(postalCode).region;
 
-            let postalCode = _.isEmpty(station.postalCode) ? _.get(station.nearestPostalCodes, 0, "") : station.postalCode;
-            let stationRegion = PostcodeApi.getInstance().getRegionForPostcode(postalCode).region;
-            let i = 0;
+            // let postalCode = _.isEmpty(station.postalCode) ? _.get(station.nearestPostalCodes, 0, "") : station.postalCode;
+            // let stationRegion = PostcodeApi.getInstance().getRegionForPostcode(postalCode).region;
+            // let i = 0;
 
-            while (stationRegion === "Tuntematon maakunta" && i < station.nearestPostalCodes.length) {
-                stationRegion = PostcodeApi.getInstance().getRegionForPostcode(station.nearestPostalCodes[i]).region;
-                i += 1;
-            }
+            // while (stationRegion === "Tuntematon maakunta" && i < station.nearestPostalCodes.length) {
+            //     stationRegion = PostcodeApi.getInstance().getRegionForPostcode(station.nearestPostalCodes[i]).region;
+            //     i += 1;
+            // }
+
+            let postalOfficeName = _.isEmpty(station.postalOffice) ? "NO_POSTAL_OFFICE_NAME" : _.get(station.postalOffice, "fi", "NO_POSTAL_OFFICE_FI_NAME");
+            let stationRegion = PostcodeApi.getInstance().getRegionForPostcodeName(postalOfficeName).region;
 
             this.stations[station.id] = {
                 ...station,

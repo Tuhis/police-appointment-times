@@ -94,6 +94,32 @@ const plugin: Hapi.Plugin<any> = {
             }
         });
 
+        server.route({
+            method: "GET",
+            path: "/postcodenames/{postcodeName}",
+            handler: (request, h) => {
+                return PostcodeApi.getInstance().getRegionForPostcodeName(request.params.postcodeName);
+            }
+        });
+
+        server.route({
+            method: "GET",
+            path: "/postcodenames",
+            handler: (request, h) => {
+                return PostcodeApi.getInstance().getPostcodeNamesRegionMap();
+            }
+        });
+
+        if (process.env.NODE_ENV !== "production") {
+            server.route({
+                method: "GET",
+                path: "/dev/stationsslotdata",
+                handler: (request, h) => {
+                    return PoliceTimeslotsApi.getInstance().getStationsSlotData();
+                }
+            });
+        }
+
         return Promise.resolve();
     }
 }
