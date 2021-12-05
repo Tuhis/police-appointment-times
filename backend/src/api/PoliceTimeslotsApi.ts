@@ -220,20 +220,8 @@ class PoliceTimeslotsApi {
         const stations = await res.json() as IStation[]; // TODO: Check the result with e.g. Joi
 
         stations.forEach(station => {
-            // const postalCode = _.isEmpty(station.postalCode) ? _.get(station.nearestPostalCodes, 0, "") : station.postalCode;
-            // const stationRegion = PostcodeApi.getInstance().getRegionForPostcode(postalCode).region;
-
-            // let postalCode = _.isEmpty(station.postalCode) ? _.get(station.nearestPostalCodes, 0, "") : station.postalCode;
-            // let stationRegion = PostcodeApi.getInstance().getRegionForPostcode(postalCode).region;
-            // let i = 0;
-
-            // while (stationRegion === "Tuntematon maakunta" && i < station.nearestPostalCodes.length) {
-            //     stationRegion = PostcodeApi.getInstance().getRegionForPostcode(station.nearestPostalCodes[i]).region;
-            //     i += 1;
-            // }
-
-            let postalOfficeName = _.isEmpty(station.postalOffice) ? "NO_POSTAL_OFFICE_NAME" : _.get(station.postalOffice, "fi", "NO_POSTAL_OFFICE_FI_NAME");
-            let stationRegion = PostcodeApi.getInstance().getRegionForPostcodeName(postalOfficeName).region;
+            const postalOfficeName = _.isEmpty(station.postalOffice) ? "NO_POSTAL_OFFICE_NAME" : _.get(station.postalOffice, "fi", "NO_POSTAL_OFFICE_FI_NAME");
+            const stationRegion = PostcodeApi.getInstance().getRegionForPostcodeName(postalOfficeName).region;
 
             this.stations[station.id] = {
                 ...station,
