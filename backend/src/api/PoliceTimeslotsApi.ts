@@ -1,14 +1,12 @@
 import fetch from "node-fetch";
 import _ from "lodash";
 import { createRequire } from "module";
-import { SECONDS_BETWEEN_DATA_UPDATES, USE_DEVELOPMENT_DATA } from "../config.js";
+import { DAYS_TO_FETCH, SECONDS_BETWEEN_DATA_UPDATES, USE_DEVELOPMENT_DATA } from "../config.js";
 import { hrtime } from "process";
 import { DateTime } from "luxon";
 import PostcodeApi from "./PostcodeApi.js";
 
 const require = createRequire(import.meta.url);
-
-const DAYS_TO_FETCH = 42; // 6 weeks
 
 interface ICookieAndCSRF {
     cookie: string;
