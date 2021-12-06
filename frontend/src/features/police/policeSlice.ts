@@ -1,6 +1,7 @@
 import { createAsyncThunk, createSlice, PayloadAction } from '@reduxjs/toolkit';
 import _ from 'lodash';
 import { RootState, AppThunk } from '../../app/store';
+import { selectVisibleRegions, selectVisibleStations } from '../filters/filtersSlice';
 import { FreeSlotsResponse } from './interfaces/IFreeSlotsResponse';
 import { EnrichedStation } from './interfaces/IStation';
 import { fetchFreeSlots, fetchFreeSlotsForStation, fetchStations } from './policeAPI';
@@ -110,7 +111,30 @@ export const { chooseStation, closeStation, chooseDate, chooseRegion, closeRegio
 
 export const selectCount = (state: RootState) => state.counter.value;
 export const selectStations = (state: RootState) => state.police.stations;
+export const selectStationsFiltered = (state: RootState) => {
+  const visibleRegions = selectVisibleRegions(state);
+
+  return _.omitBy(state.police.stations, station => !_.includes(visibleRegions, station.region));
+};
 export const selectFreeSlots = (state: RootState) => state.police.freeSlots;
+export const selectFreeSlotsFiltered = (state: RootState) => {
+  const stationsFilteredIds = _.map(selectStationsFiltered(state), station => station.id);
+
+  return _.chain(state.police.freeSlots)
+    .map(date => {
+      const slotsPerStation = _.omitBy(date.slotsPerStation, (slotCount, stationId) => !_.includes(stationsFilteredIds, stationId));
+
+      return {
+        date: date.date,
+        dateString: date.dateString,
+        freeSlots: _.sum(_.values(slotsPerStation)),
+        stations: _.keys(slotsPerStation),
+        slotsPerStation: _.omitBy(date.slotsPerStation, (slotCount, stationId) => !_.includes(stationsFilteredIds, stationId))
+      };
+    })
+    .filter(date => date.freeSlots !== 0)
+    .value();
+};
 export const selectFreeSlotsStatus = (state: RootState) => state.police.freeSlotsStatus;
 export const selectChosenStationId = (state: RootState) => state.police.chosenStationId;
 export const selectChosenStationFreeSlots = (state: RootState) => state.police.chosenStationFreeSlots;
@@ -136,6 +160,7 @@ export const selectFreeTimeslotsOnChosenDayPerStation = (state: RootState): {[id
 
   return date.slotsPerStation
 }
+export const selectRegions = (state: RootState) => _.chain(state.police.stations).map(station => station.region).uniq().sort().value();
 
 // TODO Add action for updating data if old
 

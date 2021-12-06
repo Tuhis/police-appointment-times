@@ -1,13 +1,18 @@
-import { createSlice } from '@reduxjs/toolkit';
+import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import _ from 'lodash';
 import { RootState } from '../../app/store';
+import { selectRegions } from '../police/policeSlice';
 
 export interface FiltersState {
   groupByRegions: boolean;
+  visibleRegions: string[];
+  visibleStations: string[];
 }
 
 const initialState: FiltersState = {
-  groupByRegions: false
+  groupByRegions: false,
+  visibleRegions: [],
+  visibleStations: []
 };
 
 export const filtersSlice = createSlice({
@@ -22,6 +27,12 @@ export const filtersSlice = createSlice({
     },
     toggleGroupByRegions: (state) => {
       state.groupByRegions = !state.groupByRegions;
+    },
+    setVisibleRegions: (state, action: PayloadAction<string[]>) => {
+      state.visibleRegions = action.payload;
+    },
+    setVisibleStations: (state, action: PayloadAction<string[]>) => {
+      state.visibleStations = action.payload;
     }
   },
   // The `extraReducers` field lets the slice handle actions defined elsewhere,
@@ -30,9 +41,16 @@ export const filtersSlice = createSlice({
   },
 });
 
-export const { groupByRegions, showAsIndividualStations, toggleGroupByRegions } = filtersSlice.actions;
+export const {
+  groupByRegions,
+  showAsIndividualStations,
+  toggleGroupByRegions,
+  setVisibleRegions,
+  setVisibleStations } = filtersSlice.actions;
 
 export const selectGroupByRegions = (state: RootState) => state.filters.groupByRegions;
+export const selectVisibleRegions = (state: RootState) => _.isEmpty(state.filters.visibleRegions) ? selectRegions(state) : state.filters.visibleRegions;
+export const selectVisibleStations = (state: RootState) => state.filters.visibleStations;
 
 // TODO Add action for updating data if old
 

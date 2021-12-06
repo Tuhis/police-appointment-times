@@ -2,16 +2,14 @@ import _ from "lodash";
 import React from "react";
 import { useAppDispatch, useAppSelector } from "../../../app/hooks";
 import { selectGroupByRegions } from "../../../features/filters/filtersSlice";
-import { chooseDate, chooseRegion, chooseStation, selectFreeSlots, selectFreeSlotsStatus, selectStations, updateChosenStationFreeSlotsAsync } from "../../../features/police/policeSlice";
+import { chooseDate, chooseRegion, chooseStation, selectFreeSlotsFiltered, selectStationsFiltered } from "../../../features/police/policeSlice";
 import BaseCard from "../../presentational/BaseCard/BaseCard";
 import ButtonWithData from "../../presentational/ButtonWithData/ButtonWithData";
-import KeyValueList from "../../presentational/KeyValueList/KeyValueList";
 import styles from "./CardGrid.module.css";
 
 export function CardGrid() {
-    const freeSlots = _.filter(useAppSelector(selectFreeSlots), date => date.freeSlots !== 0);
-    const stations = useAppSelector(selectStations);
-    const freeSlotsStatus = useAppSelector(selectFreeSlotsStatus);
+    const freeSlots = useAppSelector(selectFreeSlotsFiltered);
+    const stations = useAppSelector(selectStationsFiltered);
     const groupByRegions = useAppSelector(selectGroupByRegions);
     const dispatch = useAppDispatch();
 

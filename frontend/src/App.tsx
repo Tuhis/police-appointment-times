@@ -13,25 +13,29 @@ import { Sidebar } from './components/presentational/Sidebar/Sidebar';
 import { ChosenStationFreeSlots } from './components/container/ChosenStationFreeSlots/ChosenStationFreeSlots';
 import { Filters } from './components/container/Filters/Filters';
 import { ChosenRegionStations } from './components/container/ChosenRegionStations/ChosenRegionStations';
+import { ThemeProvider } from '@mui/material';
+import { theme } from './theme';
 
 function App() {
     const chosenStation = useAppSelector(selectChosenStationId);
     const narrowViewport = !window.matchMedia(`(min-width: ${NARROW_DISPLAY_WIDTH}px)`).matches;
 
     return (
-        <div className="App">
-            <PoliceDataLoader />
-            <ChosenStationFreeSlots />
-            <ChosenRegionStations />
+        <ThemeProvider theme={theme}>
+            <div className="App">
+                <PoliceDataLoader />
+                <ChosenStationFreeSlots />
+                <ChosenRegionStations />
 
-            <div className={"content"}>
-                <Topbar>
-                    <Breadcrumbs path={["Vapaat ajat passihakemuksen tekoon"]} />
-                </Topbar>
-                <Filters />
-                <CardGrid />
+                <div className={"content"}>
+                    <Topbar>
+                        <Breadcrumbs path={["Vapaat ajat passihakemuksen tekoon"]} />
+                    </Topbar>
+                    <Filters />
+                    <CardGrid />
+                </div>
             </div>
-        </div>
+        </ThemeProvider>
     );
 }
 
