@@ -219,7 +219,13 @@ class PoliceTimeslotsApi {
 
         stations.forEach(station => {
             const postalOfficeName = _.isEmpty(station.postalOffice) ? "NO_POSTAL_OFFICE_NAME" : _.get(station.postalOffice, "fi", "NO_POSTAL_OFFICE_FI_NAME");
-            const stationRegion = PostcodeApi.getInstance().getRegionForPostcodeName(postalOfficeName).region;
+            let stationRegion = PostcodeApi.getInstance().getRegionForPostcodeName(postalOfficeName).region;
+
+            // Postal office was not found from the DB => Try with postcode
+            const postcode = _.isEmpty(station.postalCode) ? station.nearestPostalCodes[0] : station.postalCode;
+            if (stationRegion === "Tuntematon maakunta") {
+                stationRegion = PostcodeApi.getInstance().getRegionForPostcode(postcode).region;
+            }
 
             this.stations[station.id] = {
                 ...station,
