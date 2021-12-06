@@ -63,7 +63,7 @@ export function Filters() {
                                 <TextField
                                     {...params}
                                     placeholder=" Lisää maakunta..."
-                                    label="Maakunnat"
+                                    label="Valitse näytettävät maakunnat"
                                     variant="standard"
                                 />
                             )}
