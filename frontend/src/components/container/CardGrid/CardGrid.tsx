@@ -65,7 +65,7 @@ export function CardGrid() {
                     }).reverse()}
                 </div>
                 :
-                <div>No data</div>
+                <div>Palvelu toistaiseksi poissa käytöstä, pahoittelemme tilannetta.</div>
             }
         </React.Fragment>
     )
