@@ -65,7 +65,22 @@ export function CardGrid() {
                     }).reverse()}
                 </div>
                 :
-                <div>Palvelu toistaiseksi poissa käytöstä, pahoittelemme tilannetta.</div>
+                <div>
+                    Palvelu toistaiseksi poissa käytöstä, pahoittelemme tilannetta.<br />
+                    <br />
+                    Poliisi epäilee palveluntarjoajaa tietojärjestelmän häirinnästä.<br />
+                    Ks. <a href="https://www.finlex.fi/fi/laki/ajantasa/1889/18890039001#L38">Rikoslaki luku 38</a> pykälä 7<br />
+                    <br />
+                    Tämä palvelu toimii hakemalla palvelupisteiden ajanvaraustiedot Poliisin tietojärjestelmästä 15
+                    minuutin välein välimuistiin, josta ne edelleen tarjoillaan poliisi.ioio.fi sivuston
+                    kävijöille.
+                    <br />
+                    Ilmeisesti 15 minuutin välein ajanvaraustietojen hakeminen Poliisin rajapinnasta aiheuttaa
+                    suorituskykyongelmia valtakunnalliseen ajanvarausjärjestelmään.<br />
+                    <br />
+                    Palvelun lähdekoodi: <a href="https://github.com/Tuhis/police-appointment-times">https://github.com/Tuhis/police-appointment-times</a><br />
+                    Lisätiedot: juho.kuusisto@elisanet.fi
+                </div>
             }
         </React.Fragment>
     )
