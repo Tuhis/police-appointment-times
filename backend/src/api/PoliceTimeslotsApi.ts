@@ -236,6 +236,7 @@ class PoliceTimeslotsApi {
 
     private async updateTimeslotsData(cookieAndCSRF: ICookieAndCSRF): Promise<void> {
         // Fetch timeslots one station at a time to avoid causing traffic spikes at remote servers.
+        // TODO: Handle (or at least report!) errors (4xx and 5xx responses)
         console.time("timeslots")
         for (const [key, station] of Object.entries(this.stations)) {
             console.log(`PoliceTimeslotsApi::updateTimeslotsData - Fetching station ${station.id.toString()} ${station.name.fi}`)
