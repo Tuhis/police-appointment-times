@@ -21,20 +21,22 @@
   },
   "homepage": "https://github.com/Tuhis/police-appointment-times#readme",
   "dependencies": {
-    "@hapi/hapi": "^20.2.1",
-    "@types/lodash": "^4.14.177",
-    "@types/luxon": "^2.0.7",
-    "dotenv": "^10.0.0",
+    "@hapi/hapi": "^21.2.1",
+    "@types/lodash": "^4.14.191",
+    "@types/luxon": "^3.2.0",
+    "@hapi/iron": "^7.0.0",
+    "dotenv": "^16.0.3",
     "lodash": "^4.17.21",
-    "luxon": "^2.1.1",
-    "node-fetch": "^3.1.0",
-    "typescript": "^4.5.2"
+    "luxon": "^3.2.1",
+    "node-fetch": "^3.3.0",
+    "typescript": "^4.9.5",
+    "joi": "^17.7.0"
   },
   "devDependencies": {
-    "@types/hapi__hapi": "^20.0.9",
-    "@types/node": "^16.11.10",
-    "nodemon": "^2.0.15",
-    "ts-node": "^10.4.0",
-    "ts-node-dev": "^1.1.8"
+    "@types/hapi__hapi": "^21.0.0",
+    "@types/node": "^18.11.19",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0"
   }
 }

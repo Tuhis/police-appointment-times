@@ -1,5 +1,6 @@
 import _ from "lodash";
 import fetch from "node-fetch";
+import { TextDecoder } from "util";
 import { POSTCODE_DATA_FILE, POSTCODE_DATA_SOURCE } from "../config.js";
 
 const POSTI_DATAFILE_URL = "https://www.posti.fi/webpcode/";

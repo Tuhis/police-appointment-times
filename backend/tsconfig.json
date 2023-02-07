@@ -1,7 +1,7 @@
 {
     "compilerOptions": {
         "module": "es2020",
-        "lib": ["es2020"],
+        "lib": ["es2020", "DOM"],
         "esModuleInterop": false,
         "outDir": "build",
         "allowJs": false,
