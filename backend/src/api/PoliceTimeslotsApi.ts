@@ -235,8 +235,21 @@ class PoliceTimeslotsApi {
     }
 
     private async updateTimeslotsData(cookieAndCSRF: ICookieAndCSRF): Promise<void> {
-        const resArr = await Promise.all(_.map(this.stations, async station => ({
-            data: await fetch(`https://asiointi.poliisi.fi/ajanvaraus-fe/api/timereservation/${this.clientId}_${station.id.toString}_${this.dataStartDate.toUTC().toISO().substr(0, 10)}`, {
+        // Fetch timeslots one station at a time to avoid causing traffic spikes at remote servers.
+        console.time("timeslots")
+        for (const [key, station] of Object.entries(this.stations)) {
+            console.log(`PoliceTimeslotsApi::updateTimeslotsData - Fetching station ${station.id.toString()} ${station.name.fi}`)
+            console.log(JSON.stringify({
+                "participantMultiplier": 1,
+                "siteId": station.id,
+                "startDate": this.dataStartDate.toUTC().toISO(),
+                "endDate": this.dataEndDate.toUTC().toISO(),
+                "ajanvarausServiceType": {
+                    "typeSystemCode": "AV0499",
+                    "caseType": "PASSI"
+                }
+            }))
+            const data = await fetch(`https://asiointi.poliisi.fi/ajanvaraus-fe/api/timereservation/${this.clientId}_${station.id.toString()}_${this.dataStartDate.toUTC().toISO().substr(0, 10)}`, {
                 headers: {
                     "Cookie": cookieAndCSRF.cookie,
                     [cookieAndCSRF.csrfHeaderName]: cookieAndCSRF.csrfToken,
@@ -253,11 +266,21 @@ class PoliceTimeslotsApi {
                         "caseType": "PASSI"
                     }
                 })
-            }).then(res => res.json()) as IStationTimeslots,
-            stationId: station.id
-        })));
+            }).then(async res => {
+                const restext = await res.json()
+                console.log(restext)
+                console.log(res.url)
+                console.log(res.status)
+                console.log(res.statusText)
+                console.log(res.headers)
+                return Promise.resolve(restext)
+            }) as IStationTimeslots
 
-        _.forEach(resArr, res => this.stationsSlotData[res.stationId] = res.data);
+            this.stationsSlotData[station.id] = data;
+        }
+        console.log("PoliceTimeslotsApi::updateTimeslotsData - Done updating data")
+        console.log(`Took:`)
+        console.timeEnd("timeslots")
     }
 
     private updateFreeSlotsPerDayResponse(): void {
