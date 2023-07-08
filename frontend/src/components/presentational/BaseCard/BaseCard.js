@@ -6,7 +6,7 @@ import Divider from "../Divider/Divider";
 
 import "./BaseCardOverride.css";
 import BaseBox from "../BaseBox/BaseBox";
-import { minWidth } from "@mui/material/node_modules/@mui/system";
+import { minWidth } from "@mui/system";
 
 const BaseCard = props => {
     return (
