@@ -11,6 +11,18 @@
             }
         ],
         "@semantic-release/release-notes-generator",
-        "@semantic-release/github"
+        "@semantic-release/github",
+        [
+            "@semantic-release-plus/docker",
+            {
+                "name": {
+                    "registry": "ghcr.io",
+                    "namespace": "Tuhis",
+                    "repository": "police-appointment-times",
+                    "tag": "latest"
+                },
+                "registry": "ghcr.io"
+            }
+        ]
     ]
 }
