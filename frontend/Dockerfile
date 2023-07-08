@@ -1,4 +1,4 @@
-FROM node:16-alpine3.14 AS builder
+FROM node:lts-alpine3.18 AS builder
 
 ENV NODE_ENV production
 
@@ -14,7 +14,7 @@ COPY . .
 RUN npm run build
 
 # Actual PROD image
-FROM nginx:1.21.0-alpine AS production
+FROM nginx:1.25.1-alpine AS production
 
 ENV NODE_ENV production
 
