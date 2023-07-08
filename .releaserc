@@ -17,7 +17,7 @@
             {
                 "name": {
                     "registry": "ghcr.io",
-                    "namespace": "tuhis/police-appointment-times",
+                    "namespace": "ghcr.io/tuhis/police-appointment-times",
                     "repository": "police-appointment-times",
                     "tag": "latest"
                 },
