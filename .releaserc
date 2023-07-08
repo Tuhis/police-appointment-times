@@ -1,0 +1,16 @@
+{
+    "branches": [
+        "main"
+    ],
+    "repositoryUrl": "https://github.com/Tuhis/police-appointment-times.git",
+    "plugins": [
+        [
+            "@semantic-release/commit-analyzer",
+            {
+                "preset": "conventionalcommits"
+            }
+        ],
+        "@semantic-release/release-notes-generator",
+        "@semantic-release/github"
+    ]
+}
