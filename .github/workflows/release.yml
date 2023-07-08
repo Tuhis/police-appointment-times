@@ -21,6 +21,7 @@ jobs:
         build-context: ./frontend
         image-tag: latest
         pull-image: true
+        custom-args: --cache-from ghcr.io/tuhis/police-appointment-times/police-appointment-times:latest
     - name: Setup Node.js
       uses: actions/setup-node@v1
       with:
