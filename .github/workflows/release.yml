@@ -19,7 +19,7 @@ jobs:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         image-name: police-appointment-times
         build-context: ./frontend
-        image-tag: ${{ github.sha }}
+        image-tag: latest
     - name: Setup Node.js
       uses: actions/setup-node@v1
       with:
