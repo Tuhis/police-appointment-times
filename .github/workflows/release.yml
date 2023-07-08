@@ -20,6 +20,7 @@ jobs:
         image-name: police-appointment-times
         build-context: ./frontend
         image-tag: latest
+        pull-image: true
     - name: Setup Node.js
       uses: actions/setup-node@v1
       with:
