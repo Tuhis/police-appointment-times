@@ -21,6 +21,16 @@
                 },
                 "registry": "ghcr.io"
             }
+        ],
+        [
+            "@semantic-release-plus/docker",
+            {
+                "name": {
+                    "repository": "tuhis/police-appointment-times/police-appointment-times-api",
+                    "tag": "latest"
+                },
+                "registry": "ghcr.io"
+            }
         ]
     ]
 }

@@ -26,11 +26,18 @@ jobs:
         username: ${{ github.actor }}
         password: ${{ secrets.GITHUB_TOKEN }}
 
-    - name: Build and push
+    - name: Build and push - Frontend
       uses: docker/build-push-action@v4
       with:
         context: "{{defaultContext}}:frontend"
         tags: tuhis/police-appointment-times/police-appointment-times:latest
+        load: true
+
+    - name: Build and push - Backend
+      uses: docker/build-push-action@v4
+      with:
+        context: "{{defaultContext}}:backend"
+        tags: tuhis/police-appointment-times/police-appointment-times-api:latest
         load: true
 
     - name: Setup Node.js

@@ -14,3 +14,12 @@ updates:
       prefix: "fix(frontend):"
     labels:
       - "frontend"
+  - package-ecosystem: "npm"
+    directory: "/backend"
+    open-pull-requests-limit: 20
+    schedule:
+      interval: "daily"
+    commit-message:
+      prefix: "fix(backend):"
+    labels:
+      - "backend"
