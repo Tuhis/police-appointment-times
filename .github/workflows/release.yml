@@ -31,6 +31,7 @@ jobs:
       with:
         context: "{{defaultContext}}:frontend"
         tags: tuhis/police-appointment-times/police-appointment-times:latest
+        load: true
 
     - name: Setup Node.js
       uses: actions/setup-node@v1
