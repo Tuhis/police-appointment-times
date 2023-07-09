@@ -15,7 +15,9 @@
         [
             "@semantic-release-plus/docker",
             {
-                "name": "tuhis/police-appointment-times/police-appointment-times:latest",
+                "name": {
+                    "repository": "tuhis/police-appointment-times/police-appointment-times:latest"
+                },
                 "registry": "ghcr.io"
             }
         ]
