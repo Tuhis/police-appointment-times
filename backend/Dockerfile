@@ -1,4 +1,4 @@
-FROM node:16-alpine3.14 as builder
+FROM node:lts-alpine3.18 as builder
 
 RUN mkdir /home/node/app/ && chown -R node:node /home/node/app
 
@@ -18,7 +18,7 @@ RUN pwd
 RUN [ "npm", "run", "build"]
 
 
-FROM node:16-alpine3.14
+FROM node:lts-alpine3.18
 
 RUN mkdir /home/node/app/ && chown -R node:node /home/node/app
 WORKDIR /home/node/app
