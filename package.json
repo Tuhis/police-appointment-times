@@ -1,0 +1,11 @@
+{
+    "name": "ci-config",
+    "author": "Juho Kuusisto",
+    "version": "0.0.0",
+    "private": true,
+    "license": "MIT",
+    "workspaces": [
+        "frontend",
+        "backend"
+    ]
+}

@@ -55,4 +55,5 @@ jobs:
           -p conventional-changelog-conventionalcommits \
           -p @semantic-release-plus/docker \
           -p semantic-release \
-          semantic-release
+          -p multi-semantic-release \
+          multi-semantic-release
