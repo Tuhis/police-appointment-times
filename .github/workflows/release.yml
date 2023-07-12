@@ -14,6 +14,16 @@ jobs:
       with:
         fetch-depth: 0
 
+    - name: Paths filter
+      uses: dorny/paths-filter@v2
+      id: filter
+      with:
+        filters: |
+          backend:
+            - 'backend/**'
+          frontend:
+            - 'frontend/**'
+
     - # Setting up Docker Buildx with docker-container driver is required
       # at the moment to be able to use a subdirectory with Git context
       name: Set up Docker Buildx
@@ -26,7 +36,10 @@ jobs:
         username: ${{ github.actor }}
         password: ${{ secrets.GITHUB_TOKEN }}
 
+    # It'd be more efficient to parallelize front & backend builds, but that's left for people in hurry :)
+
     - name: Build and push - Frontend
+      if: steps.filter.outputs.frontend == 'true'
       uses: docker/build-push-action@v4
       with:
         context: "{{defaultContext}}:frontend"
@@ -34,6 +47,7 @@ jobs:
         load: true
 
     - name: Build and push - Backend
+      if: steps.filter.outputs.backend == 'true'
       uses: docker/build-push-action@v4
       with:
         context: "{{defaultContext}}:backend"

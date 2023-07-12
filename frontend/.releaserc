@@ -1,0 +1,26 @@
+{
+    "branches": [
+        "main"
+    ],
+    "repositoryUrl": "git@github.com:Tuhis/police-appointment-times.git",
+    "plugins": [
+        [
+            "@semantic-release/commit-analyzer",
+            {
+                "preset": "conventionalcommits"
+            }
+        ],
+        "@semantic-release/release-notes-generator",
+        "@semantic-release/github",
+        [
+            "@semantic-release-plus/docker",
+            {
+                "name": {
+                    "repository": "tuhis/police-appointment-times/police-appointment-times",
+                    "tag": "latest"
+                },
+                "registry": "ghcr.io"
+            }
+        ]
+    ]
+}
