@@ -1,6 +1,6 @@
 {
-  "short_name": "Passihakemusajat",
-  "name": "Vapaat passihakemusajat",
+  "short_name": "Passiajat",
+  "name": "Vapaat ajat passihakemukselle",
   "icons": [
     {
       "src": "favicon.ico",
