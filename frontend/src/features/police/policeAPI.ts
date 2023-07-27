@@ -1,5 +1,6 @@
+import _ from "lodash";
 import { POLICE_API_BASE_URL } from "../../util/config";
-import { FreeSlotsResponse } from "./interfaces/IFreeSlotsResponse";
+import { FreeSlotsResponse, IFreeSlotsResponseElement } from "./interfaces/IFreeSlotsResponse";
 import { EnrichedStation } from "./interfaces/IStation";
 
 const BASE_PATH = POLICE_API_BASE_URL;
@@ -20,7 +21,20 @@ export function fetchStations(): Promise<{[id: string]: EnrichedStation}> {
 export function fetchFreeSlots(): Promise<FreeSlotsResponse> {
     return fetch(`${BASE_PATH}/freetimes`)
         .then(res => res.json())
-        .catch(err => console.error(err));
+        .then(res => _.map(res, i => {
+            if (!_.has(i, "date")) {
+                throw new Error("Missing date property on API response!");
+            }
+
+            i.date = new Date(i.date);
+
+            return i as IFreeSlotsResponseElement;
+        }))
+        .catch(err => {
+            console.error(err)
+
+            return [];
+        });
 }
 
 export function fetchFreeSlotsForStation(stationId: string, dateString: string): Promise<string[]> {

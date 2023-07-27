@@ -29,7 +29,7 @@
     "@babel/plugin-proposal-private-property-in-object": "7.21.11"
   },
   "scripts": {
-    "start": "PORT=3002 react-scripts --openssl-legacy-provider start",
+    "start": "PORT=3002 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

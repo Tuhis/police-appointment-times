@@ -21,7 +21,7 @@ export function CardGrid() {
                         return (
                             <BaseCard
                                 key={date.dateString}
-                                title={date.dateString}
+                                title={date.date.toLocaleDateString("fi-FI")}
                                 autoHeight={true}
                                 autoWidth={true}
                                 minHeight={0}
