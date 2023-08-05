@@ -2,10 +2,11 @@ import _ from "lodash";
 import React, { useEffect } from "react";
 import { useAppDispatch, useAppSelector } from "../../../app/hooks";
 import { closeStation, selectChosenDate, selectChosenStationFreeSlots, selectChosenStationId, selectChosenStation, updateChosenStationFreeSlotsAsync, chooseStation, selectChosenRegion, selectChosenRegionStations, closeRegion, selectFreeTimeslotsOnChosenDayPerStation } from "../../../features/police/policeSlice";
-import styles from "./ChosenStationFreeSlots.module.css";
+import styles from "./ChosenRegionStations.module.css";
 import { Dialog, DialogTitle, DialogContent, DialogContentText } from "@mui/material";
 import { useTheme } from '@mui/material/styles';
 import ButtonWithData from "../../presentational/ButtonWithData/ButtonWithData";
+import Divider from "../../presentational/Divider/Divider";
 
 export function ChosenRegionStations() {
     const chosenRegion = useAppSelector(selectChosenRegion);
@@ -33,6 +34,7 @@ export function ChosenRegionStations() {
                         {chosenRegion}
                     </DialogTitle>
                     <DialogContent>
+                        <Divider className={styles.divider} />
                         <DialogContentText>
                             {_.map(_.sortBy(stations, station => station.name.fi), station => {
                                 return (
@@ -52,7 +54,7 @@ export function ChosenRegionStations() {
                         </DialogContentText>
                     </DialogContent>
                 </Dialog>
-                }
+            }
 
         </React.Fragment>
     );

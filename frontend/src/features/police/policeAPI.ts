@@ -42,3 +42,13 @@ export function fetchFreeSlotsForStation(stationId: string, dateString: string):
         .then(res => res.json())
         .catch(err => console.error(err));
 }
+
+export function fetchFreeSlotsAge(): Promise<number> {
+    return fetch(`${BASE_PATH}/freetimesage`)
+        .then(res => res.json())
+        .catch(err => {
+            console.error(err);
+
+            return Number.NaN;
+        });
+}

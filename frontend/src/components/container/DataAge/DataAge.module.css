@@ -1,0 +1,30 @@
+.dataage-container {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+
+.dataage-container>span {
+    color: rgba(255, 255, 255, 0.48);
+    font-family: roboto, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: small;
+    margin-left: 2px;
+}
+
+@media screen and (max-width: 655px) {
+    .rotate {
+        margin-left: -16px;
+        writing-mode: vertical-lr;
+        text-orientation: mixed;
+    }
+
+    .dataage-container {
+        writing-mode: vertical-lr;
+        text-orientation: mixed;
+    }
+}

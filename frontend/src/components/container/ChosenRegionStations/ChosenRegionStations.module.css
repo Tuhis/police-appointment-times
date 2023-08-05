@@ -1,3 +1,7 @@
 .container {
     display: block;
 }
+
+.divider {
+    margin-bottom: 8px;
+}

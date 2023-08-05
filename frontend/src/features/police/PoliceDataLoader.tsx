@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
 import { useAppSelector, useAppDispatch } from '../../app/hooks';
-import { selectFreeSlots, updateFreeSlotsAsync, updateStationsAsync } from './policeSlice';
+import { selectFreeSlots, updateFreeSlotsAgeAsync, updateFreeSlotsAsync, updateStationsAsync } from './policeSlice';
 
 export function PoliceDataLoader() {
   const freeSlots = useAppSelector(selectFreeSlots);
@@ -10,6 +10,7 @@ export function PoliceDataLoader() {
   useEffect(() => {
       dispatch(updateStationsAsync());
       dispatch(updateFreeSlotsAsync());
+      dispatch(updateFreeSlotsAgeAsync());
   }, [dispatch]);
 
   return (

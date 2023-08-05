@@ -58,6 +58,25 @@ export const theme = createTheme({
                     color: "rgba(255,255,255,1)"
                 }
             }
+        },
+        MuiPaper: {
+            styleOverrides: {
+                root: {
+                    backgroundColor: "rgba(6,55,123,1)"
+                }
+            }
+        },
+        MuiDialogTitle: {
+            styleOverrides: {
+                root: {
+                    color: "white",
+                    paddingBottom: "5px",
+                    // fontFamily: "agency-fb, sans-serif",
+                    fontWeight: "400",
+                    // fontStyle: "normal",
+                    // fontSize: "20pt"
+                }
+            }
         }
     }
 });

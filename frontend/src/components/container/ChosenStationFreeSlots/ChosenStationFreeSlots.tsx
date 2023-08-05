@@ -6,6 +6,7 @@ import styles from "./ChosenStationFreeSlots.module.css";
 import { Dialog, DialogTitle, DialogContent, DialogContentText } from "@mui/material";
 import { useTheme } from '@mui/material/styles';
 import ButtonWithData from "../../presentational/ButtonWithData/ButtonWithData";
+import Divider from "../../presentational/Divider/Divider";
 
 export function ChosenStationFreeSlots() {
     const chosenStationId = useAppSelector(selectChosenStationId);
@@ -22,7 +23,7 @@ export function ChosenStationFreeSlots() {
 
     useEffect(() => {
         if (!_.isEmpty(chosenDate) && !_.isNull(chosenStationId))
-            dispatch(updateChosenStationFreeSlotsAsync({stationId: chosenStationId, dateString: chosenDate}));
+            dispatch(updateChosenStationFreeSlotsAsync({ stationId: chosenStationId, dateString: chosenDate }));
     }, [chosenDate, chosenStationId]);
 
     return (
@@ -38,9 +39,10 @@ export function ChosenStationFreeSlots() {
                         {chosenStation.name.fi}
                     </DialogTitle>
                     <DialogContent>
+                        <Divider className={styles.divider} />
                         <DialogContentText>
                             {_.map(_.sortBy(freeSlots, a => new Date(a)), slot => {
-                                const timeOnly = slot.substr(slot.indexOf('T')+1);
+                                const timeOnly = slot.substr(slot.indexOf('T') + 1);
                                 return (
                                     <ButtonWithData
                                         isButton={false}
@@ -55,7 +57,7 @@ export function ChosenStationFreeSlots() {
                         </DialogContentText>
                     </DialogContent>
                 </Dialog>
-                }
+            }
 
         </React.Fragment>
     );

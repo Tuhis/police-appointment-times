@@ -2,7 +2,7 @@ import _ from "lodash";
 import React from "react";
 import { useAppDispatch, useAppSelector } from "../../../app/hooks";
 import { selectGroupByRegions } from "../../../features/filters/filtersSlice";
-import { chooseDate, chooseRegion, chooseStation, selectFreeSlotsFiltered, selectStationsFiltered } from "../../../features/police/policeSlice";
+import { chooseDate, chooseRegion, chooseStation, selectFreeSlotsFiltered, selectFreeSlotsStatus, selectStationsFiltered, selectStationsStatus } from "../../../features/police/policeSlice";
 import BaseCard from "../../presentational/BaseCard/BaseCard";
 import ButtonWithData from "../../presentational/ButtonWithData/ButtonWithData";
 import styles from "./CardGrid.module.css";
@@ -11,6 +11,8 @@ export function CardGrid() {
     const freeSlots = useAppSelector(selectFreeSlotsFiltered);
     const stations = useAppSelector(selectStationsFiltered);
     const groupByRegions = useAppSelector(selectGroupByRegions);
+    const freeSlotsStatus = useAppSelector(selectFreeSlotsStatus);
+    const stationsStatus = useAppSelector(selectStationsStatus);
     const dispatch = useAppDispatch();
 
     return (
@@ -44,30 +46,38 @@ export function CardGrid() {
                                 })}
                                 {groupByRegions &&
                                     _.chain(date.stations)
-                                    .groupBy(station => stations[station].region)
-                                    .map((stations, region) => {
-                                        return (
-                                            <ButtonWithData
-                                                isButton
-                                                key={region}
-                                                label={region}
-                                                data={_.chain(stations).map(stationId => _.get(date.slotsPerStation, stationId, 0)).sum().value().toString()}
-                                                onClick={() => {
-                                                    dispatch(chooseRegion(region));
-                                                    dispatch(chooseDate(date.dateString));
-                                                }} />
-                                        );
-                                    })
-                                    .value()
+                                        .groupBy(station => stations[station].region)
+                                        .map((stations, region) => {
+                                            return (
+                                                <ButtonWithData
+                                                    isButton
+                                                    key={region}
+                                                    label={region}
+                                                    data={_.chain(stations).map(stationId => _.get(date.slotsPerStation, stationId, 0)).sum().value().toString()}
+                                                    onClick={() => {
+                                                        dispatch(chooseRegion(region));
+                                                        dispatch(chooseDate(date.dateString));
+                                                    }} />
+                                            );
+                                        })
+                                        .value()
                                 }
                             </BaseCard>
                         )
                     }).reverse()}
                 </div>
                 :
-                <div>
-                    Palvelu toistaiseksi poissa käytöstä, pahoittelemme tilannetta.<br />
-                </div>
+                <React.Fragment>
+                    {freeSlotsStatus === 'failed' || stationsStatus === 'failed' ?
+                        <div>
+                            Palvelu toistaiseksi poissa käytöstä, pahoittelemme tilannetta.<br />
+                        </div>
+                        :
+                        <div>
+                            Ladataan...
+                        </div>
+                    }
+                </React.Fragment>
             }
         </React.Fragment>
     )

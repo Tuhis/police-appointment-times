@@ -5,16 +5,19 @@
     bottom: 0;
     min-height: 100vh;
     width: 195px;
-    background-color: #2a6b7e;
+    background-color: rgb(6, 55, 123);;
     display: flex;
     flex-direction: column;
     flex-shrink: 0;
     box-sizing: border-box;
+    padding: 0 18px;
 }
 
 @media screen and (max-width: 655px) {
     .sidebar {
         width: 50px;
+        margin-right: 1px;
+        padding: 0;
     }
 }
 

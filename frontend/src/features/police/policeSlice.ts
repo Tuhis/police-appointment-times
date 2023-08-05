@@ -4,12 +4,15 @@ import { RootState, AppThunk } from '../../app/store';
 import { selectVisibleRegions, selectVisibleStations } from '../filters/filtersSlice';
 import { FreeSlotsResponse } from './interfaces/IFreeSlotsResponse';
 import { EnrichedStation } from './interfaces/IStation';
-import { fetchFreeSlots, fetchFreeSlotsForStation, fetchStations } from './policeAPI';
+import { fetchFreeSlots, fetchFreeSlotsAge, fetchFreeSlotsForStation, fetchStations } from './policeAPI';
 
 export interface PoliceState {
   status: 'idle' | 'loading' | 'failed';
   stations: {[id: string]: EnrichedStation};
   freeSlots: FreeSlotsResponse;
+  freeSlotsAgeOld: number,
+  freeSlotsUpdatedAt: Date,
+  freeSlotsAgeStatus: 'idle' | 'loading' | 'failed',
   freeSlotsStatus: 'idle' | 'loading' | 'failed';
   chosenStationFreeSlots: string[];
   chosenStationFreeSlotsStatus: 'idle' | 'loading' | 'failed';
@@ -22,6 +25,9 @@ const initialState: PoliceState = {
   status: 'idle',
   stations: {},
   freeSlots: [],
+  freeSlotsAgeOld: Number.NaN,
+  freeSlotsUpdatedAt: new Date(),
+  freeSlotsAgeStatus: 'loading',
   freeSlotsStatus: 'idle',
   chosenStationFreeSlots: [],
   chosenStationFreeSlotsStatus: 'idle',
@@ -49,6 +55,18 @@ export const updateFreeSlotsAsync = createAsyncThunk(
     return response;
   }
 );
+
+// Due to backend design, we have to get data age with separate request from actually getting the data.
+// In some unlikely corner cases this might lead into situation where the actual data and shown data age doesn't match.
+// TODO: Design better backend API format :)
+export const updateFreeSlotsAgeAsync = createAsyncThunk(
+  'police/fetchFreeSlotsAge',
+  async () => {
+    const response = await fetchFreeSlotsAge();
+
+    return response;
+  }
+)
 
 export const updateChosenStationFreeSlotsAsync = createAsyncThunk(
   'police/fetchFreeSlotsForStation',
@@ -97,6 +115,19 @@ export const policeSlice = createSlice({
         if (_.isEmpty(action.payload)) state.freeSlotsStatus = 'failed';
         state.freeSlots = action.payload;
       })
+      .addCase(updateFreeSlotsAgeAsync.pending, state => {
+        state.freeSlotsAgeStatus = 'loading';
+      })
+      .addCase(updateFreeSlotsAgeAsync.fulfilled, (state, action) => {
+        if (_.isNaN(action.payload)) state.freeSlotsAgeStatus = 'failed';
+
+        const updateDate = new Date();
+        updateDate.setSeconds(updateDate.getSeconds() - action.payload);
+
+        state.freeSlotsUpdatedAt = updateDate
+        state.freeSlotsAgeOld = action.payload;
+        state.freeSlotsAgeStatus = 'idle';
+      })
       .addCase(updateChosenStationFreeSlotsAsync.pending, (state) => {
         state.chosenStationFreeSlotsStatus = 'loading';
       })
@@ -116,6 +147,7 @@ export const selectStationsFiltered = (state: RootState) => {
 
   return _.omitBy(state.police.stations, station => !_.includes(visibleRegions, station.region));
 };
+export const selectStationsStatus = (state: RootState) => state.police.status;
 export const selectFreeSlots = (state: RootState) => state.police.freeSlots;
 export const selectFreeSlotsFiltered = (state: RootState) => {
   const stationsFilteredIds = _.map(selectStationsFiltered(state), station => station.id);
@@ -136,6 +168,10 @@ export const selectFreeSlotsFiltered = (state: RootState) => {
     .value();
 };
 export const selectFreeSlotsStatus = (state: RootState) => state.police.freeSlotsStatus;
+export const selectFreeSlotsAgeSeconds = (state: RootState) => state.police.freeSlotsAgeOld;
+export const selectFreeSlotsAgeMinutes = (state: RootState) => Math.round(state.police.freeSlotsAgeOld / 60);
+export const selectFreeSlotsUpdatedAt = (state: RootState) => state.police.freeSlotsUpdatedAt;
+export const selectFreeSlotsAgeStatus = (state: RootState) => state.police.freeSlotsAgeStatus;
 export const selectChosenStationId = (state: RootState) => state.police.chosenStationId;
 export const selectChosenStationFreeSlots = (state: RootState) => state.police.chosenStationFreeSlots;
 export const selectChosenDate = (state: RootState) => state.police.chosenDate;
