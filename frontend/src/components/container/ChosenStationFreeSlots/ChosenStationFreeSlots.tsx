@@ -34,6 +34,11 @@ export function ChosenStationFreeSlots() {
                     onClose={handleClose}
                     fullWidth
                     maxWidth={'xs'}
+                    sx={{
+                        '& .MuiPaper-root': {
+                            backgroundColor: "rgba(6,55,123,1)"
+                        }
+                    }}
                 >
                     <DialogTitle>
                         {chosenStation.name.fi}

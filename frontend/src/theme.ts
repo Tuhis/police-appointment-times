@@ -59,13 +59,6 @@ export const theme = createTheme({
                 }
             }
         },
-        MuiPaper: {
-            styleOverrides: {
-                root: {
-                    backgroundColor: "rgba(6,55,123,1)"
-                }
-            }
-        },
         MuiDialogTitle: {
             styleOverrides: {
                 root: {
