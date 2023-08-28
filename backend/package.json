@@ -30,7 +30,7 @@
     "luxon": "^3.3.0",
     "node-fetch": "^3.3.2",
     "typescript": "^5.1.6",
-    "joi": "^17.9.2"
+    "joi": "^17.10.0"
   },
   "devDependencies": {
     "@types/hapi__hapi": "^21.0.0",
