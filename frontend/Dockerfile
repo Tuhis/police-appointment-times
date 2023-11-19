@@ -14,7 +14,7 @@ COPY . .
 RUN npm run build
 
 # Actual PROD image
-FROM nginx:1.25.1-alpine AS production
+FROM nginx:1.25.3-alpine AS production
 
 ENV NODE_ENV production
 
