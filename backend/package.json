@@ -22,7 +22,7 @@
   "homepage": "https://github.com/Tuhis/police-appointment-times#readme",
   "dependencies": {
     "@hapi/hapi": "^21.3.2",
-    "@types/lodash": "^4.14.196",
+    "@types/lodash": "^4.14.202",
     "@types/luxon": "^3.3.1",
     "@hapi/iron": "^7.0.0",
     "dotenv": "^16.3.1",
