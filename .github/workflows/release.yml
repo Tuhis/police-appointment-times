@@ -44,7 +44,7 @@ jobs:
 
     - name: Build and push - Frontend
       if: steps.filter.outputs.frontend == 'true'
-      uses: docker/build-push-action@v4
+      uses: docker/build-push-action@v5
       with:
         context: "{{defaultContext}}:frontend"
         tags: tuhis/police-appointment-times/police-appointment-times:latest
@@ -52,7 +52,7 @@ jobs:
 
     - name: Build and push - Backend
       if: steps.filter.outputs.backend == 'true'
-      uses: docker/build-push-action@v4
+      uses: docker/build-push-action@v5
       with:
         context: "{{defaultContext}}:backend"
         tags: tuhis/police-appointment-times/police-appointment-times-api:latest
