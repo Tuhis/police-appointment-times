@@ -16,7 +16,7 @@ export function Info() {
                     vain yhden aseman kerrallaan. Hitaasti.
                 </p>
                 <p>
-                    Sivusto listaa kaikki vapaat ajat passihakemuksen jättämiseen valtakunnallisesti seuraavan 8 viikon
+                    Sivusto listaa kaikki vapaat ajat passihakemuksen jättämiseen valtakunnallisesti seuraavan 12 viikon
                     ajalta. Nopeasti.
                 </p>
                 <h4>Tekninen toteutus</h4>
