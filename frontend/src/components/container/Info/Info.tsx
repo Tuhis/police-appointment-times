@@ -9,6 +9,11 @@ export function Info() {
                 autoHeight
                 title={"Tietoa"}>
 
+                <h4>Palvelu on suljettu</h4>
+                <p>
+                    Palvelu on suljettu maaliskuussa 2026, sillä poliisin järjestelmät eivät enää tarjoa tietoa ilman
+                    autentikaatiota. Kiitoksia kuluneista vuosista!
+                </p>
                 <h4>Yleistä</h4>
                 <p>
                     Ajanvaraaminen poliisille passihakemuksen tekemistä varten vaatii hermoja. Kaikkialla on ruuhkaa

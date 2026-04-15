@@ -70,11 +70,11 @@ export function CardGrid() {
                 <React.Fragment>
                     {freeSlotsStatus === 'failed' || stationsStatus === 'failed' ?
                         <div>
-                            Palvelu toistaiseksi poissa käytöstä, pahoittelemme tilannetta.<br />
+                            Palvelu on suljettu, sillä poliisin järjestelmät eivät enää tarjoa tietoa ilman autentikaatiota. Kiitoksia kuluneista vuosista!<br />
                         </div>
                         :
                         <div>
-                            Ladataan...
+                            Palvelu on suljettu, sillä poliisin järjestelmät eivät enää tarjoa tietoa ilman autentikaatiota. Kiitoksia kuluneista vuosista!<br />
                         </div>
                     }
                 </React.Fragment>
